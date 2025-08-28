@@ -897,26 +897,6 @@
             ]
         },
         {
-            "type": "DRI",
-            "global_data": {
-                "time_interval": "DRI",
-                "constraints": {
-                    "BalanceConstraint": true
-                }
-            },
-            "instance_data": [
-                {
-                    "id": "dri_SE"
-                },
-                {
-                    "id": "dri_MIDAT"
-                },
-                {
-                    "id": "dri_NE"
-                }
-            ]
-        },
-        {
             "type": "CrudeSteel",
             "global_data": {
                 "time_interval": "CrudeSteel",
