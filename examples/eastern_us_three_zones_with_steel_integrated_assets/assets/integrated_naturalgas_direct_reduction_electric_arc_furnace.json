@@ -36,7 +36,7 @@
                         "unidirectional": true,
                         "has_capacity": false
                     },
-                    "metcoal_edge": {
+                    "carbonsource_edge": {
                         "commodity": "MetCoal",
                         "unidirectional": true,
                         "has_capacity": false
@@ -75,7 +75,7 @@
                             "ironore_edge":{
                                 "start_vertex": "ironoredr_source"
                             },
-                            "metcoal_edge": {
+                            "carbonsource_edge": {
                                 "start_vertex": "metcoal_source"
                             }
                         }
@@ -105,7 +105,7 @@
                             "ironore_edge":{
                                 "start_vertex": "ironoredr_source"
                             },
-                            "metcoal_edge": {
+                            "carbonsource_edge": {
                                 "start_vertex": "metcoal_source"
                             }
                         }
@@ -135,7 +135,7 @@
                             "ironore_edge":{
                                 "start_vertex": "ironoredr_source"
                             },
-                            "metcoal_edge": {
+                            "carbonsource_edge": {
                                 "start_vertex": "metcoal_source"
                             }
                         }

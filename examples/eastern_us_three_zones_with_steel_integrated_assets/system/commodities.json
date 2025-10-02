@@ -17,12 +17,13 @@
         {"name": "Fossil_Gasoline", "acts_like": "LiquidFuels"},
         {"name": "Fossil_JetFuel", "acts_like": "LiquidFuels"},
         {"name": "Fossil_Diesel", "acts_like": "LiquidFuels"},
+        "Coal",
+        {"name": "MetCoal", "acts_like": "Coal"},
+        {"name": "ThermalCoal", "acts_like": "Coal"},
         "CrudeSteel",
-        "DRI",
-        "IronOreBF",
-        "IronOreDR",
-        "SteelScrap",
-        "ThermalCoal",
-        "MetCoal"
+        "IronOre",
+        {"name": "IronOreBF", "acts_like": "IronOre"},
+        {"name": "IronOreDR", "acts_like": "IronOre"},
+        "SteelScrap"
     ]
 }

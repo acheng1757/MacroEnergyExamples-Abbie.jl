@@ -40,13 +40,13 @@
                         "commodity": "CO2",
                         "unidirectional": true,
                         "has_capacity": false,
-                        "end_vertex": "co2_sink"
+                        "end_vertex": "co2_sink_steel"
                     },
                     "co2_captured_edge": {
                         "commodity": "CO2Captured",
                         "unidirectional": true,
                         "has_capacity": false,
-                        "end_vertex": "co2_captured_sink"
+                        "end_vertex": "co2_storage_sink_steel"              
                     }
                 }
             },
@@ -57,7 +57,7 @@
                         "iron_ore_consumption": 1.59,
                         "reductant_consumption": 3.89,
                         "electricity_consumption": 1.53,
-                        "emission_rate": 0.85,
+                        "emission_rate": 0.09,
                         "capture_rate": 0.77
                     },
                     "edges":{
@@ -74,7 +74,7 @@
                             "elec_edge":{
                                 "start_vertex": "elec_SE"
                             },
-                            "ironore_edge":{
+                            "ironore_edge":{    
                                 "start_vertex": "ironoredr_source"
                             }
                         }
@@ -85,7 +85,7 @@
                         "iron_ore_consumption": 1.59,
                         "reductant_consumption": 3.89,
                         "electricity_consumption": 1.53,
-                        "emission_rate": 0.85,
+                        "emission_rate": 0.09,
                         "capture_rate": 0.77
                     },
                     "edges":{
@@ -113,7 +113,7 @@
                         "iron_ore_consumption": 1.59,
                         "reductant_consumption": 3.89,
                         "electricity_consumption": 1.53,
-                        "emission_rate": 0.85,
+                        "emission_rate": 0.09,
                         "capture_rate": 0.77
                     },
                     "edges":{

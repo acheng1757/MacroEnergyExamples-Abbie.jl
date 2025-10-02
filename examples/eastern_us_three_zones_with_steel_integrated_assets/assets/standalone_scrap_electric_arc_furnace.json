@@ -25,20 +25,18 @@
                         "commodity": "SteelScrap",
                         "unidirectional": true,
                         "has_capacity": false
-
                     },
                     "elec_edge":{
                         "commodity": "Electricity",
                         "unidirectional": true,
                         "has_capacity": false
-
                     },
                     "naturalgas_edge": {
                         "commodity": "NaturalGas",
                         "unidirectional": true,
                         "has_capacity": false
                     },
-                    "metcoal_edge": {
+                    "carbonsource_edge": {
                         "commodity": "MetCoal",
                         "unidirectional": true,
                         "has_capacity": false
@@ -58,7 +56,7 @@
                         "feedstock_consumption": 1.14,
                         "electricity_consumption": 0.63,
                         "naturalgas_consumption": 0.41,
-                        "metcoal_consumption": 0.02,
+                        "carbonsource_consumption": 0.02,
                         "emission_rate": 0.16
                     },
                     "edges": {
@@ -78,11 +76,8 @@
                         "naturalgas_edge": {
                             "start_vertex": "natgas_SE"
                         },
-                        "metcoal_edge": {
+                        "carbonsource_edge": {
                             "start_vertex": "metcoal_source"
-                        },
-                        "co2_edge": {
-                            "start_vertex": "co2_source"
                         }
                     }
                 },
@@ -92,7 +87,7 @@
                         "feedstock_consumption": 1.14,
                         "electricity_consumption": 0.63,
                         "naturalgas_consumption": 0.41,
-                        "metcoal_consumption": 0.02,
+                        "carbonsource_consumption": 0.02,
                         "emission_rate": 0.16   
                     },
                     "edges": {
@@ -112,11 +107,8 @@
                         "naturalgas_edge": {
                             "start_vertex": "natgas_MIDAT"
                         },
-                        "metcoal_edge": {
+                        "carbonsource_edge": {
                             "start_vertex": "metcoal_source"
-                        },
-                        "co2_edge": {
-                            "start_vertex": "co2_source"
                         }
                     }
                 },
@@ -126,7 +118,7 @@
                         "feedstock_consumption": 1.14,
                         "electricity_consumption": 0.63,
                         "naturalgas_consumption": 0.41,
-                        "metcoal_consumption": 0.02,
+                        "carbonsource_consumption": 0.02,
                         "emission_rate": 0.16
                     },
                     "edges": {
@@ -146,11 +138,8 @@
                         "naturalgas_edge": {
                             "start_vertex": "natgas_NE"
                         },
-                        "metcoal_edge": {
+                        "carbonsource_edge": {
                             "start_vertex": "metcoal_source"
-                        },
-                        "co2_edge": {
-                            "start_vertex": "co2_source"
                         }
                     }
                 }

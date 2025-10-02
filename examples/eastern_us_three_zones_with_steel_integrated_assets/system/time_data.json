@@ -10,11 +10,8 @@
         "CO2Captured": 168,
         "CrudeSteel": 168,
         "SteelScrap": 168,
-        "DRI": 168,
-        "MetCoal": 168,
-        "ThermalCoal": 168,
-        "IronOreBF": 168,
-        "IronOreDR": 168
+        "Coal": 168,
+        "IronOre": 168
     },
     "HoursPerTimeStep": {
         "Hydrogen": 1,
@@ -27,11 +24,8 @@
         "CO2Captured": 1,
         "CrudeSteel": 1,
         "SteelScrap": 1,
-        "DRI": 1,
-        "MetCoal": 1,
-        "ThermalCoal": 1,
-        "IronOreBF": 1,
-        "IronOreDR": 1
+        "Coal": 1,
+        "IronOre": 1
     },
     "NumberOfSubperiods": 3,
     "SubPeriodMap": {

@@ -17,7 +17,7 @@
                         "integer_decisions": false
                     },
                     "ironore_edge":{
-                        "commodity": "IronOreBF",
+                        "commodity": "IronOreBF", 
                         "unidirectional": true,
                         "has_capacity": false
                     },
@@ -72,8 +72,7 @@
                                 "existing_capacity": 0.0,
                                 "investment_cost": 2846124,
                                 "fixed_om_cost": 56922,
-                                "variable_om_cost": 148,
-                                "capacity_size": 57.0
+                                "variable_om_cost": 148
                             },
                             "metcoal_edge": {
                                 "start_vertex": "metcoal_source"
@@ -113,8 +112,7 @@
                                 "existing_capacity": 0.0,
                                 "investment_cost": 2846124,
                                 "fixed_om_cost": 56922,
-                                "variable_om_cost": 148,
-                                "capacity_size": 57.0
+                                "variable_om_cost": 148
                             },
                             "metcoal_edge": {
                                 "start_vertex": "metcoal_source"
@@ -153,8 +151,7 @@
                                 "existing_capacity": 0.0,
                                 "investment_cost": 2846124,
                                 "fixed_om_cost": 56922,
-                                "variable_om_cost": 148,
-                                "capacity_size": 57.0
+                                "variable_om_cost": 148
                             },
                             "metcoal_edge": {
                                 "start_vertex": "metcoal_source"

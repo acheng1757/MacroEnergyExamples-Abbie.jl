@@ -329,7 +329,24 @@
                         "CO2CapConstraint": false
                     },
                     "rhs_policy": {
-                        "CO2CapConstraint": 0
+                        "CO2CapConstraint": 0.4e6
+                    }
+                }
+            ]
+        },
+        {
+            "type": "CO2Captured",
+            "global_data": {
+                "time_interval": "CO2Captured"
+            },
+            "instance_data": [
+                {
+                    "id": "co2_storage_sink_steel",
+                    "constraints": {
+                        "CO2StorageConstraint": false
+                    },
+                    "rhs_policy": {
+                        "CO2StorageConstraint": 10e6
                     }
                 }
             ]
@@ -835,7 +852,7 @@
         {
             "type": "IronOreBF",
             "global_data": {
-                "time_interval": "IronOreBF"
+                "time_interval": "IronOre"
             },
             "instance_data": [
                 {
@@ -847,7 +864,7 @@
         {
             "type": "IronOreDR",
             "global_data": {
-                "time_interval": "IronOreDR"
+                "time_interval": "IronOre"
             },
             "instance_data": [
                 {
@@ -867,7 +884,7 @@
             "instance_data": [
                 {
                     "id": "steelscrap_source",
-                    "max_supply":[400],                    
+                    "max_supply":[100],                    
                     "price": [400]
                 }
             ]
@@ -875,7 +892,7 @@
         {
             "type": "MetCoal",
             "global_data": {
-                "time_interval": "MetCoal"
+                "time_interval": "Coal"
             },
             "instance_data": [
                 {
@@ -887,7 +904,7 @@
         {
             "type": "ThermalCoal",
             "global_data": {
-                "time_interval": "ThermalCoal"
+                "time_interval": "Coal"
             },
             "instance_data": [
                 {

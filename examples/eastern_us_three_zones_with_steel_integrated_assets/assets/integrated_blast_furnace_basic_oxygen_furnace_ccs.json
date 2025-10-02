@@ -61,7 +61,8 @@
                     "co2_captured_edge": {
                         "commodity": "CO2Captured",
                         "unidirectional": true,
-                        "has_capacity": false
+                        "has_capacity": false,
+                        "end_vertex": "co2_storage_sink_steel"              
                     }
                 }
             },
@@ -75,7 +76,7 @@
                         "steelscrap_consumption": 0.26,
                         "electricity_consumption": 1.45,
                         "natgas_consumption": 0.07,
-                        "emission_rate": 1.79,
+                        "emission_rate": 0.36,
                         "capture_rate": 1.43
                     },
                     "edges":{
@@ -103,9 +104,6 @@
                             },
                             "natgas_edge": {
                                 "start_vertex": "natgas_SE"
-                            },
-                            "co2_captured_edge": {
-                                "end_vertex": "co2_captured_SE"
                             }
 
                         }
@@ -119,7 +117,7 @@
                         "steelscrap_consumption": 0.26,
                         "electricity_consumption": 1.45,
                         "natgas_consumption": 0.07,
-                        "emission_rate": 1.79,
+                        "emission_rate": 0.36,
                         "capture_rate": 1.43
                     },
                     "edges":{
@@ -147,9 +145,6 @@
                             },
                             "natgas_edge": {
                                 "start_vertex": "natgas_MIDAT"
-                            },
-                            "co2_captured_edge": {
-                                "end_vertex": "co2_captured_MIDAT"
                             }
                         }
                 },
@@ -162,7 +157,7 @@
                         "steelscrap_consumption": 0.26,
                         "electricity_consumption": 1.45,
                         "natgas_consumption": 0.07,
-                        "emission_rate": 1.79,
+                        "emission_rate": 0.36,
                         "capture_rate": 1.43
                     },
                     "edges":{
@@ -190,9 +185,6 @@
                             },
                             "natgas_edge": {
                                 "start_vertex": "natgas_NE"
-                            },
-                            "co2_captured_edge": {
-                                "end_vertex": "co2_captured_NE"
                             }
                         }
                 }
