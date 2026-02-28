@@ -1,0 +1,14 @@
+commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight,zone,weighted_value_flow
+Electricity,flow,CT_battery_storage,elec_CT,CT_battery,CT_battery_discharge_edge,Battery,flow,8736,0.0,,CT,0.0
+Electricity,flow,CT_natural_gas_combined_cycle_transforms,elec_CT,CT_natural_gas_combined_cycle,CT_natural_gas_combined_cycle_elec_edge,ThermalPower{NaturalGas},flow,8736,67966061.08966793,,CT,67966061.08966793
+Electricity,flow,CT_onshore_wind_transforms,elec_CT,CT_onshore_wind,CT_onshore_wind_edge,VRE,flow,8736,0.0,,CT,0.0
+Electricity,flow,CT_solar_pv_transforms,elec_CT,CT_solar_pv,CT_solar_pv_edge,VRE,flow,8736,0.0,,CT,0.0
+Electricity,flow,MA_battery_storage,elec_MA,MA_battery,MA_battery_discharge_edge,Battery,flow,8736,0.0,,MA,0.0
+Electricity,flow,MA_natural_gas_combined_cycle_transforms,elec_MA,MA_natural_gas_combined_cycle,MA_natural_gas_combined_cycle_elec_edge,ThermalPower{NaturalGas},flow,8736,50071599.96710216,,MA,50071599.96710216
+Electricity,flow,MA_solar_pv_transforms,elec_MA,MA_solar_pv,MA_solar_pv_edge,VRE,flow,8736,0.0,,MA,0.0
+Electricity,flow,ME_battery_storage,elec_ME,ME_battery,ME_battery_discharge_edge,Battery,flow,8736,0.0,,ME,0.0
+Electricity,flow,ME_natural_gas_combined_cycle_transforms,elec_ME,ME_natural_gas_combined_cycle,ME_natural_gas_combined_cycle_elec_edge,ThermalPower{NaturalGas},flow,8736,22891.199997856853,,ME,22891.199997856853
+Electricity,flow,ME_onshore_wind_transforms,elec_ME,ME_onshore_wind,ME_onshore_wind_edge,VRE,flow,8736,0.0,,ME,0.0
+Electricity,flow,elec_CT,CT_battery_storage,CT_battery,CT_battery_charge_edge,Battery,flow,8736,0.0,,CT,-0.0
+Electricity,flow,elec_MA,MA_battery_storage,MA_battery,MA_battery_charge_edge,Battery,flow,8736,0.0,,MA,-0.0
+Electricity,flow,elec_ME,ME_battery_storage,ME_battery,ME_battery_charge_edge,Battery,flow,8736,0.0,,ME,-0.0

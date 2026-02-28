@@ -1,0 +1,14 @@
+commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight,zone,weighted_value_flow
+Electricity,flow,CT_battery_storage,elec_CT,CT_battery,CT_battery_discharge_edge,Battery,flow,8736,546751.5997031189,,CT,546751.5997031189
+Electricity,flow,CT_natural_gas_combined_cycle_transforms,elec_CT,CT_natural_gas_combined_cycle,CT_natural_gas_combined_cycle_elec_edge,ThermalPower{NaturalGas},flow,8736,33544021.335000087,,CT,33544021.335000087
+Electricity,flow,CT_onshore_wind_transforms,elec_CT,CT_onshore_wind,CT_onshore_wind_edge,VRE,flow,8736,33141488.693371713,,CT,33141488.693371713
+Electricity,flow,CT_solar_pv_transforms,elec_CT,CT_solar_pv,CT_solar_pv_edge,VRE,flow,8736,1319919.2517634134,,CT,1319919.2517634134
+Electricity,flow,MA_battery_storage,elec_MA,MA_battery,MA_battery_discharge_edge,Battery,flow,8736,1340200.7207279226,,MA,1340200.7207279226
+Electricity,flow,MA_natural_gas_combined_cycle_transforms,elec_MA,MA_natural_gas_combined_cycle,MA_natural_gas_combined_cycle_elec_edge,ThermalPower{NaturalGas},flow,8736,13998340.529546905,,MA,13998340.529546905
+Electricity,flow,MA_solar_pv_transforms,elec_MA,MA_solar_pv,MA_solar_pv_edge,VRE,flow,8736,11348742.215163901,,MA,11348742.215163901
+Electricity,flow,ME_battery_storage,elec_ME,ME_battery,ME_battery_discharge_edge,Battery,flow,8736,165484.6977432229,,ME,165484.6977432229
+Electricity,flow,ME_natural_gas_combined_cycle_transforms,elec_ME,ME_natural_gas_combined_cycle,ME_natural_gas_combined_cycle_elec_edge,ThermalPower{NaturalGas},flow,8736,37136.973644216625,,ME,37136.973644216625
+Electricity,flow,ME_onshore_wind_transforms,elec_ME,ME_onshore_wind,ME_onshore_wind_edge,VRE,flow,8736,25149869.86471804,,ME,25149869.86471804
+Electricity,flow,elec_CT,CT_battery_storage,CT_battery,CT_battery_charge_edge,Battery,flow,8736,645973.062031095,,CT,-645973.062031095
+Electricity,flow,elec_MA,MA_battery_storage,MA_battery,MA_battery_charge_edge,Battery,flow,8736,1583412.9498203243,,MA,-1583412.9498203243
+Electricity,flow,elec_ME,ME_battery_storage,ME_battery,ME_battery_charge_edge,Battery,flow,8736,195515.94723915748,,ME,-195515.94723915748

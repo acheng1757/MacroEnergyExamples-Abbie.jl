@@ -1,0 +1,286 @@
+{
+  "new_vre": [
+    {
+      "type": "VRE",
+      "global_data": {
+        "elec_constraints": {
+          "MaxCapacityConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "SE_utilitypv_class1_moderate_70_0_2_1",
+          "location": "SE",
+          "max_capacity": 1041244,
+          "investment_cost": 49950.17548,
+          "fixed_om_cost": 15390.48615,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_utilitypv_class1_moderate_70_0_2_1"
+            }
+          }
+        },
+        {
+          "id": "SE_utilitypv_class1_moderate_70_0_2_2",
+          "location": "SE",
+          "max_capacity": 890062,
+          "investment_cost": 49950.17548,
+          "fixed_om_cost": 15390.48615,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_utilitypv_class1_moderate_70_0_2_2"
+            }
+          }
+        },
+        {
+          "id": "SE_utilitypv_class1_moderate_70_0_2_3",
+          "location": "SE",
+          "max_capacity": 1238552,
+          "investment_cost": 49950.17548,
+          "fixed_om_cost": 15390.48615,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_utilitypv_class1_moderate_70_0_2_3"
+            }
+          }
+        },
+        {
+          "id": "SE_utilitypv_class1_moderate_70_0_2_4",
+          "location": "SE",
+          "max_capacity": 1039859,
+          "investment_cost": 49950.17548,
+          "fixed_om_cost": 15390.48615,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_utilitypv_class1_moderate_70_0_2_4"
+            }
+          }
+        },
+        {
+          "id": "SE_utilitypv_class1_moderate_70_0_2_5",
+          "location": "SE",
+          "max_capacity": 955445,
+          "investment_cost": 49950.17548,
+          "fixed_om_cost": 15390.48615,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_utilitypv_class1_moderate_70_0_2_5"
+            }
+          }
+        },
+        {
+          "id": "SE_utilitypv_class1_moderate_70_0_2_6",
+          "location": "SE",
+          "max_capacity": 1729874,
+          "investment_cost": 49950.17548,
+          "fixed_om_cost": 15390.48615,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_utilitypv_class1_moderate_70_0_2_6"
+            }
+          }
+        },
+        {
+          "id": "SE_utilitypv_class1_moderate_70_0_2_7",
+          "location": "SE",
+          "max_capacity": 618334,
+          "investment_cost": 49950.17548,
+          "fixed_om_cost": 15390.48615,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_utilitypv_class1_moderate_70_0_2_7"
+            }
+          }
+        },
+        {
+          "id": "SE_utilitypv_class1_moderate_70_0_2_8",
+          "location": "SE",
+          "max_capacity": 989513,
+          "investment_cost": 49950.17548,
+          "fixed_om_cost": 15390.48615,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_utilitypv_class1_moderate_70_0_2_8"
+            }
+          }
+        },
+        {
+          "id": "SE_landbasedwind_class4_moderate_70_1",
+          "location": "SE",
+          "max_capacity": 84058,
+          "investment_cost": 68099.00274,
+          "fixed_om_cost": 34568.125,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_landbasedwind_class4_moderate_70_1"
+            }
+          }
+        },
+        {
+          "id": "SE_landbasedwind_class4_moderate_70_2",
+          "location": "SE",
+          "max_capacity": 20182,
+          "investment_cost": 68099.00274,
+          "fixed_om_cost": 34568.125,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_landbasedwind_class4_moderate_70_2"
+            }
+          }
+        },
+        {
+          "id": "SE_landbasedwind_class4_moderate_70_3",
+          "location": "SE",
+          "max_capacity": 105301,
+          "investment_cost": 68099.00274,
+          "fixed_om_cost": 34568.125,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_landbasedwind_class4_moderate_70_3"
+            }
+          }
+        },
+        {
+          "id": "SE_landbasedwind_class4_moderate_70_4",
+          "location": "SE",
+          "max_capacity": 95536,
+          "investment_cost": 68099.00274,
+          "fixed_om_cost": 34568.125,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_landbasedwind_class4_moderate_70_4"
+            }
+          }
+        },
+        {
+          "id": "SE_landbasedwind_class4_moderate_70_5",
+          "location": "SE",
+          "max_capacity": 79807,
+          "investment_cost": 68099.00274,
+          "fixed_om_cost": 34568.125,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_landbasedwind_class4_moderate_70_5"
+            }
+          }
+        },
+        {
+          "id": "SE_landbasedwind_class4_moderate_70_6",
+          "location": "SE",
+          "max_capacity": 117168,
+          "investment_cost": 68099.00274,
+          "fixed_om_cost": 34568.125,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_landbasedwind_class4_moderate_70_6"
+            }
+          }
+        },
+        {
+          "id": "SE_landbasedwind_class4_moderate_70_7",
+          "location": "SE",
+          "max_capacity": 66201,
+          "investment_cost": 68099.00274,
+          "fixed_om_cost": 34568.125,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_landbasedwind_class4_moderate_70_7"
+            }
+          }
+        },
+        {
+          "id": "SE_landbasedwind_class4_moderate_70_8",
+          "location": "SE",
+          "max_capacity": 102849,
+          "investment_cost": 68099.00274,
+          "fixed_om_cost": 34568.125,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": true,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_landbasedwind_class4_moderate_70_8"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
