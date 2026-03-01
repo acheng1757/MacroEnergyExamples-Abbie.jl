@@ -1,4 +1,0 @@
-case_name,commodity,commodity_subtype,zone,resource_id,component_id,type,variable,year,value
-missing,all,cost,all,all,all,Cost,FixedCost,missing,4.401882942838014e10
-missing,all,cost,all,all,all,Cost,VariableCost,missing,6.801308042169234e10
-missing,all,cost,all,all,all,Cost,TotalCost,missing,1.1203190985007248e11

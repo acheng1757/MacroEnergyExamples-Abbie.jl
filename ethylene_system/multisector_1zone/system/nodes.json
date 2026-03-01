@@ -216,6 +216,26 @@
             "type": "Ethylene",
             "global_data": {
                 "time_interval": "Ethylene",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "ethylene_SE",
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Ethylene",
+            "global_data": {
+                "time_interval": "Ethylene",
                 "max_nsd": [
                     0
                 ],
@@ -230,7 +250,7 @@
             },
             "instance_data": [
                 {
-                    "id": "ethylene_SE",
+                    "id": "ethylene_demand_SE",
                     "demand": {
                         "timeseries": {
                             "path": "system/demand fuel.csv",
