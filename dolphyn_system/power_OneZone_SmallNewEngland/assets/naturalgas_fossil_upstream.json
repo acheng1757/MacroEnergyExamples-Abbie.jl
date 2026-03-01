@@ -1,0 +1,52 @@
+{
+    "NaturalGasFossilUpstream": [
+        {
+            "type": "FossilFuelsUpstream",
+            "global_data":{
+                "transforms": {
+                    "timedata": "NaturalGas",
+                    "constraints": {
+                            "BalanceConstraint": true
+                    },
+                    "emission_rate": 0
+                },
+                "edges" :{
+                    "fossil_fuel_edge": {
+                        "commodity": "NaturalGas",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "co2_edge": {
+                        "commodity": "CO2",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "co2_sink"
+                    },
+                    "fuel_edge": {
+                        "commodity": "NaturalGas",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    }
+                }
+            },
+            "instance_data":[
+                {
+                    "id": "NE_NG_Fossil_Upstream",
+                    "location": "NE",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_NaturalGas",
+                                "start_vertex": "natgas_fossil_NE"
+                            },
+                            "fuel_edge": {
+                                "commodity": "NaturalGas",
+                                "end_vertex": "natgas_NE"
+                            }
+                        }
+
+                }
+            ]
+        }
+    ]
+
+}
