@@ -1,0 +1,16 @@
+commodity,commodity_subtype,zone,resource_id,component_id,type,variable,value
+Electricity,capacity,elec_NE,battery,battery_discharge_edge,Battery,capacity,121.30576654129527
+Electricity,capacity,elec_NE,natural_gas_combined_cycle,natural_gas_combined_cycle_elec_edge,ThermalPower{NaturalGas},capacity,18995.087286368387
+Electricity,capacity,elec_NE,solar_pv,solar_pv_edge,VRE,capacity,1378.6301168001762
+Electricity,capacity,elec_NE,onshore_wind,onshore_wind_edge,VRE,capacity,4597.621266230886
+Electricity,capacity,battery_storage,battery,battery_storage,Battery,capacity,162.14989044912397
+Electricity,capacity,elec_NE,battery,battery_discharge_edge,Battery,new_capacity,121.30576654129527
+Electricity,capacity,elec_NE,natural_gas_combined_cycle,natural_gas_combined_cycle_elec_edge,ThermalPower{NaturalGas},new_capacity,18995.087286368387
+Electricity,capacity,elec_NE,solar_pv,solar_pv_edge,VRE,new_capacity,1378.6301168001762
+Electricity,capacity,elec_NE,onshore_wind,onshore_wind_edge,VRE,new_capacity,4597.621266230886
+Electricity,capacity,battery_storage,battery,battery_storage,Battery,new_capacity,162.14989044912397
+Electricity,capacity,elec_NE,battery,battery_discharge_edge,Battery,retired_capacity,0.0
+Electricity,capacity,elec_NE,natural_gas_combined_cycle,natural_gas_combined_cycle_elec_edge,ThermalPower{NaturalGas},retired_capacity,0.0
+Electricity,capacity,elec_NE,solar_pv,solar_pv_edge,VRE,retired_capacity,0.0
+Electricity,capacity,elec_NE,onshore_wind,onshore_wind_edge,VRE,retired_capacity,0.0
+Electricity,capacity,battery_storage,battery,battery_storage,Battery,retired_capacity,0.0

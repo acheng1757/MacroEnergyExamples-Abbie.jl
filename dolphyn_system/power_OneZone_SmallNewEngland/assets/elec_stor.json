@@ -19,24 +19,24 @@
       },
       "instance_data": [
         {
-          "type": "Battery",
           "id": "battery",
           "location": "NE",
-          "discharge_existing_capacity": 0,
-          "storage_existing_capacity": 0,
-          "discharge_investment_cost": 19584,
           "storage_investment_cost": 22494,
-          "discharge_fixed_om_cost": 4895,
           "storage_fixed_om_cost": 5622,
-          "discharge_variable_om_cost": 0.15,
-          "charge_variable_om_cost": 0.15,
-          "discharge_capacity_size": 0,
-          "ramp_up_fraction": 1.0,
-          "ramp_down_fraction": 1.0,
-          "charge_efficiency": 0.92,
-          "discharge_efficiency": 0.92,
+          "storage_max_duration": 10,
           "storage_min_duration": 1,
-          "storage_max_duration": 10
+          "discharge_investment_cost": 19584,
+          "discharge_fixed_om_cost": 4895,
+          "discharge_variable_om_cost": 0.15,
+          "discharge_efficiency": 0.92,
+          "charge_variable_om_cost": 0.15,
+          "charge_efficiency": 0.92,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "battery"
+            }
+          }
         }
       ]
     }

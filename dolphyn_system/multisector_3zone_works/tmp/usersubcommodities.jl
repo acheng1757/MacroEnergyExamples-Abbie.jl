@@ -1,0 +1,9 @@
+abstract type Fossil_JetFuel <: MacroEnergy.LiquidFuels end
+abstract type Fossil_NaturalGas <: MacroEnergy.NaturalGas end
+abstract type JetFuel <: MacroEnergy.LiquidFuels end
+abstract type Biomass_Herb <: MacroEnergy.Biomass end
+abstract type Diesel <: MacroEnergy.LiquidFuels end
+abstract type Gasoline <: MacroEnergy.LiquidFuels end
+abstract type Fossil_Diesel <: MacroEnergy.LiquidFuels end
+abstract type Fossil_Gasoline <: MacroEnergy.LiquidFuels end
+abstract type Biomass_Wood <: MacroEnergy.Biomass end

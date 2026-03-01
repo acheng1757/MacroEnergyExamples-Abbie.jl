@@ -35,7 +35,13 @@
           "can_expand": true,
           "can_retire": true,
           "emission_rate": 0.1810482352,
-          "capture_rate": 0.0
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "natural_gas_combined_cycle"
+            }
+          }
         }
       ]
     }

@@ -1,0 +1,48 @@
+{
+    "new_vre": [
+      {
+        "type": "VRE",
+        "global_data": {
+          "elec_constraints": {
+            "MaxCapacityConstraint": true
+          }
+        },
+        "instance_data": [
+          {
+            "id": "solar_pv",
+            "location": "NE",
+            "max_capacity": -1,
+            "investment_cost": 85300,
+            "fixed_om_cost": 18760,
+            "ramp_up_fraction": 1.0,
+            "ramp_down_fraction": 1.0,
+            "elec_can_expand": true,
+            "elec_can_retire": true,
+            "availability": {
+              "timeseries": {
+                "path": "system/availability.csv",
+                "header": "solar_pv"
+              }
+            }
+          },
+          {
+            "id": "onshore_wind",
+            "location": "NE",
+            "max_capacity": -1,
+            "investment_cost": 97200,
+            "fixed_om_cost": 43205,
+            "ramp_up_fraction": 1.0,
+            "ramp_down_fraction": 1.0,
+            "elec_can_expand": true,
+            "elec_can_retire": true,
+            "availability": {
+              "timeseries": {
+                "path": "system/availability.csv",
+                "header": "onshore_wind"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
