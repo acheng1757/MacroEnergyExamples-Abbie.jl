@@ -1,0 +1,51 @@
+{
+    "EthyleneEndUse": [
+        {
+            "type": "FuelsEndUse",
+            "global_data":{
+                "transforms": {
+                    "timedata": "Ethylene",
+                    "constraints": {
+                            "BalanceConstraint": true
+                    }
+                },
+                "edges" :{
+                    "fuel_edge": {
+                        "commodity": "Ethylene",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "co2_edge": {
+                        "commodity": "CO2",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "co2_sink"
+                    },
+                    "fuel_demand_edge": {
+                        "commodity": "Ethylene",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    }
+                }
+            },
+            "instance_data":[
+                {
+                    "id": "SE_Ethylene_End_Use",
+                    "transforms":{
+                        "emission_rate": 0.181048235160161
+                    },
+                    "edges":{
+                            "fuel_edge": {
+                                "start_vertex": "ethylene_SE"
+                            },
+                            "fuel_demand_edge": {
+                                "end_vertex": "ethylene_demand_SE"
+                            }
+                        }
+
+                }
+            ]
+        }
+    ]
+
+}
