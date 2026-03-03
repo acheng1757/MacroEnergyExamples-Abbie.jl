@@ -1,14 +1,15 @@
-2026-03-03 11:48:48 | INFO | 1 | MacroEnergy | run_tools.jl:123 | Running case at /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/ethylene_system_ethanoltest/multisector_1zone_ethanol
-2026-03-03 11:48:48 | INFO | 1 | MacroEnergy | user_additions.jl:19 |  ++ Loading user additions from MacroEnergyExamples/ethylene_system_ethanoltest/multisector_1zone_ethanol/tmp/UserAdditions.jl
-2026-03-03 11:48:48 | INFO | 1 | MacroEnergy | user_additions.jl:23 |  ++ Successfully loaded UserAdditions module.
-2026-03-03 11:48:48 | INFO | 1 | MacroEnergy | load_stages_data.jl:36 | Loading case from /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/ethylene_system_ethanoltest/multisector_1zone_ethanol/system_data.json
-2026-03-03 11:48:48 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
-2026-03-03 11:48:48 | WARN | 1 | MacroEnergy | load_json_inputs.jl:137 | Could not find: "system/locations.json", full path: /Users/abbie/MacroEnergy-Abbie.jl/system/locations.json
-2026-03-03 11:48:49 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 1.8 seconds
-2026-03-03 11:48:49 | INFO | 1 | MacroEnergy | load_stages_data.jl:19 | Done loading case data. It took 1.8 seconds
-2026-03-03 11:48:49 | INFO | 1 | MacroEnergy | case.jl:15 | *** Generating case ***
-2026-03-03 11:48:49 | INFO | 1 | MacroEnergy | case_settings.jl:126 | Configuring case
-2026-03-03 11:48:49 | INFO | 1 | MacroEnergy | case_settings.jl:150 |  -- Setting solution algorithm
-2026-03-03 11:48:49 | INFO | 1 | MacroEnergy | case_settings.jl:161 |  -- Solution algorithm set to MacroEnergy.Monolithic()
-2026-03-03 11:48:49 | INFO | 1 | MacroEnergy | case.jl:30 | Generating systems
-2026-03-03 11:48:49 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-03-03 12:14:18 | INFO | 1 | MacroEnergy | run_tools.jl:123 | Running case at /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/ethylene_system_ethanoltest/multisector_1zone_ethanol
+2026-03-03 12:14:18 | INFO | 1 | MacroEnergy | user_additions.jl:19 |  ++ Loading user additions from MacroEnergyExamples/ethylene_system_ethanoltest/multisector_1zone_ethanol/tmp/UserAdditions.jl
+2026-03-03 12:14:18 | INFO | 1 | Base | loading.jl:3059 | Precompiling UserAdditions [top-level] (cache misses: wrong source (2))
+2026-03-03 12:14:24 | INFO | 1 | MacroEnergy | user_additions.jl:23 |  ++ Successfully loaded UserAdditions module.
+2026-03-03 12:14:24 | INFO | 1 | MacroEnergy | load_stages_data.jl:36 | Loading case from /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/ethylene_system_ethanoltest/multisector_1zone_ethanol/system_data.json
+2026-03-03 12:14:24 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
+2026-03-03 12:14:24 | WARN | 1 | MacroEnergy | load_json_inputs.jl:137 | Could not find: "system/locations.json", full path: /Users/abbie/MacroEnergy-Abbie.jl/system/locations.json
+2026-03-03 12:14:27 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 3.33 seconds
+2026-03-03 12:14:27 | INFO | 1 | MacroEnergy | load_stages_data.jl:19 | Done loading case data. It took 3.33 seconds
+2026-03-03 12:14:27 | INFO | 1 | MacroEnergy | case.jl:15 | *** Generating case ***
+2026-03-03 12:14:27 | INFO | 1 | MacroEnergy | case_settings.jl:126 | Configuring case
+2026-03-03 12:14:27 | INFO | 1 | MacroEnergy | case_settings.jl:150 |  -- Setting solution algorithm
+2026-03-03 12:14:27 | INFO | 1 | MacroEnergy | case_settings.jl:161 |  -- Solution algorithm set to MacroEnergy.Monolithic()
+2026-03-03 12:14:27 | INFO | 1 | MacroEnergy | case.jl:30 | Generating systems
+2026-03-03 12:14:28 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system

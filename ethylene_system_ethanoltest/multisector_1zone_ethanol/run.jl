@@ -1,7 +1,7 @@
 using MacroEnergy
 using Gurobi
 
-(systems, model) = run_case(
+(systems, model) = MacroEnergy.run_case(
     @__DIR__;
     optimizer=Gurobi.Optimizer,
     optimizer_attributes=("Method" => 2, "Crossover" => 1, "BarConvTol" => 1e-3),
