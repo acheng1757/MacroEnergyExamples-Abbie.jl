@@ -1,12 +1,12 @@
 module UserAdditions
 using MacroEnergy
 
-commodities_path = raw"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/ETHYLENESYSTEM_ethylene/multisector_1zone_ethanoldehydration_addethanol/tmp/usersubcommodities.jl"
+commodities_path = raw"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/ETHYLENESYSTEM_ethanol+ethylene/ethylene_liquid_fuels/tmp/usersubcommodities.jl"
 if isfile(commodities_path)
     include(commodities_path)
 end
 
-assets_path = raw"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/ETHYLENESYSTEM_ethylene/multisector_1zone_ethanoldehydration_addethanol/tmp/userassets.jl"
+assets_path = raw"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/ETHYLENESYSTEM_ethanol+ethylene/ethylene_liquid_fuels/tmp/userassets.jl"
 if isfile(assets_path)
     include(assets_path)
 end

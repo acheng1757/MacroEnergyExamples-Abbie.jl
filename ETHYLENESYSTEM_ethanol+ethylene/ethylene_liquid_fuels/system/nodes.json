@@ -487,7 +487,7 @@
             ]
         },
         {
-            "type": "Gasoline",
+            "type": "E10",
             "global_data": {
                 "time_interval": "LiquidFuels",
                 "constraints": {
@@ -496,11 +496,31 @@
             },
             "instance_data": [
                 {
-                    "id": "gasoline_demand_SE",
+                    "id": "e10_SE",
                     "demand": {
                         "timeseries": {
                             "path": "system/demand fuel.csv",
-                            "header": "Demand_Gasoline_z1"
+                            "header": "Demand_Zero"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "E10",
+            "global_data": {
+                "time_interval": "LiquidFuels",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "e10_demand_SE",
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_E10_z1"
                         }
                     }
                 }
