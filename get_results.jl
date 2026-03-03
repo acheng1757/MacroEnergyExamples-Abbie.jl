@@ -7,7 +7,7 @@ import MacroEnergy: id, find_node, all_constraints_types, get_constraint_by_type
 system = systems[1]
 
 # ---- Results directory ----
-const BASE = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/ethylene_system/multisector_1zone_testing"
+const BASE = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/ethylene_system/multisector_1zone_allethylene_tightcap"
 make_path(parts...) = joinpath(BASE, parts...)
 results_dir = make_path("results_001", "results")
 

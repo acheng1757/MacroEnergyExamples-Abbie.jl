@@ -1,0 +1,3 @@
+commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight
+Ethanol,flow,SE_Ethanol_Fossil_Upstream_transforms,ethanol_SE,SE_Ethanol_Fossil_Upstream,SE_Ethanol_Fossil_Upstream_fuel_edge,FossilFuelsUpstream{LiquidFuels},flow,504,0.0,
+Ethanol,flow,ethanol_SE,SE_Ethanol_Dehydration_transforms,SE_Ethanol_Dehydration,SE_Ethanol_Dehydration_ethanol_consumption_edge,EthanolDehydration,flow,504,0.0,

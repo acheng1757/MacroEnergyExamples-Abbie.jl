@@ -1,0 +1,50 @@
+{
+    "EthanolFossilUpstream": [
+        {
+            "type": "FossilFuelsUpstream",
+            "global_data":{
+                "transforms": {
+                    "timedata": "Ethanol",
+                    "constraints": {
+                            "BalanceConstraint": true
+                    },
+                    "emission_rate": 0
+                },
+                "edges" :{
+                    "fossil_fuel_edge": {
+                        "commodity": "Ethanol",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "co2_edge": {
+                        "commodity": "CO2",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "co2_sink"
+                    },
+                    "fuel_edge": {
+                        "commodity": "Ethanol",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    }
+                }
+            },
+            "instance_data":[
+                {
+                    "id": "SE_Ethanol_Fossil_Upstream",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Ethanol",
+                                "start_vertex": "ethanol_fossil_SE"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Ethanol",
+                                "end_vertex": "ethanol_SE"
+                            }
+                        }
+                }
+            ]
+        }
+    ]
+
+}
