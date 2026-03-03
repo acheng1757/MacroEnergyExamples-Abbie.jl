@@ -9,7 +9,7 @@ system = systems[1]
 # ---- Results directory ----
 const BASE = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/ethylene_system/multisector_1zone_allethylene_tightcap"
 make_path(parts...) = joinpath(BASE, parts...)
-results_dir = make_path("results_001", "results")
+results_dir = make_path("results_002", "results")
 
 print("Adding CO2 cap duals now")
 
@@ -20,6 +20,10 @@ println("CSV written to: ", joinpath(results_dir, "co2_cap_duals.csv"))
 # This will create co2_cap_duals.csv in the results_dir
 MacroEnergy.write_balance_duals(results_dir, system)
 println("CSV written to: ", joinpath(results_dir, "balance_duals.csv"))
+
+# This will create non_served_demand.csv in the results_dir
+#MacroEnergy.write_non_served_demand(results_dir, system)
+#println("CSV written to: ", joinpath(results_dir, "non_served_demand.csv"))
 
 # Get the non served energy for each of the demand nodes
 locations_vector = system.locations
