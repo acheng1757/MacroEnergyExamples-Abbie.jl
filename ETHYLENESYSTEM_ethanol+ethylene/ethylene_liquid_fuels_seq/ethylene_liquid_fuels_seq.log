@@ -1,0 +1,30 @@
+2026-03-04 08:09:34 | INFO | 1 | MacroEnergy | run_tools.jl:123 | Running case at /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/ETHYLENESYSTEM_ethanol+ethylene/ethylene_liquid_fuels_seq
+2026-03-04 08:09:34 | INFO | 1 | MacroEnergy | user_additions.jl:19 |  ++ Loading user additions from MacroEnergyExamples/ETHYLENESYSTEM_ethanol+ethylene/ethylene_liquid_fuels_seq/tmp/UserAdditions.jl
+2026-03-04 08:09:34 | INFO | 1 | MacroEnergy | user_additions.jl:23 |  ++ Successfully loaded UserAdditions module.
+2026-03-04 08:09:34 | INFO | 1 | MacroEnergy | load_stages_data.jl:36 | Loading case from /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/ETHYLENESYSTEM_ethanol+ethylene/ethylene_liquid_fuels_seq/system_data.json
+2026-03-04 08:09:34 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
+2026-03-04 08:09:35 | WARN | 1 | MacroEnergy | load_json_inputs.jl:137 | Could not find: "system/locations.json", full path: /Users/abbie/MacroEnergy-Abbie.jl/system/locations.json
+2026-03-04 08:09:49 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 15.84 seconds
+2026-03-04 08:09:49 | INFO | 1 | MacroEnergy | load_stages_data.jl:19 | Done loading case data. It took 15.9 seconds
+2026-03-04 08:09:49 | INFO | 1 | MacroEnergy | case.jl:15 | *** Generating case ***
+2026-03-04 08:09:50 | INFO | 1 | MacroEnergy | case_settings.jl:126 | Configuring case
+2026-03-04 08:09:50 | INFO | 1 | MacroEnergy | case_settings.jl:150 |  -- Setting solution algorithm
+2026-03-04 08:09:50 | INFO | 1 | MacroEnergy | case_settings.jl:161 |  -- Solution algorithm set to MacroEnergy.Monolithic()
+2026-03-04 08:09:50 | INFO | 1 | MacroEnergy | case.jl:30 | Generating systems
+2026-03-04 08:09:50 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-03-04 08:10:11 | INFO | 1 | MacroEnergy | generate_system.jl:38 | Done generating system. It took 21.64 seconds
+2026-03-04 08:10:11 | INFO | 1 | MacroEnergy | case.jl:54 |  -- Discounting fixed costs for period 1
+2026-03-04 08:10:12 | INFO | 1 | MacroEnergy | case.jl:57 |  -- Computing retirement case for period 1
+2026-03-04 08:10:12 | INFO | 1 | MacroEnergy | case.jl:45 | *** Done generating case. It took 22.15 seconds ***
+2026-03-04 08:10:12 | INFO | 1 | MacroEnergy | solver.jl:7 | *** Running simulation with monolithic solver ***
+2026-03-04 08:10:13 | INFO | 1 | MacroEnergy | generate_model.jl:17 | Generating model
+2026-03-04 08:10:13 | INFO | 1 | MacroEnergy | generate_model.jl:30 |  -- Period 1
+2026-03-04 08:10:13 | INFO | 1 | MacroEnergy | generate_model.jl:37 |  -- Adding linking variables
+2026-03-04 08:10:13 | INFO | 1 | MacroEnergy | generate_model.jl:40 |  -- Defining available capacity
+2026-03-04 08:10:13 | INFO | 1 | MacroEnergy | generate_model.jl:43 |  -- Generating planning model
+2026-03-04 08:10:13 | INFO | 1 | MacroEnergy | generate_model.jl:51 |  -- Including age-based retirements
+2026-03-04 08:10:13 | INFO | 1 | MacroEnergy | generate_model.jl:59 |  -- Generating operational model
+2026-03-04 08:10:40 | WARN | 1 | MacroEnergy | max_non_served_demand_per_segment.jl:35 | MaxNonServedDemandPerSegmentConstraint required for a node that does not have a non-served demand variable so Macro will not create this constraint
+2026-03-04 08:10:40 | WARN | 1 | MacroEnergy | max_non_served_demand.jl:28 | MaxNonServedDemandConstraint required for a node that does not have a non-served demand variable so Macro will not create this constraint
+2026-03-04 08:11:34 | INFO | 1 | MacroEnergy | generate_model.jl:100 |  -- Model generation complete, it took 80.6720290184021 seconds
+2026-03-04 08:11:34 | INFO | 1 | MacroEnergy | solver.jl:14 | Scaling constraints and RHS

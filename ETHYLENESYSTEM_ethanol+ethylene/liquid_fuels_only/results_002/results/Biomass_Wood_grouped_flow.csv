@@ -1,0 +1,8 @@
+commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight,zone,weighted_value_flow
+Biomass_Wood,flow,biowood_SE,SE_BECCS_Electricity_Wood_transforms,SE_BECCS_Electricity_Wood,SE_BECCS_Electricity_Wood_biomass_edge,BECCSElectricity,flow,504,-1.8839197674669481e-10,,SE,1.8839197674669481e-10
+Biomass_Wood,flow,biowood_SE,SE_BECCS_FT_Wood_transforms,SE_BECCS_FT_Wood,SE_BECCS_FT_Wood_biomass_edge,BECCSLiquidFuels,flow,504,82243690.7670818,,SE,-82243690.7670818
+Biomass_Wood,flow,biowood_SE,SE_BECCS_H2_Wood_transforms,SE_BECCS_H2_Wood,SE_BECCS_H2_Wood_biomass_edge,BECCSHydrogen,flow,504,8.20793982231887e-12,,SE,-8.20793982231887e-12
+Biomass_Wood,flow,biowood_SE,SE_BECCS_NaturalGas_Wood_transforms,SE_BECCS_NaturalGas_Wood,SE_BECCS_NaturalGas_Wood_biomass_edge,BECCSNaturalGas,flow,504,6.986802450680936e-12,,SE,-6.986802450680936e-12
+Biomass_Wood,flow,biowood_SE,SE_Bio_FT_Wood_transforms,SE_Bio_FT_Wood,SE_Bio_FT_Wood_biomass_edge,BECCSLiquidFuels,flow,504,0.0,,SE,-0.0
+Biomass_Wood,flow,biowood_SE,SE_Bio_Gasoline_Wood_transforms,SE_Bio_Gasoline_Wood,SE_Bio_Gasoline_Wood_biomass_edge,BECCSGasoline,flow,504,15524566.832918208,,SE,-15524566.832918208
+Biomass_Wood,flow,biowood_SE,SE_Bio_NaturalGas_Wood_transforms,SE_Bio_NaturalGas_Wood,SE_Bio_NaturalGas_Wood_biomass_edge,BECCSNaturalGas,flow,504,-5.892160496185297e-11,,SE,5.892160496185297e-11

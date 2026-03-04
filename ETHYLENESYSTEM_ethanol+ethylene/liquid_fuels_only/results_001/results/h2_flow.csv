@@ -1,0 +1,17 @@
+,commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight,zone,weighted_value_flow
+0,Hydrogen,flow,SE_ATR_wCCS_94pct_transforms,h2_SE,SE_ATR_wCCS_94pct,SE_ATR_wCCS_94pct_h2_edge,ThermalHydrogenCCS{NaturalGas},flow,504,0.0,,SE,0.0
+1,Hydrogen,flow,SE_Above_ground_storage_transforms,h2_SE,SE_Above_ground_storage,SE_Above_ground_storage_external_discharge_edge,GasStorage{Hydrogen},flow,504,22607252.70086212,,SE,22607252.70086212
+2,Hydrogen,flow,SE_BECCS_H2_Herb_transforms,h2_SE,SE_BECCS_H2_Herb,SE_BECCS_H2_Herb_h2_edge,BECCSHydrogen,flow,504,0.0,,SE,0.0
+3,Hydrogen,flow,SE_BECCS_H2_Wood_transforms,h2_SE,SE_BECCS_H2_Wood,SE_BECCS_H2_Wood_h2_edge,BECCSHydrogen,flow,504,0.0,,SE,0.0
+4,Hydrogen,flow,SE_Electrolyzer_transforms,h2_SE,SE_Electrolyzer,SE_Electrolyzer_h2_edge,Electrolyzer,flow,504,91837993.27685116,,SE,91837993.27685116
+5,Hydrogen,flow,SE_Large_SMR_Non_CCS_transforms,h2_SE,SE_Large_SMR_Non_CCS,SE_Large_SMR_Non_CCS_h2_edge,ThermalHydrogen{NaturalGas},flow,504,37558156.72314883,,SE,37558156.72314883
+6,Hydrogen,flow,SE_Large_SMR_wCCS_96pct_transforms,h2_SE,SE_Large_SMR_wCCS_96pct,SE_Large_SMR_wCCS_96pct_h2_edge,ThermalHydrogenCCS{NaturalGas},flow,504,0.0,,SE,0.0
+7,Hydrogen,flow,h2_SE,SE_Above_ground_storage_transforms,SE_Above_ground_storage,SE_Above_ground_storage_external_charge_edge,GasStorage{Hydrogen},flow,504,22607252.700862125,,SE,-22607252.700862125
+8,Hydrogen,flow,h2_SE,SE_CCGT-H2_transforms,SE_CCGT-H2,SE_CCGT-H2_fuel_edge,ThermalPower{Hydrogen},flow,504,0.0,,SE,-0.0
+9,Hydrogen,flow,h2_SE,SE_Ethanol_Diesel_Upgrade_transforms,SE_Ethanol_Diesel_Upgrade,SE_Ethanol_Diesel_Upgrade_h2_consumption_edge,EthanolUpgrade,flow,504,0.0,,SE,-0.0
+10,Hydrogen,flow,h2_SE,SE_Ethanol_Gasoline_Upgrade_transforms,SE_Ethanol_Gasoline_Upgrade,SE_Ethanol_Gasoline_Upgrade_h2_consumption_edge,EthanolUpgrade,flow,504,0.0,,SE,-0.0
+11,Hydrogen,flow,h2_SE,SE_Ethanol_JetFuel_Upgrade_transforms,SE_Ethanol_JetFuel_Upgrade,SE_Ethanol_JetFuel_Upgrade_h2_consumption_edge,EthanolUpgrade,flow,504,0.0,,SE,-0.0
+12,Hydrogen,flow,h2_SE,SE_Ethanol_Multiproduct_Upgrade_transforms,SE_Ethanol_Multiproduct_Upgrade,SE_Ethanol_Multiproduct_Upgrade_h2_consumption_edge,EthanolUpgrade,flow,504,0.0,,SE,-0.0
+13,Hydrogen,flow,h2_SE,SE_OCGT-H2_transforms,SE_OCGT-H2,SE_OCGT-H2_fuel_edge,ThermalPower{Hydrogen},flow,504,0.0,,SE,-0.0
+14,Hydrogen,flow,h2_SE,SE_Synthetic_FT_transforms,SE_Synthetic_FT,SE_Synthetic_FT_h2_edge,SyntheticLiquidFuels,flow,504,0.0,,SE,-0.0
+15,Hydrogen,flow,h2_SE,SE_Synthetic_NaturalGas_transforms,SE_Synthetic_NaturalGas,SE_Synthetic_NaturalGas_h2_edge,SyntheticNaturalGas,flow,504,0.0,,SE,-0.0

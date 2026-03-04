@@ -18,10 +18,6 @@
         {"name": "Fossil_Gasoline", "acts_like": "LiquidFuels"},
         {"name": "Fossil_JetFuel", "acts_like": "LiquidFuels"},
         {"name": "Fossil_Diesel", "acts_like": "LiquidFuels"},
-        {"name": "Ethanol", "acts_like": "LiquidFuels"},
-        {"name": "E10", "acts_like": "LiquidFuels"},
-        "Ethylene",
-        "Ethane",
-        {"name": "Fossil_Ethane", "acts_like": "Ethane"}
+        {"name": "Ethanol", "acts_like": "LiquidFuels"}
     ]
 }
