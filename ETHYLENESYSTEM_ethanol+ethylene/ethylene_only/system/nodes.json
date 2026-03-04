@@ -283,10 +283,10 @@
                 {
                     "id": "co2_sink",
                     "constraints": {
-                        "CO2CapConstraint": true
+                        "CO2CapConstraint": false
                     },
                     "rhs_policy": {
-                        "CO2CapConstraint": 5
+                        "CO2CapConstraint": 2
                     }
                 }
             ]
@@ -447,26 +447,6 @@
             ]
         },
         {
-            "type": "Gasoline",
-            "global_data": {
-                "time_interval": "LiquidFuels",
-                "constraints": {
-                    "BalanceConstraint": true
-                }
-            },
-            "instance_data": [
-                {
-                    "id": "gasoline_SE",
-                    "demand": {
-                        "timeseries": {
-                            "path": "system/demand fuel.csv",
-                            "header": "Demand_Zero"
-                        }
-                    }
-                }
-            ]
-        },
-        {
             "type": "Ethanol",
             "global_data": {
                 "time_interval": "LiquidFuels",
@@ -477,6 +457,26 @@
             "instance_data": [
                 {
                     "id": "ethanol_SE",
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Gasoline",
+            "global_data": {
+                "time_interval": "LiquidFuels",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "gasoline_SE",
                     "demand": {
                         "timeseries": {
                             "path": "system/demand fuel.csv",
