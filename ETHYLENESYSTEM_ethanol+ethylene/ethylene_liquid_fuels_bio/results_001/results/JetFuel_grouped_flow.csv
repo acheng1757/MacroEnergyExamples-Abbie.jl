@@ -1,0 +1,12 @@
+commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight,zone,weighted_value_flow
+JetFuel,flow,SE_BECCS_FT_Herb_transforms,jetfuel_SE,SE_BECCS_FT_Herb,SE_BECCS_FT_Herb_jetfuel_edge,BECCSLiquidFuels,flow,504,70357077.27576897,,SE,70357077.27576897
+JetFuel,flow,SE_BECCS_FT_Wood_transforms,jetfuel_SE,SE_BECCS_FT_Wood,SE_BECCS_FT_Wood_jetfuel_edge,BECCSLiquidFuels,flow,504,53164110.48351124,,SE,53164110.48351124
+JetFuel,flow,SE_Bio_FT_Herb_transforms,jetfuel_SE,SE_Bio_FT_Herb,SE_Bio_FT_Herb_jetfuel_edge,BECCSLiquidFuels,flow,504,28348097.472610172,,SE,28348097.472610172
+JetFuel,flow,SE_Bio_FT_Wood_transforms,jetfuel_SE,SE_Bio_FT_Wood,SE_Bio_FT_Wood_jetfuel_edge,BECCSLiquidFuels,flow,504,2.7761815389717684e-11,,SE,2.7761815389717684e-11
+JetFuel,flow,SE_Ethanol_Diesel_Upgrade_transforms,jetfuel_SE,SE_Ethanol_Diesel_Upgrade,SE_Ethanol_Diesel_Upgrade_jetfuel_production_edge,EthanolUpgrade,flow,504,0.0,,SE,0.0
+JetFuel,flow,SE_Ethanol_Gasoline_Upgrade_transforms,jetfuel_SE,SE_Ethanol_Gasoline_Upgrade,SE_Ethanol_Gasoline_Upgrade_jetfuel_production_edge,EthanolUpgrade,flow,504,0.0,,SE,0.0
+JetFuel,flow,SE_Ethanol_JetFuel_Upgrade_transforms,jetfuel_SE,SE_Ethanol_JetFuel_Upgrade,SE_Ethanol_JetFuel_Upgrade_jetfuel_production_edge,EthanolUpgrade,flow,504,-1.7345564487645246e-10,,SE,-1.7345564487645246e-10
+JetFuel,flow,SE_Ethanol_Multiproduct_Upgrade_transforms,jetfuel_SE,SE_Ethanol_Multiproduct_Upgrade,SE_Ethanol_Multiproduct_Upgrade_jetfuel_production_edge,EthanolUpgrade,flow,504,0.0,,SE,0.0
+JetFuel,flow,SE_JetFuel_Fossil_Upstream_transforms,jetfuel_SE,SE_JetFuel_Fossil_Upstream,SE_JetFuel_Fossil_Upstream_fuel_edge,FossilFuelsUpstream{LiquidFuels},flow,504,346047.97650962387,,SE,346047.97650962387
+JetFuel,flow,SE_Synthetic_FT_transforms,jetfuel_SE,SE_Synthetic_FT,SE_Synthetic_FT_jetfuel_edge,SyntheticLiquidFuels,flow,504,0.0,,SE,0.0
+JetFuel,flow,jetfuel_SE,SE_JetFuel_Use_transforms,SE_JetFuel_Use,SE_JetFuel_Use_fuel_edge,FuelsEndUse{UserAdditions.JetFuel},flow,504,152215333.20839998,,SE,-152215333.20839998

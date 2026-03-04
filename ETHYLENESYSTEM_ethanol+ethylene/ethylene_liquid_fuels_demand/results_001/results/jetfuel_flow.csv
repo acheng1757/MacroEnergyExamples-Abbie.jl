@@ -1,0 +1,12 @@
+,commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight,zone,weighted_value_flow
+0,JetFuel,flow,SE_BECCS_FT_Herb_transforms,jetfuel_SE,SE_BECCS_FT_Herb,SE_BECCS_FT_Herb_jetfuel_edge,BECCSLiquidFuels,flow,504,0.0,,SE,0.0
+1,JetFuel,flow,SE_BECCS_FT_Wood_transforms,jetfuel_SE,SE_BECCS_FT_Wood,SE_BECCS_FT_Wood_jetfuel_edge,BECCSLiquidFuels,flow,504,3911207.2763211126,,SE,3911207.2763211126
+2,JetFuel,flow,SE_Bio_FT_Herb_transforms,jetfuel_SE,SE_Bio_FT_Herb,SE_Bio_FT_Herb_jetfuel_edge,BECCSLiquidFuels,flow,504,0.0,,SE,0.0
+3,JetFuel,flow,SE_Bio_FT_Wood_transforms,jetfuel_SE,SE_Bio_FT_Wood,SE_Bio_FT_Wood_jetfuel_edge,BECCSLiquidFuels,flow,504,0.0,,SE,0.0
+4,JetFuel,flow,SE_Ethanol_Diesel_Upgrade_transforms,jetfuel_SE,SE_Ethanol_Diesel_Upgrade,SE_Ethanol_Diesel_Upgrade_jetfuel_production_edge,EthanolUpgrade,flow,504,0.0,,SE,0.0
+5,JetFuel,flow,SE_Ethanol_Gasoline_Upgrade_transforms,jetfuel_SE,SE_Ethanol_Gasoline_Upgrade,SE_Ethanol_Gasoline_Upgrade_jetfuel_production_edge,EthanolUpgrade,flow,504,0.0,,SE,0.0
+6,JetFuel,flow,SE_Ethanol_JetFuel_Upgrade_transforms,jetfuel_SE,SE_Ethanol_JetFuel_Upgrade,SE_Ethanol_JetFuel_Upgrade_jetfuel_production_edge,EthanolUpgrade,flow,504,468792.7236788854,,SE,468792.7236788854
+7,JetFuel,flow,SE_Ethanol_Multiproduct_Upgrade_transforms,jetfuel_SE,SE_Ethanol_Multiproduct_Upgrade,SE_Ethanol_Multiproduct_Upgrade_jetfuel_production_edge,EthanolUpgrade,flow,504,0.0,,SE,0.0
+8,JetFuel,flow,SE_JetFuel_Fossil_Upstream_transforms,jetfuel_SE,SE_JetFuel_Fossil_Upstream,SE_JetFuel_Fossil_Upstream_fuel_edge,FossilFuelsUpstream{LiquidFuels},flow,504,1.7752377345914285e-09,,SE,1.7752377345914285e-09
+9,JetFuel,flow,SE_Synthetic_FT_transforms,jetfuel_SE,SE_Synthetic_FT,SE_Synthetic_FT_jetfuel_edge,SyntheticLiquidFuels,flow,504,0.0,,SE,0.0
+10,JetFuel,flow,jetfuel_SE,SE_JetFuel_Use_transforms,SE_JetFuel_Use,SE_JetFuel_Use_fuel_edge,FuelsEndUse{UserAdditions.JetFuel},flow,504,4380000.0,,SE,-4380000.0

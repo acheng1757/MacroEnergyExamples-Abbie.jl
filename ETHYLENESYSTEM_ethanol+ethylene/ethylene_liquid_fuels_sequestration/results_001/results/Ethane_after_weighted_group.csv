@@ -1,0 +1,8 @@
+commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight
+Ethane,flow,SE_Ethane_Fossil_Upstream_transforms,ethane_SE,SE_Ethane_Fossil_Upstream,SE_Ethane_Fossil_Upstream_fuel_edge,FossilFuelsUpstream{Ethane},flow,504,2.2244115438325135e-09,
+Ethane,flow,ethane_SE,SE_ESC_transforms,SE_ESC,SE_ESC_ethane_consumption_edge,SteamCracker,flow,504,0.0,
+Ethane,flow,ethane_SE,SE_TSC_CCS_90_H2prod_transforms,SE_TSC_CCS_90_H2prod,SE_TSC_CCS_90_H2prod_ethane_consumption_edge,SteamCracker,flow,504,4.938365396539364e-11,
+Ethane,flow,ethane_SE,SE_TSC_CCS_90_transforms,SE_TSC_CCS_90,SE_TSC_CCS_90_ethane_consumption_edge,SteamCracker,flow,504,2.17502788986712e-09,
+Ethane,flow,ethane_SE,SE_TSC_Non_CCS_H2fuel_transforms,SE_TSC_Non_CCS_H2fuel,SE_TSC_Non_CCS_H2fuel_ethane_consumption_edge,SteamCracker,flow,504,0.0,
+Ethane,flow,ethane_SE,SE_TSC_Non_CCS_H2prod_transforms,SE_TSC_Non_CCS_H2prod,SE_TSC_Non_CCS_H2prod_ethane_consumption_edge,SteamCracker,flow,504,0.0,
+Ethane,flow,ethane_SE,SE_TSC_Non_CCS_transforms,SE_TSC_Non_CCS,SE_TSC_Non_CCS_ethane_consumption_edge,SteamCracker,flow,504,0.0,

@@ -1,0 +1,11 @@
+,commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight,zone,weighted_value_flow
+0,Biomass_Herb,flow,bioherb_SE,SE_BECCS_Electricity_Herb_transforms,SE_BECCS_Electricity_Herb,SE_BECCS_Electricity_Herb_biomass_edge,BECCSElectricity,flow,504,0.0,,SE,-0.0
+1,Biomass_Herb,flow,bioherb_SE,SE_BECCS_FT_Herb_transforms,SE_BECCS_FT_Herb,SE_BECCS_FT_Herb_biomass_edge,BECCSLiquidFuels,flow,504,0.0,,SE,-0.0
+2,Biomass_Herb,flow,bioherb_SE,SE_BECCS_H2_Herb_transforms,SE_BECCS_H2_Herb,SE_BECCS_H2_Herb_biomass_edge,BECCSHydrogen,flow,504,0.0,,SE,-0.0
+3,Biomass_Herb,flow,bioherb_SE,SE_BECCS_NaturalGas_Herb_transforms,SE_BECCS_NaturalGas_Herb,SE_BECCS_NaturalGas_Herb_biomass_edge,BECCSNaturalGas,flow,504,0.0,,SE,-0.0
+4,Biomass_Herb,flow,bioherb_SE,SE_Bio_FT_Herb_transforms,SE_Bio_FT_Herb,SE_Bio_FT_Herb_biomass_edge,BECCSLiquidFuels,flow,504,0.0,,SE,-0.0
+5,Biomass_Herb,flow,bioherb_SE,SE_Bio_Gasoline_Herb_transforms,SE_Bio_Gasoline_Herb,SE_Bio_Gasoline_Herb_biomass_edge,BECCSGasoline,flow,504,0.0,,SE,-0.0
+6,Biomass_Herb,flow,bioherb_SE,SE_Bio_NaturalGas_Herb_transforms,SE_Bio_NaturalGas_Herb,SE_Bio_NaturalGas_Herb_biomass_edge,BECCSNaturalGas,flow,504,0.0,,SE,-0.0
+7,Biomass_Herb,flow,bioherb_SE,SE_Biochemical_CCS_20_transforms,SE_Biochemical_CCS_20,SE_Biochemical_CCS_20_biomass_consumption_edge,BioEthanol,flow,504,0.0,,SE,-0.0
+8,Biomass_Herb,flow,bioherb_SE,SE_Biochemical_CCS_86_transforms,SE_Biochemical_CCS_86,SE_Biochemical_CCS_86_biomass_consumption_edge,BioEthanol,flow,504,69756931.2,,SE,-69756931.2
+9,Biomass_Herb,flow,bioherb_SE,SE_Biochemical_Non_CCS_transforms,SE_Biochemical_Non_CCS,SE_Biochemical_Non_CCS_biomass_consumption_edge,BioEthanol,flow,504,0.0,,SE,-0.0

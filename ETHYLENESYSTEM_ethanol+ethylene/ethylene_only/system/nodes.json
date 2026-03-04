@@ -286,7 +286,7 @@
                         "CO2CapConstraint": true
                     },
                     "rhs_policy": {
-                        "CO2CapConstraint": 2
+                        "CO2CapConstraint": 5
                     }
                 }
             ]
@@ -320,10 +320,10 @@
                 {
                     "id": "co2_storage_SE_1",
                     "constraints": {
-                        "CO2StorageConstraint": true
+                        "CO2StorageConstraint": false
                     },
                     "rhs_policy": {
-                        "CO2StorageConstraint": 4753600
+                        "CO2StorageConstraint": 475360000000000000000000000000000000000000000000000000000000000000000000
                     }
                 },
                 {

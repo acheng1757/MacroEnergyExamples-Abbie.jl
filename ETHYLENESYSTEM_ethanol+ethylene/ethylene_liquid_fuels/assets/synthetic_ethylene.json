@@ -72,7 +72,7 @@
                             "availability": {
                                 "timeseries": {
                                     "path": "system/availability.csv",
-                                    "header": "SE_Synthetic_NaturalGas"
+                                    "header": "SE_Synthetic_Ethylene"
                                     }
                                 },
                             "investment_cost": 174237.6587,

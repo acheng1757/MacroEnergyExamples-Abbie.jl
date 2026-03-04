@@ -1,0 +1,11 @@
+,commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight,zone,weighted_value_flow
+0,Ethanol,flow,SE_Biochemical_CCS_20_transforms,ethanol_SE,SE_Biochemical_CCS_20,SE_Biochemical_CCS_20_ethanol_production_edge,BioEthanol,flow,504,0.0,,SE,0.0
+1,Ethanol,flow,SE_Biochemical_CCS_86_transforms,ethanol_SE,SE_Biochemical_CCS_86,SE_Biochemical_CCS_86_ethanol_production_edge,BioEthanol,flow,504,108186024.59808,,SE,108186024.59808
+2,Ethanol,flow,SE_Biochemical_Non_CCS_transforms,ethanol_SE,SE_Biochemical_Non_CCS,SE_Biochemical_Non_CCS_ethanol_production_edge,BioEthanol,flow,504,0.0,,SE,0.0
+3,Ethanol,flow,SE_DryMill_Existing_Non_CCS_transforms,ethanol_SE,SE_DryMill_Existing_Non_CCS,SE_DryMill_Existing_Non_CCS_ethanol_production_edge,BioEthanol,flow,504,25701840.0,,SE,25701840.0
+4,Ethanol,flow,ethanol_SE,SE_Ethanol_Dehydration_H2fuel_transforms,SE_Ethanol_Dehydration_H2fuel,SE_Ethanol_Dehydration_H2fuel_ethanol_consumption_edge,EthanolDehydration,flow,504,0.0,,SE,-0.0
+5,Ethanol,flow,ethanol_SE,SE_Ethanol_Dehydration_NGfuel_transforms,SE_Ethanol_Dehydration_NGfuel,SE_Ethanol_Dehydration_NGfuel_ethanol_consumption_edge,EthanolDehydration,flow,504,0.0,,SE,-0.0
+6,Ethanol,flow,ethanol_SE,SE_Ethanol_Diesel_Upgrade_transforms,SE_Ethanol_Diesel_Upgrade,SE_Ethanol_Diesel_Upgrade_ethanol_consumption_edge,EthanolUpgrade,flow,504,0.0,,SE,-0.0
+7,Ethanol,flow,ethanol_SE,SE_Ethanol_Gasoline_Upgrade_transforms,SE_Ethanol_Gasoline_Upgrade,SE_Ethanol_Gasoline_Upgrade_ethanol_consumption_edge,EthanolUpgrade,flow,504,0.0,,SE,-0.0
+8,Ethanol,flow,ethanol_SE,SE_Ethanol_JetFuel_Upgrade_transforms,SE_Ethanol_JetFuel_Upgrade,SE_Ethanol_JetFuel_Upgrade_ethanol_consumption_edge,EthanolUpgrade,flow,504,0.0,,SE,-0.0
+9,Ethanol,flow,ethanol_SE,SE_Ethanol_Multiproduct_Upgrade_transforms,SE_Ethanol_Multiproduct_Upgrade,SE_Ethanol_Multiproduct_Upgrade_ethanol_consumption_edge,EthanolUpgrade,flow,504,133887864.59807998,,SE,-133887864.59807998
