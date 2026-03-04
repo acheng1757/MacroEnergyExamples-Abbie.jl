@@ -1,0 +1,2 @@
+commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight,zone,weighted_value_flow
+Ethane,flow,SE_Ethane_Fossil_Upstream_transforms,ethane_SE,SE_Ethane_Fossil_Upstream,SE_Ethane_Fossil_Upstream_fuel_edge,FossilFuelsUpstream{Ethane},flow,504,0.0,,SE,0.0

@@ -1,0 +1,8 @@
+,commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight,zone,weighted_value_flow
+0,Diesel,flow,SE_BECCS_FT_Herb_transforms,diesel_SE,SE_BECCS_FT_Herb,SE_BECCS_FT_Herb_diesel_edge,BECCSLiquidFuels,flow,504,0.0,,SE,0.0
+1,Diesel,flow,SE_BECCS_FT_Wood_transforms,diesel_SE,SE_BECCS_FT_Wood,SE_BECCS_FT_Wood_diesel_edge,BECCSLiquidFuels,flow,504,0.0,,SE,0.0
+2,Diesel,flow,SE_Bio_FT_Herb_transforms,diesel_SE,SE_Bio_FT_Herb,SE_Bio_FT_Herb_diesel_edge,BECCSLiquidFuels,flow,504,-5.2650224054625076e-11,,SE,-5.2650224054625076e-11
+3,Diesel,flow,SE_Bio_FT_Wood_transforms,diesel_SE,SE_Bio_FT_Wood,SE_Bio_FT_Wood_diesel_edge,BECCSLiquidFuels,flow,504,0.0,,SE,0.0
+4,Diesel,flow,SE_Diesel_Fossil_Upstream_transforms,diesel_SE,SE_Diesel_Fossil_Upstream,SE_Diesel_Fossil_Upstream_fuel_edge,FossilFuelsUpstream{LiquidFuels},flow,504,178717591.3152,,SE,178717591.3152
+5,Diesel,flow,SE_Synthetic_FT_transforms,diesel_SE,SE_Synthetic_FT,SE_Synthetic_FT_diesel_edge,SyntheticLiquidFuels,flow,504,-3.301365434031326e-10,,SE,-3.301365434031326e-10
+6,Diesel,flow,diesel_SE,SE_Diesel_Use_transforms,SE_Diesel_Use,SE_Diesel_Use_fuel_edge,FuelsEndUse{UserAdditions.Diesel},flow,504,178717591.3152,,SE,-178717591.3152

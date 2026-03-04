@@ -1,0 +1,4 @@
+commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight,zone,weighted_value_flow
+Ethylene,flow,SE_Ethanol_Dehydration_H2fuel_transforms,ethylene_SE,SE_Ethanol_Dehydration_H2fuel,SE_Ethanol_Dehydration_H2fuel_ethylene_production_edge,EthanolDehydration,flow,504,876000.0,,SE,876000.0
+Ethylene,flow,SE_Ethanol_Dehydration_NGfuel_transforms,ethylene_SE,SE_Ethanol_Dehydration_NGfuel,SE_Ethanol_Dehydration_NGfuel_ethylene_production_edge,EthanolDehydration,flow,504,0.0,,SE,0.0
+Ethylene,flow,ethylene_SE,SE_Ethylene_End_Use_transforms,SE_Ethylene_End_Use,SE_Ethylene_End_Use_fuel_edge,FuelsEndUse{Ethylene},flow,504,876000.0,,SE,-876000.0
