@@ -78,22 +78,6 @@
                                 "end_vertex": "diesel_demand_SE"
                             }
                         }
-                },
-                {
-                    "id": "SE_Ethanol_Use",
-                    "transforms": {
-                        "emission_rate": 0.252839756
-                    },
-                    "edges":{
-                            "fuel_edge": {
-                                "commodity": "Ethanol",
-                                "start_vertex": "ethanol_SE"
-                            },
-                            "fuel_demand_edge": {
-                                "commodity": "Ethanol",
-                                "end_vertex": "ethanol_demand_SE"
-                            }
-                        }
                 }
             ]
         }

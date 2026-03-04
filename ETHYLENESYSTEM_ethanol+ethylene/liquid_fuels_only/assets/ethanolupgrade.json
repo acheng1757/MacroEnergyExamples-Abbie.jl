@@ -69,14 +69,14 @@
                 {
                     "id": "SE_Ethanol_Gasoline_Upgrade",
                     "transforms":{
-                        "gasoline_production": 0.65997315,
-                        "jetfuel_production": 0.68040409,
-                        "diesel_production": 1.347904429,
-                        "elec_production": 0,
-                        "elec_consumption": 2.8679,
-                        "h2_consumption": 2.8679,
+                        "gasoline_production": 1.18,
+                        "jetfuel_production": 0,
+                        "diesel_production": 0,
+                        "elec_production": 0.02,
+                        "elec_consumption": 0.00,
+                        "h2_consumption": 0.00,
                         "capture_rate": 0,
-                        "emission_rate": 1.049363163
+                        "emission_rate": 0
                     },
                     "edges": {
                         "ethanol_consumption_edge": {
@@ -88,9 +88,9 @@
                                     "header": "SE_Bio_FT_Herb"
                                     }
                                 },
-                            "investment_cost": 492864.96,
-                            "fixed_om_cost": 547339.52,
-                            "variable_om_cost": 0,
+                            "investment_cost": 79558.38,
+                            "fixed_om_cost": 0,
+                            "variable_om_cost": 7.99,
                             "min_flow_fraction": 0.85
                         },
                         "h2_consumption_edge": {
@@ -119,14 +119,14 @@
                 {
                     "id": "SE_Ethanol_Diesel_Upgrade",
                     "transforms":{
-                        "gasoline_production": 0.65997315,
-                        "jetfuel_production": 0.68040409,
-                        "diesel_production": 1.347904429,
-                        "elec_production": 0,
-                        "elec_consumption": 2.8679,
-                        "h2_consumption": 2.8679,
+                        "gasoline_production": 0,
+                        "jetfuel_production": 0,
+                        "diesel_production": 1.01,
+                        "elec_production": 0.01,
+                        "elec_consumption": 0,
+                        "h2_consumption": 0.01,
                         "capture_rate": 0,
-                        "emission_rate": 1.049363163
+                        "emission_rate": 0
                     },
                     "edges": {
                         "ethanol_consumption_edge": {
@@ -138,9 +138,9 @@
                                     "header": "SE_Bio_FT_Herb"
                                     }
                                 },
-                            "investment_cost": 492864.96,
-                            "fixed_om_cost": 547339.52,
-                            "variable_om_cost": 0,
+                            "investment_cost": 87415.99,
+                            "fixed_om_cost": 0,
+                            "variable_om_cost": 12.90,
                             "min_flow_fraction": 0.85
                         },
                         "h2_consumption_edge": {
@@ -169,14 +169,14 @@
                 {
                     "id": "SE_Ethanol_JetFuel_Upgrade",
                     "transforms":{
-                        "gasoline_production": 0.65997315,
-                        "jetfuel_production": 0.68040409,
-                        "diesel_production": 1.347904429,
-                        "elec_production": 0,
-                        "elec_consumption": 2.8679,
-                        "h2_consumption": 2.8679,
+                        "gasoline_production": 0,
+                        "jetfuel_production": 0.96,
+                        "diesel_production": 0,
+                        "elec_production": 0.03,
+                        "elec_consumption": 0,
+                        "h2_consumption": 0.02,
                         "capture_rate": 0,
-                        "emission_rate": 1.049363163
+                        "emission_rate": 0
                     },
                     "edges": {
                         "ethanol_consumption_edge": {
@@ -188,9 +188,9 @@
                                     "header": "SE_Bio_FT_Herb"
                                     }
                                 },
-                            "investment_cost": 492864.96,
-                            "fixed_om_cost": 547339.52,
-                            "variable_om_cost": 0,
+                            "investment_cost": 115801.64,
+                            "fixed_om_cost": 0,
+                            "variable_om_cost": 16.27,
                             "min_flow_fraction": 0.85
                         },
                         "h2_consumption_edge": {
@@ -219,14 +219,14 @@
                 {
                     "id": "SE_Ethanol_Multiproduct_Upgrade",
                     "transforms":{
-                        "gasoline_production": 0.65997315,
-                        "jetfuel_production": 0.68040409,
-                        "diesel_production": 1.347904429,
-                        "elec_production": 0,
-                        "elec_consumption": 2.8679,
-                        "h2_consumption": 2.8679,
+                        "gasoline_production": 1.10,
+                        "jetfuel_production": 0,
+                        "diesel_production": 0.09,
+                        "elec_production": 0.02,
+                        "elec_consumption": 0,
+                        "h2_consumption": 0.00,
                         "capture_rate": 0,
-                        "emission_rate": 1.049363163
+                        "emission_rate": 0
                     },
                     "edges": {
                         "ethanol_consumption_edge": {
@@ -238,9 +238,9 @@
                                     "header": "SE_Bio_FT_Herb"
                                     }
                                 },
-                            "investment_cost": 492864.96,
-                            "fixed_om_cost": 547339.52,
-                            "variable_om_cost": 0,
+                            "investment_cost": 81129.90,
+                            "fixed_om_cost": 0,
+                            "variable_om_cost": 8.66,
                             "min_flow_fraction": 0.85
                         },
                         "h2_consumption_edge": {
