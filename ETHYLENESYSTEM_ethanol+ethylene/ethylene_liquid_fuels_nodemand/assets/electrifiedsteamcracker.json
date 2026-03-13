@@ -1,0 +1,122 @@
+{
+    "ElectrifiedSteamCracker": [
+        {
+            "type": "SteamCracker",
+            "global_data":{
+                "transforms": {
+                    "timedata": "Ethane",
+                    "constraints": {
+                            "BalanceConstraint": true
+                    }
+                },
+                "edges":{
+                    "elec_consumption_edge":{
+                        "commodity": "Electricity",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "h2_consumption_edge":{
+                        "commodity": "Hydrogen",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "h2_production_edge":{
+                        "commodity": "Hydrogen",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "natgas_consumption_edge":{
+                        "commodity": "NaturalGas",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "natgas_production_edge":{
+                        "commodity": "NaturalGas",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "ethylene_production_edge":{
+                        "commodity": "Ethylene",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "ethane_consumption_edge":{
+                        "commodity": "Ethane",
+                        "unidirectional": true,
+                        "has_capacity": true,
+                        "can_expand": true,
+                        "can_retire": true,
+                        "integer_decisions": false,
+                        "constraints": {
+                            "CapacityConstraint": true,
+                            "MinFlowConstraint": true
+                        }
+                    },
+                    "co2_emission_edge": {
+                        "commodity": "CO2",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "co2_sink"
+                    },
+                    "co2_captured_edge": {
+                        "commodity": "CO2Captured",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    }
+                }
+            },
+            "instance_data":[
+                {
+                    "id": "SE_ESC",
+                    "transforms":{
+                        "h2_consumption": 0,
+                        "h2_production": 0.1625430178,
+                        "elec_consumption": 0.1913546999,
+                        "ethylene_production": 0.05309410232,
+                        "natgas_consumption": 0,
+                        "natgas_production": 0.03802392624,
+                        "capture_rate": 0,
+                        "emission_rate": 0.04805965907
+                    },
+                    "edges": {
+                        "ethane_consumption_edge": {
+                            "commodity": "Ethane",
+                            "start_vertex": "ethane_SE",
+                            "availability": {
+                                "timeseries": {
+                                    "path": "system/availability.csv",
+                                    "header": "SE_Bio_FT_Herb"
+                                    }
+                                },
+                            "investment_cost": 97027.81279,
+                            "fixed_om_cost": 53130.71866,
+                            "variable_om_cost": 1.640708502,
+                            "min_flow_fraction": 0.8
+                        },
+                        "elec_consumption_edge": {
+                            "start_vertex": "elec_SE"
+                        },
+                        "h2_consumption_edge": {
+                            "start_vertex": "h2_SE"
+                        },
+                        "h2_production_edge": {
+                            "end_vertex": "h2_SE"
+                        },
+                        "natgas_consumption_edge": {
+                            "start_vertex": "natgas_SE"
+                        },
+                        "natgas_production_edge": {
+                            "end_vertex": "natgas_SE"
+                        },
+                        "ethylene_production_edge":{
+                            "end_vertex": "ethylene_SE"
+                        },
+                        "co2_captured_edge": {
+                            "end_vertex": "co2_captured_SE"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

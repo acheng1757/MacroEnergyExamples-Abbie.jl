@@ -1,0 +1,12 @@
+,commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight,zone,weighted_value_flow
+0,Gasoline,flow,SE_BECCS_FT_Herb_transforms,gasoline_SE,SE_BECCS_FT_Herb,SE_BECCS_FT_Herb_gasoline_edge,BECCSLiquidFuels,flow,504,24689213.166063998,,SE,24689213.166063998
+1,Gasoline,flow,SE_BECCS_FT_Wood_transforms,gasoline_SE,SE_BECCS_FT_Wood,SE_BECCS_FT_Wood_gasoline_edge,BECCSLiquidFuels,flow,504,9402723.791053448,,SE,9402723.791053448
+2,Gasoline,flow,SE_Bio_FT_Herb_transforms,gasoline_SE,SE_Bio_FT_Herb,SE_Bio_FT_Herb_gasoline_edge,BECCSLiquidFuels,flow,504,-3.124549663990081e-11,,SE,-3.124549663990081e-11
+3,Gasoline,flow,SE_Bio_FT_Wood_transforms,gasoline_SE,SE_Bio_FT_Wood,SE_Bio_FT_Wood_gasoline_edge,BECCSLiquidFuels,flow,504,-8.593026199272343e-12,,SE,-8.593026199272343e-12
+4,Gasoline,flow,SE_Bio_Gasoline_Herb_transforms,gasoline_SE,SE_Bio_Gasoline_Herb,SE_Bio_Gasoline_Herb_gasoline_edge,BECCSGasoline,flow,504,20612642.82454333,,SE,20612642.82454333
+5,Gasoline,flow,SE_Bio_Gasoline_Wood_transforms,gasoline_SE,SE_Bio_Gasoline_Wood,SE_Bio_Gasoline_Wood_gasoline_edge,BECCSGasoline,flow,504,-4.268124650161525e-10,,SE,-4.268124650161525e-10
+6,Gasoline,flow,SE_Gasoline_Fossil_Upstream_transforms,gasoline_SE,SE_Gasoline_Fossil_Upstream,SE_Gasoline_Fossil_Upstream_fuel_edge,FossilFuelsUpstream{LiquidFuels},flow,504,289394377.1031619,,SE,289394377.1031619
+7,Gasoline,flow,SE_Synthetic_FT_transforms,gasoline_SE,SE_Synthetic_FT,SE_Synthetic_FT_gasoline_edge,SyntheticLiquidFuels,flow,504,-5.190146103547217e-12,,SE,-5.190146103547217e-12
+8,Gasoline,flow,Synthetic_Ethylene_CCS_90_transforms,gasoline_SE,Synthetic_Ethylene_CCS_90,Synthetic_Ethylene_CCS_90_gasoline_production_edge,SyntheticEthylene,flow,504,36803933.04077733,,SE,36803933.04077733
+9,Gasoline,flow,Synthetic_Ethylene_Non_CCS_transforms,gasoline_SE,Synthetic_Ethylene_Non_CCS,Synthetic_Ethylene_Non_CCS_gasoline_production_edge,SyntheticEthylene,flow,504,0.0,,SE,0.0
+10,Gasoline,flow,gasoline_SE,SE_Gasoline_Use_transforms,SE_Gasoline_Use,SE_Gasoline_Use_fuel_edge,FuelsEndUse{UserAdditions.Gasoline},flow,504,380902889.9256,,SE,-380902889.9256

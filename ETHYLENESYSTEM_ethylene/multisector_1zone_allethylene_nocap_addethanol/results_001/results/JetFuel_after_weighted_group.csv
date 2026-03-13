@@ -1,0 +1,8 @@
+commodity,commodity_subtype,node_in,node_out,resource_id,component_id,type,variable,time,weighted_value,time_weight
+JetFuel,flow,SE_BECCS_FT_Herb_transforms,jetfuel_SE,SE_BECCS_FT_Herb,SE_BECCS_FT_Herb_jetfuel_edge,BECCSLiquidFuels,flow,504,110233596.097891,
+JetFuel,flow,SE_BECCS_FT_Wood_transforms,jetfuel_SE,SE_BECCS_FT_Wood,SE_BECCS_FT_Wood_jetfuel_edge,BECCSLiquidFuels,flow,504,41981737.110509,
+JetFuel,flow,SE_Bio_FT_Herb_transforms,jetfuel_SE,SE_Bio_FT_Herb,SE_Bio_FT_Herb_jetfuel_edge,BECCSLiquidFuels,flow,504,-3.221277063751725e-11,
+JetFuel,flow,SE_Bio_FT_Wood_transforms,jetfuel_SE,SE_Bio_FT_Wood,SE_Bio_FT_Wood_jetfuel_edge,BECCSLiquidFuels,flow,504,-8.859042479928248e-12,
+JetFuel,flow,SE_JetFuel_Fossil_Upstream_transforms,jetfuel_SE,SE_JetFuel_Fossil_Upstream,SE_JetFuel_Fossil_Upstream_fuel_edge,FossilFuelsUpstream{LiquidFuels},flow,504,-5.537861260612895e-11,
+JetFuel,flow,SE_Synthetic_FT_transforms,jetfuel_SE,SE_Synthetic_FT,SE_Synthetic_FT_jetfuel_edge,SyntheticLiquidFuels,flow,504,-8.85904247992825e-12,
+JetFuel,flow,jetfuel_SE,SE_JetFuel_Use_transforms,SE_JetFuel_Use,SE_JetFuel_Use_fuel_edge,FuelsEndUse{UserAdditions.JetFuel},flow,504,152215333.20839998,
