@@ -1,0 +1,194 @@
+{
+  "naturalgas_h2_ccs": [
+    {
+      "type": "ThermalHydrogenCCS",
+      "global_data": {
+        "fuel_commodity": "NaturalGas",
+        "co2_sink": "co2_sink",
+        "uc": true,
+        "h2_constraints": {
+          "CapacityConstraint": true,
+          "RampingLimitConstraint": true,
+          "MinFlowConstraint": true,
+          "MinUpTimeConstraint": true,
+          "MinDownTimeConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "SE_ATR_wCCS_94pct",
+          "location": "SE",
+          "electricity_consumption": 0.10154861640010154,
+          "fuel_consumption": 1.2995394262503173,
+          "investment_cost": 57483.31970043158,
+          "fixed_om_cost": 23286.359619192688,
+          "variable_om_cost": 9.26001523229246,
+          "capacity_size": 1083.225,
+          "ramp_up_fraction": 0.5,
+          "ramp_down_fraction": 0.5,
+          "min_flow_fraction": 0.85,
+          "startup_cost": 0.2538715410002539,
+          "min_up_time": 22,
+          "min_down_time": 12,
+          "can_expand": true,
+          "can_retire": true,
+          "emission_rate": 0.009957653,
+          "capture_rate": 0.171090582,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_ATR_wCCS_94pct"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_ATR_wCCS_94pct",
+          "location": "MIDAT",
+          "electricity_consumption": 0.10154861640010154,
+          "fuel_consumption": 1.2995394262503173,
+          "investment_cost": 57483.31970043158,
+          "fixed_om_cost": 23286.359619192688,
+          "variable_om_cost": 9.26001523229246,
+          "capacity_size": 1083.225,
+          "ramp_up_fraction": 0.5,
+          "ramp_down_fraction": 0.5,
+          "min_flow_fraction": 0.85,
+          "startup_cost": 0.2538715410002539,
+          "min_up_time": 22,
+          "min_down_time": 12,
+          "can_expand": true,
+          "can_retire": true,
+          "emission_rate": 0.009957653,
+          "capture_rate": 0.171090582,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "MIDAT_ATR_wCCS_94pct"
+            }
+          }
+        },
+        {
+          "id": "NE_ATR_wCCS_94pct",
+          "location": "NE",
+          "electricity_consumption": 0.10154861640010154,
+          "fuel_consumption": 1.2995394262503173,
+          "investment_cost": 57483.31970043158,
+          "fixed_om_cost": 23286.359619192688,
+          "variable_om_cost": 9.26001523229246,
+          "capacity_size": 1083.225,
+          "ramp_up_fraction": 0.5,
+          "ramp_down_fraction": 0.5,
+          "min_flow_fraction": 0.85,
+          "startup_cost": 0.2538715410002539,
+          "min_up_time": 22,
+          "min_down_time": 12,
+          "can_expand": true,
+          "can_retire": true,
+          "emission_rate": 0.009957653,
+          "capture_rate": 0.171090582,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NE_ATR_wCCS_94pct"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ThermalHydrogenCCS",
+      "global_data": {
+        "fuel_commodity": "NaturalGas",
+        "co2_sink": "co2_sink",
+        "uc": true,
+        "h2_constraints": {
+          "CapacityConstraint": true,
+          "RampingLimitConstraint": true,
+          "MinFlowConstraint": true,
+          "MinUpTimeConstraint": true,
+          "MinDownTimeConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "SE_Large_SMR_wCCS_96pct",
+          "location": "SE",
+          "electricity_consumption": 0.05171363290175171,
+          "fuel_consumption": 1.3826341964965727,
+          "investment_cost": 72729.17925869509,
+          "fixed_om_cost": 30021.9427011932,
+          "variable_om_cost": 6.2663061690784465,
+          "capacity_size": 791.739,
+          "ramp_up_fraction": 0.5,
+          "ramp_down_fraction": 0.5,
+          "min_flow_fraction": 0.85,
+          "startup_cost": 0.2538715410002539,
+          "min_up_time": 3,
+          "min_down_time": 3,
+          "can_expand": true,
+          "can_retire": true,
+          "emission_rate": 0.006879833,
+          "capture_rate": 0.174168402,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_Large_SMR_wCCS_96pct"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Large_SMR_wCCS_96pct",
+          "location": "MIDAT",
+          "electricity_consumption": 0.05171363290175171,
+          "fuel_consumption": 1.3826341964965727,
+          "investment_cost": 72729.17925869509,
+          "fixed_om_cost": 30021.9427011932,
+          "variable_om_cost": 6.2663061690784465,
+          "capacity_size": 791.739,
+          "ramp_up_fraction": 0.5,
+          "ramp_down_fraction": 0.5,
+          "min_flow_fraction": 0.85,
+          "startup_cost": 0.2538715410002539,
+          "min_up_time": 3,
+          "min_down_time": 3,
+          "can_expand": true,
+          "can_retire": true,
+          "emission_rate": 0.006879833,
+          "capture_rate": 0.174168402,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "MIDAT_Large_SMR_wCCS_96pct"
+            }
+          }
+        },
+        {
+          "id": "NE_Large_SMR_wCCS_96pct",
+          "location": "NE",
+          "electricity_consumption": 0.05171363290175171,
+          "fuel_consumption": 1.3826341964965727,
+          "investment_cost": 72729.17925869509,
+          "fixed_om_cost": 30021.9427011932,
+          "variable_om_cost": 6.2663061690784465,
+          "capacity_size": 791.739,
+          "ramp_up_fraction": 0.5,
+          "ramp_down_fraction": 0.5,
+          "min_flow_fraction": 0.85,
+          "startup_cost": 0.2538715410002539,
+          "min_up_time": 3,
+          "min_down_time": 3,
+          "can_expand": true,
+          "can_retire": true,
+          "emission_rate": 0.006879833,
+          "capture_rate": 0.174168402,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NE_Large_SMR_wCCS_96pct"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
