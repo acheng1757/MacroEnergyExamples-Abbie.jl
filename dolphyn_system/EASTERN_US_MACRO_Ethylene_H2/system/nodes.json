@@ -285,7 +285,7 @@
                     1
                 ],
                 "price_nsd": [
-                    5000.0
+                    50000.0
                 ],
                 "constraints": {
                     "BalanceConstraint": true,
@@ -300,7 +300,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Demand_Zero"
+                            "header": "Hydrogen_Demand_MW_SE"
                         }
                     }
                 },
@@ -310,7 +310,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Demand_Zero"
+                            "header": "Hydrogen_Demand_MW_MIDAT"
                         }
                     }
                 },
@@ -320,7 +320,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Demand_Zero"
+                            "header": "Hydrogen_Demand_MW_NE"
                         }
                     }
                 }
@@ -335,7 +335,7 @@
                 {
                     "id": "co2_sink",
                     "constraints": {
-                        "CO2CapConstraint": false
+                        "CO2CapConstraint": true
                     },
                     "rhs_policy": {
                         "CO2CapConstraint": 0

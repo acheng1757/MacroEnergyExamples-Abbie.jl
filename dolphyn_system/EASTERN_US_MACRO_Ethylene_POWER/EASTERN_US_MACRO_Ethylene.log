@@ -34,3 +34,5 @@
 2026-03-13 19:46:30 | INFO | 1 | MacroEnergy | write_duals.jl:116 | Writing balance constraint dual values to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/dolphyn_system/EASTERN_US_MACRO_Ethylene/results_001/results
 2026-03-13 19:46:30 | INFO | 1 | MacroEnergy | write_duals.jl:190 | Writing CO2 cap constraint dual values to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/dolphyn_system/EASTERN_US_MACRO_Ethylene/results_001/results
 2026-03-13 19:46:30 | INFO | 1 | MacroEnergy | write_duals.jl:234 | No CO2 cap constraints found to export
+2026-03-13 19:54:36 | WARN | 1 | Revise | packagedef.jl:748 | /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/dolphyn_system/EASTERN_US_MACRO_Ethylene/tmp/UserAdditions.jl no longer exists, deleted all methods
+2026-03-13 19:54:36 | WARN | 1 | Revise | packagedef.jl:748 | /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/dolphyn_system/EASTERN_US_MACRO_Ethylene/tmp/usersubcommodities.jl no longer exists, deleted all methods
