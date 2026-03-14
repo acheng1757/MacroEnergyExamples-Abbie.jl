@@ -33,7 +33,7 @@
         },
         {
           "type": "BECCSNaturalGas",
-          "id": "SE_BECCS_Biogas_Herb",
+          "id": "MIDAT_BECCS_Biogas_Herb",
           "location": "MIDAT",
           "biomass_commodity": "Biomass_Herb",
           "co2_content": 1.4379558,
@@ -55,7 +55,7 @@
         },
         {
           "type": "BECCSNaturalGas",
-          "id": "SE_BECCS_Biogas_Herb",
+          "id": "NE_BECCS_Biogas_Herb",
           "location": "NE",
           "biomass_commodity": "Biomass_Herb",
           "co2_content": 1.4379558,
@@ -99,7 +99,7 @@
         },
         {
           "type": "BECCSNaturalGas",
-          "id": "SE_BECCS_Biogas_Wood",
+          "id": "MIDAT_BECCS_Biogas_Wood",
           "location": "MIDAT",
           "biomass_commodity": "Biomass_Wood",
           "co2_content": 1.4379558,
@@ -121,7 +121,7 @@
         },
         {
           "type": "BECCSNaturalGas",
-          "id": "SE_BECCS_Biogas_Wood",
+          "id": "NE_BECCS_Biogas_Wood",
           "location": "NE",
           "biomass_commodity": "Biomass_Wood",
           "co2_content": 1.4379558,
