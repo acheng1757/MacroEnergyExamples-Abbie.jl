@@ -1,0 +1,40 @@
+{
+  "CO2Injection": [
+    {
+      "type": "CO2Injection",
+      "global_data": {
+        "timedata": "CO2Captured"
+      },
+      "instance_data": [
+        {
+          "id": "SE_CO2_Injection_SE_GEO_SEQ_1",
+          "co2_source": "co2_captured_SE",
+          "co2_storage": "co2_storage_SE_GEO_SEQ_1",
+          "existing_capacity": 31124.8,
+          "variable_om_cost": 12.26
+        },
+        {
+          "id": "SE_CO2_Injection_SE_GEO_SEQ_2",
+          "co2_source": "co2_captured_SE",
+          "co2_storage": "co2_storage_SE_GEO_SEQ_2",
+          "existing_capacity": 311.0,
+          "variable_om_cost": 13.0
+        },
+        {
+          "id": "MIDAT_CO2_Injection_MIDAT_GEO_SEQ_1",
+          "co2_source": "co2_captured_MIDAT",
+          "co2_storage": "co2_storage_MIDAT_GEO_SEQ_1",
+          "existing_capacity": 1155.0,
+          "variable_om_cost": 11.56
+        },
+        {
+          "id": "MIDAT_CO2_Injection_MIDAT_GEO_SEQ_2",
+          "co2_source": "co2_captured_MIDAT",
+          "co2_storage": "co2_storage_MIDAT_GEO_SEQ_2",
+          "existing_capacity": 800.0,
+          "variable_om_cost": 15.0
+        }
+      ]
+    }
+  ]
+}
