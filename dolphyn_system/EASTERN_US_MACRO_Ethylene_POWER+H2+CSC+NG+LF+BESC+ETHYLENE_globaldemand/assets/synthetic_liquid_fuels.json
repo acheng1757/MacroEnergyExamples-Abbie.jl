@@ -1,0 +1,208 @@
+{
+  "synthetic_liquid_fuels": [
+    {
+      "type": "SyntheticLiquidFuels",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "co2_captured_constraints": {
+          "MinFlowConstraint": true
+        },
+        "gasoline_commodity": "Gasoline",
+        "jetfuel_commodity": "JetFuel",
+        "diesel_commodity": "Diesel",
+        "min_flow_fraction": 0.85
+      },
+      "instance_data": [
+        {
+          "type": "SyntheticLiquidFuels",
+          "id": "SE_Synfuel_Plant",
+          "location": "SE",
+          "diesel_production": 0.5246938437959999,
+          "jetfuel_production": 0.895598112464,
+          "gasoline_production": 0.495544185612,
+          "h2_consumption": 3.679026,
+          "electricity_consumption": 0.036,
+          "investment_cost": 219430.6595,
+          "fixed_om_cost": 214160.0335,
+          "variable_om_cost": 8.52,
+          "emission_rate": 0.527155633,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "Synthetic_Fuels"
+            }
+          }
+        },
+        {
+          "type": "SyntheticLiquidFuels",
+          "id": "MIDAT_Synfuel_Plant",
+          "location": "MIDAT",
+          "diesel_production": 0.5246938437959999,
+          "jetfuel_production": 0.895598112464,
+          "gasoline_production": 0.495544185612,
+          "h2_consumption": 3.679026,
+          "electricity_consumption": 0.036,
+          "investment_cost": 219430.6595,
+          "fixed_om_cost": 214160.0335,
+          "variable_om_cost": 8.52,
+          "emission_rate": 0.527155633,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "Synthetic_Fuels"
+            }
+          }
+        },
+        {
+          "type": "SyntheticLiquidFuels",
+          "id": "NE_Synfuel_Plant",
+          "location": "NE",
+          "diesel_production": 0.5246938437959999,
+          "jetfuel_production": 0.895598112464,
+          "gasoline_production": 0.495544185612,
+          "h2_consumption": 3.679026,
+          "electricity_consumption": 0.036,
+          "investment_cost": 219430.6595,
+          "fixed_om_cost": 214160.0335,
+          "variable_om_cost": 8.52,
+          "emission_rate": 0.527155633,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "Synthetic_Fuels"
+            }
+          }
+        },
+        {
+          "type": "SyntheticLiquidFuels",
+          "id": "SE_Synfuel_Plant_wCCS_Stored_90pct",
+          "location": "SE",
+          "diesel_production": 0.5246938437959999,
+          "jetfuel_production": 0.895598112464,
+          "gasoline_production": 0.495544185612,
+          "h2_consumption": 3.679026,
+          "electricity_consumption": 0.105019391,
+          "investment_cost": 339064.8574,
+          "fixed_om_cost": 269595.0007,
+          "variable_om_cost": 9.52,
+          "emission_rate": 0.052715563,
+          "capture_rate": 0.47444007,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "Synthetic_Fuels"
+            }
+          }
+        },
+        {
+          "type": "SyntheticLiquidFuels",
+          "id": "MIDAT_Synfuel_Plant_wCCS_Stored_90pct",
+          "location": "MIDAT",
+          "diesel_production": 0.5246938437959999,
+          "jetfuel_production": 0.895598112464,
+          "gasoline_production": 0.495544185612,
+          "h2_consumption": 3.679026,
+          "electricity_consumption": 0.105019391,
+          "investment_cost": 339064.8574,
+          "fixed_om_cost": 269595.0007,
+          "variable_om_cost": 9.52,
+          "emission_rate": 0.052715563,
+          "capture_rate": 0.47444007,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "Synthetic_Fuels"
+            }
+          }
+        },
+        {
+          "type": "SyntheticLiquidFuels",
+          "id": "NE_Synfuel_Plant_wCCS_Stored_90pct",
+          "location": "NE",
+          "diesel_production": 0.5246938437959999,
+          "jetfuel_production": 0.895598112464,
+          "gasoline_production": 0.495544185612,
+          "h2_consumption": 3.679026,
+          "electricity_consumption": 0.105019391,
+          "investment_cost": 339064.8574,
+          "fixed_om_cost": 269595.0007,
+          "variable_om_cost": 9.52,
+          "emission_rate": 0.052715563,
+          "capture_rate": 0.47444007,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "Synthetic_Fuels"
+            }
+          }
+        },
+        {
+          "type": "SyntheticLiquidFuels",
+          "id": "SE_Synfuel_Plant_wCCS_Recycled_90pct",
+          "location": "SE",
+          "diesel_production": 0.9981562168439999,
+          "jetfuel_production": 1.703749404805,
+          "gasoline_production": 0.9427030936859999,
+          "h2_consumption": 6.99882934101,
+          "electricity_consumption": 0.199784616,
+          "investment_cost": 645023.1874,
+          "fixed_om_cost": 512866.5587,
+          "variable_om_cost": 18.11046061,
+          "emission_rate": 0.100480117,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "Synthetic_Fuels"
+            }
+          }
+        },
+        {
+          "type": "SyntheticLiquidFuels",
+          "id": "MIDAT_Synfuel_Plant_wCCS_Recycled_90pct",
+          "location": "MIDAT",
+          "diesel_production": 0.9981562168439999,
+          "jetfuel_production": 1.703749404805,
+          "gasoline_production": 0.9427030936859999,
+          "h2_consumption": 6.99882934101,
+          "electricity_consumption": 0.199784616,
+          "investment_cost": 645023.1874,
+          "fixed_om_cost": 512866.5587,
+          "variable_om_cost": 18.11046061,
+          "emission_rate": 0.100480117,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "Synthetic_Fuels"
+            }
+          }
+        },
+        {
+          "type": "SyntheticLiquidFuels",
+          "id": "NE_Synfuel_Plant_wCCS_Recycled_90pct",
+          "location": "NE",
+          "diesel_production": 0.9981562168439999,
+          "jetfuel_production": 1.703749404805,
+          "gasoline_production": 0.9427030936859999,
+          "h2_consumption": 6.99882934101,
+          "electricity_consumption": 0.199784616,
+          "investment_cost": 645023.1874,
+          "fixed_om_cost": 512866.5587,
+          "variable_om_cost": 18.11046061,
+          "emission_rate": 0.100480117,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "Synthetic_Fuels"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
