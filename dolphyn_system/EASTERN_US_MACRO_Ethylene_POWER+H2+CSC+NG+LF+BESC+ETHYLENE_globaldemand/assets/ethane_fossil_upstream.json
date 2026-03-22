@@ -1,0 +1,76 @@
+{
+    "EthaneFossilUpstream": [
+        {
+            "type": "FossilFuelsUpstream",
+            "global_data":{
+                "transforms": {
+                    "timedata": "Ethane",
+                    "constraints": {
+                            "BalanceConstraint": true
+                    },
+                    "emission_rate": 0
+                },
+                "edges" :{
+                    "fossil_fuel_edge": {
+                        "commodity": "Ethane",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "co2_edge": {
+                        "commodity": "CO2",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "co2_sink"
+                    },
+                    "fuel_edge": {
+                        "commodity": "Ethane",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    }
+                }
+            },
+            "instance_data":[
+                {
+                    "id": "SE_Ethane_Fossil_Upstream",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Ethane",
+                                "start_vertex": "ethane_fossil_SE"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Ethane",
+                                "end_vertex": "ethane_SE"
+                            }
+                        }
+                },
+                {
+                    "id": "MIDAT_Ethane_Fossil_Upstream",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Ethane",
+                                "start_vertex": "ethane_fossil_MIDAT"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Ethane",
+                                "end_vertex": "ethane_MIDAT"
+                            }
+                        }
+                },
+                {
+                    "id": "NE_Ethane_Fossil_Upstream",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Ethane",
+                                "start_vertex": "ethane_fossil_NE"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Ethane",
+                                "end_vertex": "ethane_NE"
+                            }
+                        }
+                }
+            ]
+        }
+    ]
+
+}
