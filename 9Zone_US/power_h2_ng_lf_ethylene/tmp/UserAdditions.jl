@@ -1,12 +1,12 @@
 module UserAdditions
 using MacroEnergy
 
-commodities_path = raw"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/power_h2_ng_lf/tmp/usersubcommodities.jl"
+commodities_path = raw"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/power_h2_ng_lf_ethylene/tmp/usersubcommodities.jl"
 if isfile(commodities_path)
     include(commodities_path)
 end
 
-assets_path = raw"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/power_h2_ng_lf/tmp/userassets.jl"
+assets_path = raw"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/power_h2_ng_lf_ethylene/tmp/userassets.jl"
 if isfile(assets_path)
     include(assets_path)
 end
