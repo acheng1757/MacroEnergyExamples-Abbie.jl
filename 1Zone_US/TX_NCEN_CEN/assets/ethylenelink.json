@@ -1,0 +1,127 @@
+{
+    "link": [
+        {
+            "type": "TransmissionLink",
+            "global_data": {
+                "edges": {
+                    "transmission_edge": {
+                        "has_capacity": true,
+                        "unidirectional": false,
+                        "can_expand": true,
+                        "can_retire": false,
+                        "integer_decisions": false,
+                        "constraints": {
+                            "CapacityConstraint": true
+                        }
+                    }
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "NE_to_MIDAT_Ethylene",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Ethylene",
+                            "start_vertex": "ethylene_NE",
+                            "end_vertex": "ethylene_MIDAT",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "MIDAT_to_SE_Ethylene",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Ethylene",
+                            "start_vertex": "ethylene_MIDAT",
+                            "end_vertex": "ethylene_SE",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "SE_to_NCEN_Ethylene",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Ethylene",
+                            "start_vertex": "ethylene_SE",
+                            "end_vertex": "ethylene_NCEN",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "NCEN_to_CEN_Ethylene",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Ethylene",
+                            "start_vertex": "ethylene_NCEN",
+                            "end_vertex": "ethylene_CEN",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "CEN_to_TX_Ethylene",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Ethylene",
+                            "start_vertex": "ethylene_CEN",
+                            "end_vertex": "ethylene_TX",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "TX_to_SW_Ethylene",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Ethylene",
+                            "start_vertex": "ethylene_TX",
+                            "end_vertex": "ethylene_SW",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "SW_to_NW_Ethylene",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Ethylene",
+                            "start_vertex": "ethylene_SW",
+                            "end_vertex": "ethylene_NW",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "NW_to_CA_Ethylene",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Ethylene",
+                            "start_vertex": "ethylene_NW",
+                            "end_vertex": "ethylene_CA",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

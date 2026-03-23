@@ -12,7 +12,7 @@
                     "price": {
                         "timeseries": {
                             "path": "system/fuel_prices.csv",
-                            "header": "ethane_CA"
+                            "header": "ethane_global"
                         }
                     }
                 },
@@ -22,7 +22,7 @@
                     "price": {
                         "timeseries": {
                             "path": "system/fuel_prices.csv",
-                            "header": "ethane_NW"
+                            "header": "ethane_global"
                         }
                     }
                 },
@@ -32,7 +32,7 @@
                     "price": {
                         "timeseries": {
                             "path": "system/fuel_prices.csv",
-                            "header": "ethane_SW"
+                            "header": "ethane_global"
                         }
                     }
                 },
@@ -42,7 +42,7 @@
                     "price": {
                         "timeseries": {
                             "path": "system/fuel_prices.csv",
-                            "header": "ethane_TX"
+                            "header": "ethane_global"
                         }
                     }
                 },
@@ -52,7 +52,7 @@
                     "price": {
                         "timeseries": {
                             "path": "system/fuel_prices.csv",
-                            "header": "ethane_NCEN"
+                            "header": "ethane_global"
                         }
                     }
                 },
@@ -62,7 +62,7 @@
                     "price": {
                         "timeseries": {
                             "path": "system/fuel_prices.csv",
-                            "header": "ethane_CEN"
+                            "header": "ethane_global"
                         }
                     }
                 },
@@ -72,7 +72,7 @@
                     "price": {
                         "timeseries": {
                             "path": "system/fuel_prices.csv",
-                            "header": "ethane_SE"
+                            "header": "ethane_global"
                         }
                     }
                 },
@@ -82,7 +82,7 @@
                     "price": {
                         "timeseries": {
                             "path": "system/fuel_prices.csv",
-                            "header": "ethane_MIDAT"
+                            "header": "ethane_global"
                         }
                     }
                 },
@@ -92,7 +92,7 @@
                     "price": {
                         "timeseries": {
                             "path": "system/fuel_prices.csv",
-                            "header": "ethane_NE"
+                            "header": "ethane_global"
                         }
                     }
                 }
@@ -772,7 +772,7 @@
                         "CO2CapConstraint": false
                     },
                     "rhs_policy": {
-                        "CO2CapConstraint": 10
+                        "CO2CapConstraint": 0
                     }
                 }
             ]
