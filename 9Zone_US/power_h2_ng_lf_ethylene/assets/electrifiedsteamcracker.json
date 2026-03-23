@@ -76,7 +76,7 @@
                         "natgas_consumption": 0,
                         "natgas_production": 2.224826281,
                         "capture_rate": 0,
-                        "emission_rate": 0.001283875878
+                        "emission_rate": 0.02267336695
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -126,7 +126,7 @@
                         "natgas_consumption": 0,
                         "natgas_production": 2.224826281,
                         "capture_rate": 0,
-                        "emission_rate": 0.001283875878
+                        "emission_rate": 0.02267336695
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -176,7 +176,7 @@
                         "natgas_consumption": 0,
                         "natgas_production": 2.224826281,
                         "capture_rate": 0,
-                        "emission_rate": 0.001283875878
+                        "emission_rate": 0.02267336695
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -226,7 +226,7 @@
                         "natgas_consumption": 0,
                         "natgas_production": 2.224826281,
                         "capture_rate": 0,
-                        "emission_rate": 0.001283875878
+                        "emission_rate": 0.02267336695
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -276,7 +276,7 @@
                         "natgas_consumption": 0,
                         "natgas_production": 2.224826281,
                         "capture_rate": 0,
-                        "emission_rate": 0.001283875878
+                        "emission_rate": 0.02267336695
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -326,7 +326,7 @@
                         "natgas_consumption": 0,
                         "natgas_production": 2.224826281,
                         "capture_rate": 0,
-                        "emission_rate": 0.001283875878
+                        "emission_rate": 0.02267336695
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -376,7 +376,7 @@
                         "natgas_consumption": 0,
                         "natgas_production": 2.224826281,
                         "capture_rate": 0,
-                        "emission_rate": 0.001283875878
+                        "emission_rate": 0.02267336695
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -426,7 +426,7 @@
                         "natgas_consumption": 0,
                         "natgas_production": 2.224826281,
                         "capture_rate": 0,
-                        "emission_rate": 0.001283875878
+                        "emission_rate": 0.02267336695
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -476,7 +476,7 @@
                         "natgas_consumption": 0,
                         "natgas_production": 2.224826281,
                         "capture_rate": 0,
-                        "emission_rate": 0.001283875878
+                        "emission_rate": 0.02267336695
                     },
                     "edges": {
                         "ethane_consumption_edge": {

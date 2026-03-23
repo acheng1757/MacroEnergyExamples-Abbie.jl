@@ -1,15 +1,15 @@
 {
     "HoursPerSubperiod": {
-        "Hydrogen": 50,
-        "NaturalGas": 50,
-        "Biomass": 50,
-        "CO2": 50,
-        "Electricity": 50,
-        "Uranium": 50,
-        "LiquidFuels": 50,
-        "CO2Captured": 50,
-        "Ethylene": 50,
-        "Ethane": 50
+        "Hydrogen": 168,
+        "NaturalGas": 168,
+        "Biomass": 168,
+        "CO2": 168,
+        "Electricity": 168,
+        "Uranium": 168,
+        "LiquidFuels": 168,
+        "CO2Captured": 168,
+        "Ethylene": 168,
+        "Ethane": 168
     },
     "HoursPerTimeStep": {
         "Hydrogen": 1,
