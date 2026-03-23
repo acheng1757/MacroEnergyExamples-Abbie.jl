@@ -1,0 +1,1216 @@
+{
+  "beccs_hydrogen": [
+    {
+      "type": "BECCSHydrogen",
+      "global_data": {
+        "biomass_constraints": {
+          "MinFlowConstraint": true
+        },
+        "co2_sink": "co2_sink",
+        "capacity_size": 400
+      },
+      "instance_data": [
+        {
+          "type": "BECCSHydrogen",
+          "id": "CA_Bio_H2_Herb",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.721,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.1253184880000004,
+          "emission_rate": 1.721,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NW_Bio_H2_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.726,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.132191096,
+          "emission_rate": 1.726,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "SW_Bio_H2_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.71,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.111573272,
+          "emission_rate": 1.71,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "TX_Bio_H2_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.714,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.1184458799999994,
+          "emission_rate": 1.714,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NCEN_Bio_H2_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.74,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.151090768,
+          "emission_rate": 1.74,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "CEN_Bio_H2_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.132191096,
+          "emission_rate": 1.723,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "SE_Bio_H2_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.717,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.1270366399999996,
+          "emission_rate": 1.717,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "MIDAT_Bio_H2_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.736,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.1442181600000003,
+          "emission_rate": 1.736,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NE_Bio_H2_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.156245224,
+          "emission_rate": 1.745,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "CA_Bio_H2_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.3263422719999998,
+          "emission_rate": 1.843,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NW_Bio_H2_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.818,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.319469664,
+          "emission_rate": 1.818,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "SW_Bio_H2_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.798,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.288542928,
+          "emission_rate": 1.798,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "TX_Bio_H2_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.821,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.2627706479999996,
+          "emission_rate": 1.821,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NCEN_Bio_H2_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.802,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.274797712,
+          "emission_rate": 1.802,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "CEN_Bio_H2_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.802,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.2765158640000003,
+          "emission_rate": 1.802,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "SE_Bio_H2_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.821,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.288542928,
+          "emission_rate": 1.821,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "MIDAT_Bio_H2_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.806,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.2662069520000006,
+          "emission_rate": 1.806,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NE_Bio_H2_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.826,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.245589128,
+          "emission_rate": 1.826,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "CA_Bio_H2_Agri",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.719,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.142500008,
+          "emission_rate": 1.719,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NW_Bio_H2_Agri",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.664,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.872750144,
+          "emission_rate": 1.664,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "SW_Bio_H2_Agri",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.687,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.9260128560000003,
+          "emission_rate": 1.687,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "TX_Bio_H2_Agri",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.633,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.850414168,
+          "emission_rate": 1.633,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NCEN_Bio_H2_Agri",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.71,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.97240296,
+          "emission_rate": 1.71,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "CEN_Bio_H2_Agri",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.7,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.9500669840000002,
+          "emission_rate": 1.7,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "SE_Bio_H2_Agri",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.960375896,
+          "emission_rate": 1.689,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "MIDAT_Bio_H2_Agri",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.708,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.968966656,
+          "emission_rate": 1.708,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NE_Bio_H2_Agri",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.715,
+          "investment_cost": 172760.0,
+          "fixed_om_cost": 190982.4,
+          "variable_om_cost": 13.3504,
+          "electricity_consumption": 0.1227,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.003329696,
+          "emission_rate": 1.715,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BECCSHydrogen",
+      "global_data": {
+        "biomass_constraints": {
+          "MinFlowConstraint": true
+        },
+        "co2_sink": "co2_sink",
+        "capacity_size": 400
+      },
+      "instance_data": [
+        {
+          "type": "BECCSHydrogen",
+          "id": "CA_Bio_H2_CCS_99_Herb",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.721,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.1253184880000004,
+          "emission_rate": 0.01721,
+          "capture_rate": 1.70379,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NW_Bio_H2_CCS_99_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.726,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.132191096,
+          "emission_rate": 0.01726,
+          "capture_rate": 1.70874,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "SW_Bio_H2_CCS_99_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.71,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.111573272,
+          "emission_rate": 0.0171,
+          "capture_rate": 1.6929,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "TX_Bio_H2_CCS_99_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.714,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.1184458799999994,
+          "emission_rate": 0.01714,
+          "capture_rate": 1.69686,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NCEN_Bio_H2_CCS_99_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.74,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.151090768,
+          "emission_rate": 0.0174,
+          "capture_rate": 1.7226,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "CEN_Bio_H2_CCS_99_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.132191096,
+          "emission_rate": 0.01723,
+          "capture_rate": 1.70577,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "SE_Bio_H2_CCS_99_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.717,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.1270366399999996,
+          "emission_rate": 0.01717,
+          "capture_rate": 1.69983,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "MIDAT_Bio_H2_CCS_99_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.736,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.1442181600000003,
+          "emission_rate": 0.01736,
+          "capture_rate": 1.71864,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NE_Bio_H2_CCS_99_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.156245224,
+          "emission_rate": 0.01745,
+          "capture_rate": 1.72755,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "CA_Bio_H2_CCS_99_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.3263422719999998,
+          "emission_rate": 0.01843,
+          "capture_rate": 1.82457,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NW_Bio_H2_CCS_99_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.818,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.319469664,
+          "emission_rate": 0.01818,
+          "capture_rate": 1.79982,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "SW_Bio_H2_CCS_99_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.798,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.288542928,
+          "emission_rate": 0.01798,
+          "capture_rate": 1.78002,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "TX_Bio_H2_CCS_99_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.821,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.2627706479999996,
+          "emission_rate": 0.01821,
+          "capture_rate": 1.80279,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NCEN_Bio_H2_CCS_99_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.802,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.274797712,
+          "emission_rate": 0.01802,
+          "capture_rate": 1.78398,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "CEN_Bio_H2_CCS_99_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.802,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.2765158640000003,
+          "emission_rate": 0.01802,
+          "capture_rate": 1.78398,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "SE_Bio_H2_CCS_99_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.821,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.288542928,
+          "emission_rate": 0.01821,
+          "capture_rate": 1.80279,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "MIDAT_Bio_H2_CCS_99_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.806,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.2662069520000006,
+          "emission_rate": 0.01806,
+          "capture_rate": 1.78794,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NE_Bio_H2_CCS_99_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.826,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.245589128,
+          "emission_rate": 0.01826,
+          "capture_rate": 1.80774,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "CA_Bio_H2_CCS_99_Agri",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.719,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.142500008,
+          "emission_rate": 0.01719,
+          "capture_rate": 1.70181,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NW_Bio_H2_CCS_99_Agri",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.664,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.872750144,
+          "emission_rate": 0.01664,
+          "capture_rate": 1.64736,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "SW_Bio_H2_CCS_99_Agri",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.687,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.9260128560000003,
+          "emission_rate": 0.01687,
+          "capture_rate": 1.67013,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "TX_Bio_H2_CCS_99_Agri",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.633,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.850414168,
+          "emission_rate": 0.01633,
+          "capture_rate": 1.61667,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NCEN_Bio_H2_CCS_99_Agri",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.71,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.97240296,
+          "emission_rate": 0.0171,
+          "capture_rate": 1.6929,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "CEN_Bio_H2_CCS_99_Agri",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.7,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.9500669840000002,
+          "emission_rate": 0.017,
+          "capture_rate": 1.683,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "SE_Bio_H2_CCS_99_Agri",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.960375896,
+          "emission_rate": 0.01689,
+          "capture_rate": 1.67211,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "MIDAT_Bio_H2_CCS_99_Agri",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.708,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 2.968966656,
+          "emission_rate": 0.01708,
+          "capture_rate": 1.69092,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        },
+        {
+          "type": "BECCSHydrogen",
+          "id": "NE_Bio_H2_CCS_99_Agri",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.715,
+          "investment_cost": 487317.6,
+          "fixed_om_cost": 353503.36,
+          "variable_om_cost": 23.6768,
+          "electricity_consumption": 1.2646,
+          "min_flow_fraction": 0.85,
+          "max_flow_fraction": 0.9,
+          "hydrogen_production": 3.003329696,
+          "emission_rate": 0.01715,
+          "capture_rate": 1.69785,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_hydrogen"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
