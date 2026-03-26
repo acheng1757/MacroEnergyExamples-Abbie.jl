@@ -1,0 +1,7 @@
+{
+  "Scaling": true,
+  "SolutionAlgorithm": "Benders",
+  "MaxIterations": 100,
+  "Tolerance": 1e-4,
+  "ParallelSubproblems": true
+  }
