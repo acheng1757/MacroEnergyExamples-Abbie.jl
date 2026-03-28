@@ -1,0 +1,205 @@
+{
+  "beccs_electricity": [
+    {
+      "type": "BECCSElectricity",
+      "global_data": {
+        "biomass_constraints": {
+          "MinFlowConstraint": true
+        },
+        "co2_sink": "co2_sink",
+        "capacity_size": 400
+      },
+      "instance_data": [
+        {
+          "type": "BECCSElectricity",
+          "id": "TX_Bio_Electricity_CCS_93_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.714,
+          "investment_cost": 765260.16,
+          "fixed_om_cost": 212409.12,
+          "variable_om_cost": 47.1968,
+          "min_flow_fraction": 0.4,
+          "max_flow_fraction": 0.9,
+          "electricity_production": 1.6017665399999998,
+          "emission_rate": 0.116552,
+          "capture_rate": 1.597448,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "bio_electricity"
+            }
+          }
+        },
+        {
+          "type": "BECCSElectricity",
+          "id": "NCEN_Bio_Electricity_CCS_93_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.74,
+          "investment_cost": 765260.16,
+          "fixed_om_cost": 212409.12,
+          "variable_om_cost": 47.1968,
+          "min_flow_fraction": 0.4,
+          "max_flow_fraction": 0.9,
+          "electricity_production": 1.6185343440000002,
+          "emission_rate": 0.11832,
+          "capture_rate": 1.62168,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "bio_electricity"
+            }
+          }
+        },
+        {
+          "type": "BECCSElectricity",
+          "id": "CEN_Bio_Electricity_CCS_93_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 765260.16,
+          "fixed_om_cost": 212409.12,
+          "variable_om_cost": 47.1968,
+          "min_flow_fraction": 0.4,
+          "max_flow_fraction": 0.9,
+          "electricity_production": 1.608826668,
+          "emission_rate": 0.117164,
+          "capture_rate": 1.605836,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "bio_electricity"
+            }
+          }
+        },
+        {
+          "type": "BECCSElectricity",
+          "id": "TX_Bio_Electricity_CCS_93_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.821,
+          "investment_cost": 765260.16,
+          "fixed_om_cost": 212409.12,
+          "variable_om_cost": 47.1968,
+          "min_flow_fraction": 0.4,
+          "max_flow_fraction": 0.9,
+          "electricity_production": 1.6758978839999998,
+          "emission_rate": 0.123828,
+          "capture_rate": 1.697172,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "bio_electricity"
+            }
+          }
+        },
+        {
+          "type": "BECCSElectricity",
+          "id": "NCEN_Bio_Electricity_CCS_93_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.802,
+          "investment_cost": 765260.16,
+          "fixed_om_cost": 212409.12,
+          "variable_om_cost": 47.1968,
+          "min_flow_fraction": 0.4,
+          "max_flow_fraction": 0.9,
+          "electricity_production": 1.6820754959999997,
+          "emission_rate": 0.122536,
+          "capture_rate": 1.679464,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "bio_electricity"
+            }
+          }
+        },
+        {
+          "type": "BECCSElectricity",
+          "id": "CEN_Bio_Electricity_CCS_93_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.802,
+          "investment_cost": 765260.16,
+          "fixed_om_cost": 212409.12,
+          "variable_om_cost": 47.1968,
+          "min_flow_fraction": 0.4,
+          "max_flow_fraction": 0.9,
+          "electricity_production": 1.682958012,
+          "emission_rate": 0.122536,
+          "capture_rate": 1.679464,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "bio_electricity"
+            }
+          }
+        },
+        {
+          "type": "BECCSElectricity",
+          "id": "TX_Bio_Electricity_CCS_93_Agri",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.633,
+          "investment_cost": 765260.16,
+          "fixed_om_cost": 212409.12,
+          "variable_om_cost": 47.1968,
+          "min_flow_fraction": 0.4,
+          "max_flow_fraction": 0.9,
+          "electricity_production": 1.4640940439999999,
+          "emission_rate": 0.111044,
+          "capture_rate": 1.521956,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "bio_electricity"
+            }
+          }
+        },
+        {
+          "type": "BECCSElectricity",
+          "id": "NCEN_Bio_Electricity_CCS_93_Agri",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.71,
+          "investment_cost": 765260.16,
+          "fixed_om_cost": 212409.12,
+          "variable_om_cost": 47.1968,
+          "min_flow_fraction": 0.4,
+          "max_flow_fraction": 0.9,
+          "electricity_production": 1.5267526800000002,
+          "emission_rate": 0.11628,
+          "capture_rate": 1.59372,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "bio_electricity"
+            }
+          }
+        },
+        {
+          "type": "BECCSElectricity",
+          "id": "CEN_Bio_Electricity_CCS_93_Agri",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.7,
+          "investment_cost": 765260.16,
+          "fixed_om_cost": 212409.12,
+          "variable_om_cost": 47.1968,
+          "min_flow_fraction": 0.4,
+          "max_flow_fraction": 0.9,
+          "electricity_production": 1.515279972,
+          "emission_rate": 0.1156,
+          "capture_rate": 1.5844,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "bio_electricity"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "CO2Injection": [
+    {
+      "type": "CO2Injection",
+      "global_data": {
+        "timedata": "CO2Captured"
+      },
+      "instance_data": [
+        {
+          "id": "TX_CO2_Injection_TX_Frio02",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio02",
+          "existing_capacity": 25987.1,
+          "variable_om_cost": 4.7
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio03a",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio03a",
+          "existing_capacity": 28297.1,
+          "variable_om_cost": 5.0
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio06",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio06",
+          "existing_capacity": 42156.9,
+          "variable_om_cost": 5.0
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio09a",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio09a",
+          "existing_capacity": 54861.7,
+          "variable_om_cost": 5.0
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio12a",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio12a",
+          "existing_capacity": 46776.8,
+          "variable_om_cost": 5.1
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio12b",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio12b",
+          "existing_capacity": 42734.4,
+          "variable_om_cost": 5.5
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio07a",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio07a",
+          "existing_capacity": 38114.4,
+          "variable_om_cost": 5.6
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio10",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio10",
+          "existing_capacity": 46199.3,
+          "variable_om_cost": 5.9
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio04",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio04",
+          "existing_capacity": 10972.3,
+          "variable_om_cost": 6.0
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio13a",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio13a",
+          "existing_capacity": 32339.5,
+          "variable_om_cost": 6.0
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio01",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio01",
+          "existing_capacity": 12704.8,
+          "variable_om_cost": 6.3
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio03b",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio03b",
+          "existing_capacity": 13282.3,
+          "variable_om_cost": 6.3
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio09b",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio09b",
+          "existing_capacity": 25409.6,
+          "variable_om_cost": 6.3
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio13b",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio13b",
+          "existing_capacity": 29452.1,
+          "variable_om_cost": 6.5
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio13c",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio13c",
+          "existing_capacity": 25987.1,
+          "variable_om_cost": 7.1
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio11",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio11",
+          "existing_capacity": 3464.9,
+          "variable_om_cost": 7.4
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio08",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio08",
+          "existing_capacity": 15014.8,
+          "variable_om_cost": 7.7
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Lower_Tuscaloosa08",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Lower_Tuscaloosa08",
+          "existing_capacity": 86046.2,
+          "variable_om_cost": 7.7
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio05",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio05",
+          "existing_capacity": 2310.0,
+          "variable_om_cost": 9.2
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Lower_Tuscaloosa09",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Lower_Tuscaloosa09",
+          "existing_capacity": 37536.9,
+          "variable_om_cost": 9.7
+        },
+        {
+          "id": "TX_CO2_Injection_TX_WashitaFredericksburg3",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_WashitaFredericksburg3",
+          "existing_capacity": 15592.3,
+          "variable_om_cost": 9.7
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Paluxy1",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Paluxy1",
+          "existing_capacity": 1732.5,
+          "variable_om_cost": 9.9
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Frio07b",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Frio07b",
+          "existing_capacity": 6929.9,
+          "variable_om_cost": 11.2
+        },
+        {
+          "id": "TX_CO2_Injection_TX_Lower_Tuscaloosa06",
+          "co2_source": "co2_captured_TX",
+          "co2_storage": "co2_storage_TX_Lower_Tuscaloosa06",
+          "existing_capacity": 43311.8,
+          "variable_om_cost": 11.9
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Mount_Simon03",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Mount_Simon03",
+          "existing_capacity": 90088.6,
+          "variable_om_cost": 6.1
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Mount_Simon06",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Mount_Simon06",
+          "existing_capacity": 88356.2,
+          "variable_om_cost": 6.3
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Mount_Simon07",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Mount_Simon07",
+          "existing_capacity": 18479.7,
+          "variable_om_cost": 7.2
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Mount_Simon05",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Mount_Simon05",
+          "existing_capacity": 5774.9,
+          "variable_om_cost": 7.9
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Mount_Simon02",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Mount_Simon02",
+          "existing_capacity": 6352.4,
+          "variable_om_cost": 8.6
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Knox3",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Knox3",
+          "existing_capacity": 6929.9,
+          "variable_om_cost": 10.3
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Knox5",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Knox5",
+          "existing_capacity": 2310.0,
+          "variable_om_cost": 11.5
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Knox1",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Knox1",
+          "existing_capacity": 9817.4,
+          "variable_om_cost": 11.9
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_StPeter07",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_StPeter07",
+          "existing_capacity": 1732.5,
+          "variable_om_cost": 14.5
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Mount_Simon08",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Mount_Simon08",
+          "existing_capacity": 4619.9,
+          "variable_om_cost": 15.5
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Knox4",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Knox4",
+          "existing_capacity": 577.5,
+          "variable_om_cost": 17.1
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Knox6",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Knox6",
+          "existing_capacity": 577.5,
+          "variable_om_cost": 17.2
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Mount_Simon10",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Mount_Simon10",
+          "existing_capacity": 15592.3,
+          "variable_om_cost": 17.4
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Knox2",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Knox2",
+          "existing_capacity": 2310.0,
+          "variable_om_cost": 18.3
+        },
+        {
+          "id": "NCEN_CO2_Injection_NCEN_Niagaran01",
+          "co2_source": "co2_captured_NCEN",
+          "co2_storage": "co2_storage_NCEN_Niagaran01",
+          "existing_capacity": 6929.9,
+          "variable_om_cost": 19.1
+        },
+        {
+          "id": "CEN_CO2_Injection_CEN_Woodbine1",
+          "co2_source": "co2_captured_CEN",
+          "co2_storage": "co2_storage_CEN_Woodbine1",
+          "existing_capacity": 150147.7,
+          "variable_om_cost": 6.2
+        },
+        {
+          "id": "CEN_CO2_Injection_CEN_Lower_Tuscaloosa01",
+          "co2_source": "co2_captured_CEN",
+          "co2_storage": "co2_storage_CEN_Lower_Tuscaloosa01",
+          "existing_capacity": 75651.4,
+          "variable_om_cost": 6.6
+        },
+        {
+          "id": "CEN_CO2_Injection_CEN_Lower_Tuscaloosa10",
+          "co2_source": "co2_captured_CEN",
+          "co2_storage": "co2_storage_CEN_Lower_Tuscaloosa10",
+          "existing_capacity": 46199.3,
+          "variable_om_cost": 7.0
+        },
+        {
+          "id": "CEN_CO2_Injection_CEN_Arbuckle1",
+          "co2_source": "co2_captured_CEN",
+          "co2_storage": "co2_storage_CEN_Arbuckle1",
+          "existing_capacity": 9817.4,
+          "variable_om_cost": 8.5
+        },
+        {
+          "id": "CEN_CO2_Injection_CEN_Paluxy6",
+          "co2_source": "co2_captured_CEN",
+          "co2_storage": "co2_storage_CEN_Paluxy6",
+          "existing_capacity": 20789.7,
+          "variable_om_cost": 8.9
+        },
+        {
+          "id": "CEN_CO2_Injection_CEN_Paluxy2",
+          "co2_source": "co2_captured_CEN",
+          "co2_storage": "co2_storage_CEN_Paluxy2",
+          "existing_capacity": 46776.8,
+          "variable_om_cost": 9.4
+        },
+        {
+          "id": "CEN_CO2_Injection_CEN_Paluxy3",
+          "co2_source": "co2_captured_CEN",
+          "co2_storage": "co2_storage_CEN_Paluxy3",
+          "existing_capacity": 36959.4,
+          "variable_om_cost": 9.6
+        },
+        {
+          "id": "CEN_CO2_Injection_CEN_Basal_Cambrian8",
+          "co2_source": "co2_captured_CEN",
+          "co2_storage": "co2_storage_CEN_Basal_Cambrian8",
+          "existing_capacity": 25409.6,
+          "variable_om_cost": 12.4
+        },
+        {
+          "id": "CEN_CO2_Injection_CEN_Lower_Tuscaloosa07",
+          "co2_source": "co2_captured_CEN",
+          "co2_storage": "co2_storage_CEN_Lower_Tuscaloosa07",
+          "existing_capacity": 4619.9,
+          "variable_om_cost": 14.0
+        }
+      ]
+    }
+  ]
+}

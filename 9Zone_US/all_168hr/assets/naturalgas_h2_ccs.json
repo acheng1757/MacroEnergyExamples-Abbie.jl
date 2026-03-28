@@ -5,14 +5,15 @@
       "global_data": {
         "fuel_commodity": "NaturalGas",
         "co2_sink": "co2_sink",
-        "uc": false,
+        "uc": true,
         "h2_constraints": {
           "CapacityConstraint": true,
           "RampingLimitConstraint": true,
           "MinFlowConstraint": true,
           "MinUpTimeConstraint": false,
           "MinDownTimeConstraint": false
-        }
+        },
+        "integer_decisions": false
       },
       "instance_data": [
         {

@@ -70,13 +70,13 @@
                     "id": "CA_ESC",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.1913827933,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
-                        "emission_rate": 0.02267336695
+                        "emission_rate": 0.001283875878
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -120,13 +120,13 @@
                     "id": "SW_ESC",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.1913827933,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
-                        "emission_rate": 0.02267336695
+                        "emission_rate": 0.001283875878
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -170,13 +170,13 @@
                     "id": "NW_ESC",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.1913827933,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
-                        "emission_rate": 0.02267336695
+                        "emission_rate": 0.001283875878
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -220,13 +220,13 @@
                     "id": "TX_ESC",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.1913827933,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
-                        "emission_rate": 0.02267336695
+                        "emission_rate": 0.001283875878
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -270,13 +270,13 @@
                     "id": "NCEN_ESC",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.1913827933,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
-                        "emission_rate": 0.02267336695
+                        "emission_rate": 0.001283875878
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -320,13 +320,13 @@
                     "id": "CEN_ESC",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.1913827933,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
-                        "emission_rate": 0.02267336695
+                        "emission_rate": 0.001283875878
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -370,13 +370,13 @@
                     "id": "SE_ESC",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.1913827933,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
-                        "emission_rate": 0.02267336695
+                        "emission_rate": 0.001283875878
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -394,25 +394,25 @@
                             "min_flow_fraction": 0.8
                         },
                         "elec_consumption_edge": {
-                            "start_vertex": "elec_SE"
+                            "start_vertex": "elec_CEN"
                         },
                         "h2_consumption_edge": {
-                            "start_vertex": "h2_SE"
+                            "start_vertex": "h2_CEN"
                         },
                         "h2_production_edge": {
-                            "end_vertex": "h2_SE"
+                            "end_vertex": "h2_CEN"
                         },
                         "natgas_consumption_edge": {
-                            "start_vertex": "natgas_SE"
+                            "start_vertex": "natgas_CEN"
                         },
                         "natgas_production_edge": {
-                            "end_vertex": "natgas_SE"
+                            "end_vertex": "natgas_CEN"
                         },
                         "ethylene_production_edge":{
-                            "end_vertex": "ethylene_SE"
+                            "end_vertex": "ethylene_CEN"
                         },
                         "co2_captured_edge": {
-                            "end_vertex": "co2_captured_SE"
+                            "end_vertex": "co2_captured_CEN"
                         }
                     }
                 },
@@ -420,13 +420,13 @@
                     "id": "MIDAT_ESC",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.1913827933,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
-                        "emission_rate": 0.02267336695
+                        "emission_rate": 0.001283875878
                     },
                     "edges": {
                         "ethane_consumption_edge": {
@@ -470,13 +470,13 @@
                     "id": "NE_ESC",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.1913827933,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
-                        "emission_rate": 0.02267336695
+                        "emission_rate": 0.001283875878
                     },
                     "edges": {
                         "ethane_consumption_edge": {

@@ -1,0 +1,53 @@
+{
+  "link": [
+    {
+      "type": "TransmissionLink",
+      "global_data": {
+        "edges": {
+          "transmission_edge": {
+            "commodity": "Electricity",
+            "has_capacity": true,
+            "unidirectional": false,
+            "can_expand": true,
+            "can_retire": false,
+            "integer_decisions": false,
+            "constraints": {
+              "CapacityConstraint": true,
+              "MaxCapacityConstraint": true
+            }
+          }
+        }
+      },
+      "instance_data": [
+        {
+          "id": "TX_to_CEN",
+          "edges": {
+            "transmission_edge": {
+              "start_vertex": "elec_TX",
+              "end_vertex": "elec_CEN",
+              "distance": 494.3863776,
+              "existing_capacity": 2525.0,
+              "max_capacity": 12625.0,
+              "investment_cost": 44804.48,
+              "loss_fraction": 0.049438638
+            }
+          }
+        },
+        {
+          "id": "NCEN_to_CEN",
+          "edges": {
+            "transmission_edge": {
+              "start_vertex": "elec_NCEN",
+              "end_vertex": "elec_CEN",
+              "distance": 485.1825018,
+              "existing_capacity": 9851.0,
+              "max_capacity": 49255.0,
+              "investment_cost": 37588.32,
+              "loss_fraction": 0.04851825
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

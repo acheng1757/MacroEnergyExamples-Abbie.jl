@@ -1,0 +1,9 @@
+commodity,commodity_subtype,zone,resource_id,component_id,type,capacity,new_capacity,retired_capacity,retrofitted_capacity
+Ethylene,capacity,ethylene_NE_ethylene_MIDAT,NE_to_MIDAT_Ethylene,NE_to_MIDAT_Ethylene_transmission_edge,TransmissionLink{Ethylene},1e+24,0.0,0.0,0.0
+Ethylene,capacity,ethylene_MIDAT_ethylene_SE,MIDAT_to_SE_Ethylene,MIDAT_to_SE_Ethylene_transmission_edge,TransmissionLink{Ethylene},1e+24,0.0,0.0,0.0
+Ethylene,capacity,ethylene_SE_ethylene_NCEN,SE_to_NCEN_Ethylene,SE_to_NCEN_Ethylene_transmission_edge,TransmissionLink{Ethylene},1e+24,0.0,0.0,0.0
+Ethylene,capacity,ethylene_NCEN_ethylene_CEN,NCEN_to_CEN_Ethylene,NCEN_to_CEN_Ethylene_transmission_edge,TransmissionLink{Ethylene},1e+24,0.0,0.0,0.0
+Ethylene,capacity,ethylene_CEN_ethylene_TX,CEN_to_TX_Ethylene,CEN_to_TX_Ethylene_transmission_edge,TransmissionLink{Ethylene},1e+24,0.0,0.0,0.0
+Ethylene,capacity,ethylene_TX_ethylene_SW,TX_to_SW_Ethylene,TX_to_SW_Ethylene_transmission_edge,TransmissionLink{Ethylene},1e+24,0.0,0.0,0.0
+Ethylene,capacity,ethylene_SW_ethylene_NW,SW_to_NW_Ethylene,SW_to_NW_Ethylene_transmission_edge,TransmissionLink{Ethylene},1e+24,0.0,0.0,0.0
+Ethylene,capacity,ethylene_NW_ethylene_CA,NW_to_CA_Ethylene,NW_to_CA_Ethylene_transmission_edge,TransmissionLink{Ethylene},1e+24,0.0,0.0,0.0

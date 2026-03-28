@@ -28,7 +28,8 @@
                 "discharge_constraints": {
                     "CapacityConstraint": true,
                     "MaxCapacityConstraint": true
-                }
+                },
+                 "integer_decisions": false
             },
             "instance_data": [
                 {

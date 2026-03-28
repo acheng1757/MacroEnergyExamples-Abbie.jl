@@ -1,0 +1,163 @@
+{
+    "GasolineFossilUpstream": [
+        {
+            "type": "FossilFuelsUpstream",
+            "global_data":{
+                "transforms": {
+                    "timedata": "LiquidFuels",
+                    "constraints": {
+                            "BalanceConstraint": true
+                    },
+                    "emission_rate": 0
+                },
+                "edges" :{
+                    "fossil_fuel_edge": {
+                        "commodity": "LiquidFuels",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "co2_edge": {
+                        "commodity": "CO2",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "co2_sink"
+                    },
+                    "fuel_edge": {
+                        "commodity": "LiquidFuels",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    }
+                }
+            },
+            "instance_data":[
+                {
+                    "id": "TX_Gasoline_Fossil_Upstream",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Gasoline",
+                                "start_vertex": "gasoline_fossil_TX"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Gasoline",
+                                "end_vertex": "gasoline_TX"
+                            }
+                        }
+
+                },
+                {
+                    "id": "NCEN_Gasoline_Fossil_Upstream",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Gasoline",
+                                "start_vertex": "gasoline_fossil_NCEN"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Gasoline",
+                                "end_vertex": "gasoline_NCEN"
+                            }
+                        }
+
+                },
+                {
+                    "id": "CEN_Gasoline_Fossil_Upstream",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Gasoline",
+                                "start_vertex": "gasoline_fossil_CEN"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Gasoline",
+                                "end_vertex": "gasoline_CEN"
+                            }
+                        }
+
+                },
+                {
+                    "id": "TX_JetFuel_Fossil_Upstream",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_JetFuel",
+                                "start_vertex": "jetfuel_fossil_TX"
+                            },
+                            "fuel_edge": {
+                                "commodity": "JetFuel",
+                                "end_vertex": "jetfuel_TX"
+                            }
+                        }
+
+                },
+                {
+                    "id": "NCEN_JetFuel_Fossil_Upstream",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_JetFuel",
+                                "start_vertex": "jetfuel_fossil_NCEN"
+                            },
+                            "fuel_edge": {
+                                "commodity": "JetFuel",
+                                "end_vertex": "jetfuel_NCEN"
+                            }
+                        }
+
+                },
+                {
+                    "id": "CEN_JetFuel_Fossil_Upstream",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_JetFuel",
+                                "start_vertex": "jetfuel_fossil_CEN"
+                            },
+                            "fuel_edge": {
+                                "commodity": "JetFuel",
+                                "end_vertex": "jetfuel_CEN"
+                            }
+                        }
+
+                },
+                {
+                    "id": "TX_Diesel_Fossil_Upstream",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Diesel",
+                                "start_vertex": "diesel_fossil_TX"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Diesel",
+                                "end_vertex": "diesel_TX"
+                            }
+                        }
+
+                },
+                {
+                    "id": "NCEN_Diesel_Fossil_Upstream",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Diesel",
+                                "start_vertex": "diesel_fossil_NCEN"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Diesel",
+                                "end_vertex": "diesel_NCEN"
+                            }
+                        }
+
+                },
+                {
+                    "id": "CEN_Diesel_Fossil_Upstream",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Diesel",
+                                "start_vertex": "diesel_fossil_CEN"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Diesel",
+                                "end_vertex": "diesel_CEN"
+                            }
+                        }
+
+                }
+            ]
+        }
+    ]
+
+}

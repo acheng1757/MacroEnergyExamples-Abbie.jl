@@ -121,7 +121,7 @@
                     "id": "CA_TSC:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -171,7 +171,7 @@
                     "id": "CA_TSC+CC90:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.009388736698,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -220,7 +220,7 @@
                 {
                     "id": "CA_TSC+H2in",
                     "transforms":{
-                        "h2_consumption": 0.4943786676,
+                        "h2_consumption": 0.02226644157,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
@@ -270,12 +270,12 @@
                 {
                     "id": "CA_TSC+H2in:CH4",
                     "transforms":{
-                        "h2_consumption": 3.054819256,
+                        "h2_consumption": 0.1375867019,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
                         "emission_rate": 0.001283875878
                     },
@@ -371,7 +371,7 @@
                     "id": "SW_TSC:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -421,7 +421,7 @@
                     "id": "SW_TSC+CC90:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.009388736698,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -470,7 +470,7 @@
                 {
                     "id": "SW_TSC+H2in",
                     "transforms":{
-                        "h2_consumption": 0.4943786676,
+                        "h2_consumption": 0.02226644157,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
@@ -520,12 +520,12 @@
                 {
                     "id": "SW_TSC+H2in:CH4",
                     "transforms":{
-                        "h2_consumption": 3.054819256,
+                        "h2_consumption": 0.1375867019,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
                         "emission_rate": 0.001283875878
                     },
@@ -621,7 +621,7 @@
                     "id": "NW_TSC:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -671,7 +671,7 @@
                     "id": "NW_TSC+CC90:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.009388736698,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -720,7 +720,7 @@
                 {
                     "id": "NW_TSC+H2in",
                     "transforms":{
-                        "h2_consumption": 0.4943786676,
+                        "h2_consumption": 0.02226644157,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
@@ -770,12 +770,12 @@
                 {
                     "id": "NW_TSC+H2in:CH4",
                     "transforms":{
-                        "h2_consumption": 3.054819256,
+                        "h2_consumption": 0.1375867019,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
                         "emission_rate": 0.001283875878
                     },
@@ -871,7 +871,7 @@
                     "id": "TX_TSC:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -921,7 +921,7 @@
                     "id": "TX_TSC+CC90:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.009388736698,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -970,7 +970,7 @@
                 {
                     "id": "TX_TSC+H2in",
                     "transforms":{
-                        "h2_consumption": 0.4943786676,
+                        "h2_consumption": 0.02226644157,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
@@ -1020,12 +1020,12 @@
                 {
                     "id": "TX_TSC+H2in:CH4",
                     "transforms":{
-                        "h2_consumption": 3.054819256,
+                        "h2_consumption": 0.1375867019,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
                         "emission_rate": 0.001283875878
                     },
@@ -1121,7 +1121,7 @@
                     "id": "NCEN_TSC:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -1171,7 +1171,7 @@
                     "id": "NCEN_TSC+CC90:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.009388736698,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -1220,7 +1220,7 @@
                 {
                     "id": "NCEN_TSC+H2in",
                     "transforms":{
-                        "h2_consumption": 0.4943786676,
+                        "h2_consumption": 0.02226644157,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
@@ -1270,12 +1270,12 @@
                 {
                     "id": "NCEN_TSC+H2in:CH4",
                     "transforms":{
-                        "h2_consumption": 3.054819256,
+                        "h2_consumption": 0.1375867019,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
                         "emission_rate": 0.001283875878
                     },
@@ -1371,7 +1371,7 @@
                     "id": "CEN_TSC:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -1421,7 +1421,7 @@
                     "id": "CEN_TSC+CC90:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.009388736698,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -1470,7 +1470,7 @@
                 {
                     "id": "CEN_TSC+H2in",
                     "transforms":{
-                        "h2_consumption": 0.4943786676,
+                        "h2_consumption": 0.02226644157,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
@@ -1520,12 +1520,12 @@
                 {
                     "id": "CEN_TSC+H2in:CH4",
                     "transforms":{
-                        "h2_consumption": 3.054819256,
+                        "h2_consumption": 0.1375867019,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
                         "emission_rate": 0.001283875878
                     },
@@ -1621,7 +1621,7 @@
                     "id": "SE_TSC:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -1671,7 +1671,7 @@
                     "id": "SE_TSC+CC90:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.009388736698,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -1720,7 +1720,7 @@
                 {
                     "id": "SE_TSC+H2in",
                     "transforms":{
-                        "h2_consumption": 0.4943786676,
+                        "h2_consumption": 0.02226644157,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
@@ -1770,12 +1770,12 @@
                 {
                     "id": "SE_TSC+H2in:CH4",
                     "transforms":{
-                        "h2_consumption": 3.054819256,
+                        "h2_consumption": 0.1375867019,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
                         "emission_rate": 0.001283875878
                     },
@@ -1871,7 +1871,7 @@
                     "id": "MIDAT_TSC:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -1921,7 +1921,7 @@
                     "id": "MIDAT_TSC+CC90:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.009388736698,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -1970,7 +1970,7 @@
                 {
                     "id": "MIDAT_TSC+H2in",
                     "transforms":{
-                        "h2_consumption": 0.4943786676,
+                        "h2_consumption": 0.02226644157,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
@@ -2020,12 +2020,12 @@
                 {
                     "id": "MIDAT_TSC+H2in:CH4",
                     "transforms":{
-                        "h2_consumption": 3.054819256,
+                        "h2_consumption": 0.1375867019,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
                         "emission_rate": 0.001283875878
                     },
@@ -2121,7 +2121,7 @@
                     "id": "NE_TSC:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -2171,7 +2171,7 @@
                     "id": "NE_TSC+CC90:H2",
                     "transforms":{
                         "h2_consumption": 0,
-                        "h2_production": 0.1625482036,
+                        "h2_production": 0.1598531434,
                         "elec_consumption": 0.009388736698,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0.1318322859,
@@ -2220,7 +2220,7 @@
                 {
                     "id": "NE_TSC+H2in",
                     "transforms":{
-                        "h2_consumption": 0.4943786676,
+                        "h2_consumption": 0.02226644157,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
@@ -2270,12 +2270,12 @@
                 {
                     "id": "NE_TSC+H2in:CH4",
                     "transforms":{
-                        "h2_consumption": 3.054819256,
+                        "h2_consumption": 0.1375867019,
                         "h2_production": 0,
                         "elec_consumption": 0,
                         "ethylene_production": 0.05310189724,
                         "natgas_consumption": 0,
-                        "natgas_production": 2.224826281,
+                        "natgas_production": 0.1181424966,
                         "capture_rate": 0,
                         "emission_rate": 0.001283875878
                     },

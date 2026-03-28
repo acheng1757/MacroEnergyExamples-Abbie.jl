@@ -4,7 +4,7 @@
   "AutoCreateNodes":false,
   "AutoCreateLocations":true,
   "Retrofitting" : true,
-  "OutputLayout": "wide"
+  "OutputLayout": "long"
 }
 
 
