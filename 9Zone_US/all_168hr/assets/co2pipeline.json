@@ -3,7 +3,7 @@
         {
             "type": "GasStorage",
             "global_data": {
-                "storage_commodity": "CO2",
+                "storage_commodity": "CO2Captured",
                 "storage_long_duration": false,
                 "storage_constraints": {
                     "StorageCapacityConstraint": true,

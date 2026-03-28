@@ -14,7 +14,7 @@
             "WriteSubcommodities": true,
             "OverwriteResults": false,
             "OutputDir": "results",
-            "OutputLayout": "wide",
+            "OutputLayout": "long",
             "AutoCreateNodes": false,
             "AutoCreateLocations": true,
             "Retrofitting": true,
