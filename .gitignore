@@ -25,4 +25,4 @@ Manifest.toml
 .DS_Store
 
 # data files
-*.csv
+*/flows.csv
