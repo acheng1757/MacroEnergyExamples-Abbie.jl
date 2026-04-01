@@ -1,0 +1,1266 @@
+{
+  "tsc_esc": [
+    {
+      "global_data": {
+        "timedata": "Ethane",
+        "co2_sink": "co2_sink",
+        "ethylene_constraints": {
+          "CapacityConstraint": true,
+          "MinFlowConstraint": true,
+          "BalanceConstraint" : true
+        },
+        "can_retrofit": true
+      },
+      "instance_data": [
+        {
+          "type": "SteamCracker",
+          "id": "CA_TSC+CC90",
+          "location": "CA",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.008052966172524496,
+          "investment_cost": 106875.16988225545,
+          "fixed_om_cost": 58496.38701739424,
+          "variable_om_cost": 1.807224085693217,
+          "natgas_consumption": 0.022681948295736814,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.002677989,
+          "capture_rate": 0.024101905,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NW_TSC+CC90",
+          "location": "NW",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.008052966172524496,
+          "investment_cost": 106875.16988225545,
+          "fixed_om_cost": 58496.38701739424,
+          "variable_om_cost": 1.807224085693217,
+          "natgas_consumption": 0.022681948295736814,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.002677989,
+          "capture_rate": 0.024101905,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "SW_TSC+CC90",
+          "location": "SW",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.008052966172524496,
+          "investment_cost": 106875.16988225545,
+          "fixed_om_cost": 58496.38701739424,
+          "variable_om_cost": 1.807224085693217,
+          "natgas_consumption": 0.022681948295736814,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.002677989,
+          "capture_rate": 0.024101905,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "TX_TSC+CC90",
+          "location": "TX",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.008052966172524496,
+          "investment_cost": 106875.16988225545,
+          "fixed_om_cost": 58496.38701739424,
+          "variable_om_cost": 1.807224085693217,
+          "natgas_consumption": 0.022681948295736814,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.002677989,
+          "capture_rate": 0.024101905,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NCEN_TSC+CC90",
+          "location": "NCEN",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.008052966172524496,
+          "investment_cost": 106875.16988225545,
+          "fixed_om_cost": 58496.38701739424,
+          "variable_om_cost": 1.807224085693217,
+          "natgas_consumption": 0.022681948295736814,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.002677989,
+          "capture_rate": 0.024101905,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "CEN_TSC+CC90",
+          "location": "CEN",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.008052966172524496,
+          "investment_cost": 106875.16988225545,
+          "fixed_om_cost": 58496.38701739424,
+          "variable_om_cost": 1.807224085693217,
+          "natgas_consumption": 0.022681948295736814,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.002677989,
+          "capture_rate": 0.024101905,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "SE_TSC+CC90",
+          "location": "SE",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.008052966172524496,
+          "investment_cost": 106875.16988225545,
+          "fixed_om_cost": 58496.38701739424,
+          "variable_om_cost": 1.807224085693217,
+          "natgas_consumption": 0.022681948295736814,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.002677989,
+          "capture_rate": 0.024101905,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "MIDAT_TSC+CC90",
+          "location": "MIDAT",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.008052966172524496,
+          "investment_cost": 106875.16988225545,
+          "fixed_om_cost": 58496.38701739424,
+          "variable_om_cost": 1.807224085693217,
+          "natgas_consumption": 0.022681948295736814,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.002677989,
+          "capture_rate": 0.024101905,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NE_TSC+CC90",
+          "location": "NE",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.008052966172524496,
+          "investment_cost": 106875.16988225545,
+          "fixed_om_cost": 58496.38701739424,
+          "variable_om_cost": 1.807224085693217,
+          "natgas_consumption": 0.022681948295736814,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.002677989,
+          "capture_rate": 0.024101905,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "global_data": {
+        "timedata": "Ethane",
+        "co2_sink": "co2_sink",
+        "ethylene_constraints": {
+          "CapacityConstraint": true,
+          "MinFlowConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "type": "SteamCracker",
+          "id": "CA_TSC: H2",
+          "location": "CA",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.046520605,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NW_TSC: H2",
+          "location": "NW",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.046520605,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "SW_TSC: H2",
+          "location": "SW",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.046520605,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "TX_TSC: H2",
+          "location": "TX",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.046520605,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NCEN_TSC: H2",
+          "location": "NCEN",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.046520605,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "CEN_TSC: H2",
+          "location": "CEN",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.046520605,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "SE_TSC: H2",
+          "location": "SE",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.046520605,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "MIDAT_TSC: H2",
+          "location": "MIDAT",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.046520605,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NE_TSC: H2",
+          "location": "NE",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.046520605,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "global_data": {
+        "timedata": "Ethane",
+        "co2_sink": "co2_sink",
+        "ethylene_constraints": {
+          "CapacityConstraint": true,
+          "MinFlowConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "type": "SteamCracker",
+          "id": "CA_TSC+CC90: H2",
+          "location": "CA",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.009388736803911155,
+          "investment_cost": 106900.97395268855,
+          "fixed_om_cost": 58510.18559849277,
+          "variable_om_cost": 1.8076604234517817,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.00465206,
+          "capture_rate": 0.041868544,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NW_TSC+CC90: H2",
+          "location": "NW",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.009388736803911155,
+          "investment_cost": 106900.97395268855,
+          "fixed_om_cost": 58510.18559849277,
+          "variable_om_cost": 1.8076604234517817,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.00465206,
+          "capture_rate": 0.041868544,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "SW_TSC+CC90: H2",
+          "location": "SW",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.009388736803911155,
+          "investment_cost": 106900.97395268855,
+          "fixed_om_cost": 58510.18559849277,
+          "variable_om_cost": 1.8076604234517817,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.00465206,
+          "capture_rate": 0.041868544,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "TX_TSC+CC90: H2",
+          "location": "TX",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.009388736803911155,
+          "investment_cost": 106900.97395268855,
+          "fixed_om_cost": 58510.18559849277,
+          "variable_om_cost": 1.8076604234517817,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.00465206,
+          "capture_rate": 0.041868544,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NCEN_TSC+CC90: H2",
+          "location": "NCEN",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.009388736803911155,
+          "investment_cost": 106900.97395268855,
+          "fixed_om_cost": 58510.18559849277,
+          "variable_om_cost": 1.8076604234517817,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.00465206,
+          "capture_rate": 0.041868544,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "CEN_TSC+CC90: H2",
+          "location": "CEN",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.009388736803911155,
+          "investment_cost": 106900.97395268855,
+          "fixed_om_cost": 58510.18559849277,
+          "variable_om_cost": 1.8076604234517817,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.00465206,
+          "capture_rate": 0.041868544,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "SE_TSC+CC90: H2",
+          "location": "SE",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.009388736803911155,
+          "investment_cost": 106900.97395268855,
+          "fixed_om_cost": 58510.18559849277,
+          "variable_om_cost": 1.8076604234517817,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.00465206,
+          "capture_rate": 0.041868544,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "MIDAT_TSC+CC90: H2",
+          "location": "MIDAT",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.009388736803911155,
+          "investment_cost": 106900.97395268855,
+          "fixed_om_cost": 58510.18559849277,
+          "variable_om_cost": 1.8076604234517817,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.00465206,
+          "capture_rate": 0.041868544,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NE_TSC+CC90: H2",
+          "location": "NE",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.009388736803911155,
+          "investment_cost": 106900.97395268855,
+          "fixed_om_cost": 58510.18559849277,
+          "variable_om_cost": 1.8076604234517817,
+          "natgas_consumption": 0.13171759180581516,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.00465206,
+          "capture_rate": 0.041868544,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "global_data": {
+        "timedata": "Ethane",
+        "co2_sink": "co2_sink",
+        "ethylene_constraints": {
+          "CapacityConstraint": true,
+          "MinFlowConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "type": "SteamCracker",
+          "id": "CA_TSC+H2in",
+          "location": "CA",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.022686889120717323,
+          "emission_rate": 0.022673367,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NW_TSC+H2in",
+          "location": "NW",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.022686889120717323,
+          "emission_rate": 0.022673367,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "SW_TSC+H2in",
+          "location": "SW",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.022686889120717323,
+          "emission_rate": 0.022673367,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "TX_TSC+H2in",
+          "location": "TX",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.022686889120717323,
+          "emission_rate": 0.022673367,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NCEN_TSC+H2in",
+          "location": "NCEN",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.022686889120717323,
+          "emission_rate": 0.022673367,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "CEN_TSC+H2in",
+          "location": "CEN",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.022686889120717323,
+          "emission_rate": 0.022673367,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "SE_TSC+H2in",
+          "location": "SE",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.022686889120717323,
+          "emission_rate": 0.022673367,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "MIDAT_TSC+H2in",
+          "location": "MIDAT",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.022686889120717323,
+          "emission_rate": 0.022673367,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NE_TSC+H2in",
+          "location": "NE",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.0,
+          "h2_consumption": 0.022686889120717323,
+          "emission_rate": 0.022673367,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "global_data": {
+        "timedata": "Ethane",
+        "co2_sink": "co2_sink",
+        "ethylene_constraints": {
+          "CapacityConstraint": true,
+          "MinFlowConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "type": "SteamCracker",
+          "id": "CA_TSC+H2in: CH4",
+          "location": "CA",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.14018469183438387,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NW_TSC+H2in: CH4",
+          "location": "NW",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.14018469183438387,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "SW_TSC+H2in: CH4",
+          "location": "SW",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.14018469183438387,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "TX_TSC+H2in: CH4",
+          "location": "TX",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.14018469183438387,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NCEN_TSC+H2in: CH4",
+          "location": "NCEN",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.14018469183438387,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "CEN_TSC+H2in: CH4",
+          "location": "CEN",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.14018469183438387,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "SE_TSC+H2in: CH4",
+          "location": "SE",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.14018469183438387,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "MIDAT_TSC+H2in: CH4",
+          "location": "MIDAT",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.14018469183438387,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NE_TSC+H2in: CH4",
+          "location": "NE",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.0,
+          "elec_consumption": 0.0,
+          "investment_cost": 99124.31994460165,
+          "fixed_om_cost": 54251.997667282376,
+          "variable_om_cost": 1.6761597538849307,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.14018469183438387,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "global_data": {
+        "timedata": "Ethane",
+        "co2_sink": "co2_sink",
+        "ethylene_constraints": {
+          "CapacityConstraint": true,
+          "MinFlowConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "type": "SteamCracker",
+          "id": "CA_ESC",
+          "location": "CA",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.1913827934989375,
+          "investment_cost": 131324.11494517128,
+          "fixed_om_cost": 71875.35389716267,
+          "variable_om_cost": 2.220647730943875,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NW_ESC",
+          "location": "NW",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.1913827934989375,
+          "investment_cost": 131324.11494517128,
+          "fixed_om_cost": 71875.35389716267,
+          "variable_om_cost": 2.220647730943875,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "SW_ESC",
+          "location": "SW",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.1913827934989375,
+          "investment_cost": 131324.11494517128,
+          "fixed_om_cost": 71875.35389716267,
+          "variable_om_cost": 2.220647730943875,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "TX_ESC",
+          "location": "TX",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.1913827934989375,
+          "investment_cost": 131324.11494517128,
+          "fixed_om_cost": 71875.35389716267,
+          "variable_om_cost": 2.220647730943875,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NCEN_ESC",
+          "location": "NCEN",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.1913827934989375,
+          "investment_cost": 131324.11494517128,
+          "fixed_om_cost": 71875.35389716267,
+          "variable_om_cost": 2.220647730943875,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "CEN_ESC",
+          "location": "CEN",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.1913827934989375,
+          "investment_cost": 131324.11494517128,
+          "fixed_om_cost": 71875.35389716267,
+          "variable_om_cost": 2.220647730943875,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "SE_ESC",
+          "location": "SE",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.1913827934989375,
+          "investment_cost": 131324.11494517128,
+          "fixed_om_cost": 71875.35389716267,
+          "variable_om_cost": 2.220647730943875,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "MIDAT_ESC",
+          "location": "MIDAT",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.1913827934989375,
+          "investment_cost": 131324.11494517128,
+          "fixed_om_cost": 71875.35389716267,
+          "variable_om_cost": 2.220647730943875,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        },
+        {
+          "type": "SteamCracker",
+          "id": "NE_ESC",
+          "location": "NE",
+          "ethylene_production": 0.05310189716107201,
+          "h2_production": 0.16287158095510118,
+          "elec_consumption": 0.1913827934989375,
+          "investment_cost": 131324.11494517128,
+          "fixed_om_cost": 71875.35389716267,
+          "variable_om_cost": 2.220647730943875,
+          "natgas_consumption": 0.0,
+          "natgas_production": 0.11814249982635501,
+          "h2_consumption": 0.0,
+          "emission_rate": 0.001283876,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "synthetic_fuels"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
