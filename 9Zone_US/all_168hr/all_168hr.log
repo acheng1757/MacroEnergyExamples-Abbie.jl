@@ -1,38 +1,37 @@
-2026-03-30 15:35:17 | INFO | 1 | MacroEnergy | run_tools.jl:123 | Running case at /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr
-2026-03-30 15:35:17 | INFO | 1 | MacroEnergy | user_additions.jl:19 |  ++ Loading user additions from MacroEnergyExamples/9Zone_US/all_168hr/tmp/UserAdditions.jl
-2026-03-30 15:35:18 | INFO | 1 | Base | loading.jl:3059 | Precompiling UserAdditions [top-level] (cache misses: wrong source (2))
-2026-03-30 15:35:25 | INFO | 1 | MacroEnergy | user_additions.jl:23 |  ++ Successfully loaded UserAdditions module.
-2026-03-30 15:35:25 | INFO | 1 | MacroEnergy | load_stages_data.jl:36 | Loading case from /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/system_data.json
-2026-03-30 15:35:25 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
-2026-03-30 15:35:25 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 0.59 seconds
-2026-03-30 15:35:25 | INFO | 1 | MacroEnergy | load_stages_data.jl:19 | Done loading case data. It took 0.6 seconds
-2026-03-30 15:35:25 | INFO | 1 | MacroEnergy | case.jl:15 | *** Generating case ***
-2026-03-30 15:35:26 | INFO | 1 | MacroEnergy | case_settings.jl:108 | Configuring case from settings/case_settings.json
-2026-03-30 15:35:26 | INFO | 1 | MacroEnergy | case_settings.jl:126 | Configuring case
-2026-03-30 15:35:26 | INFO | 1 | MacroEnergy | case_settings.jl:150 |  -- Setting solution algorithm
-2026-03-30 15:35:26 | INFO | 1 | MacroEnergy | case_settings.jl:161 |  -- Solution algorithm set to MacroEnergy.Monolithic()
-2026-03-30 15:35:26 | INFO | 1 | MacroEnergy | case.jl:30 | Generating systems
-2026-03-30 15:35:26 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
-2026-03-30 15:36:05 | INFO | 1 | MacroEnergy | generate_system.jl:38 | Done generating system. It took 39.21 seconds
-2026-03-30 15:36:06 | INFO | 1 | MacroEnergy | case.jl:54 |  -- Discounting fixed costs for period 1
-2026-03-30 15:36:06 | INFO | 1 | MacroEnergy | case.jl:57 |  -- Computing retirement case for period 1
-2026-03-30 15:36:07 | INFO | 1 | MacroEnergy | case.jl:45 | *** Done generating case. It took 41.1 seconds ***
-2026-03-30 15:36:07 | INFO | 1 | MacroEnergy | solver.jl:7 | *** Running simulation with monolithic solver ***
-2026-03-30 15:36:07 | INFO | 1 | MacroEnergy | generate_model.jl:17 | Generating model
-2026-03-30 15:36:07 | INFO | 1 | MacroEnergy | generate_model.jl:30 |  -- Period 1
-2026-03-30 15:36:07 | INFO | 1 | MacroEnergy | generate_model.jl:37 |  -- Adding linking variables
-2026-03-30 15:36:08 | INFO | 1 | MacroEnergy | generate_model.jl:40 |  -- Defining available capacity
-2026-03-30 15:36:09 | INFO | 1 | MacroEnergy | generate_model.jl:43 |  -- Generating planning model
-2026-03-30 15:36:10 | INFO | 1 | MacroEnergy | generate_model.jl:47 |  -- Adding retrofit constraints
-2026-03-30 15:36:11 | INFO | 1 | MacroEnergy | generate_model.jl:51 |  -- Including age-based retirements
-2026-03-30 15:36:11 | INFO | 1 | MacroEnergy | generate_model.jl:59 |  -- Generating operational model
-2026-03-30 15:36:24 | INFO | 1 | MacroEnergy | generate_model.jl:100 |  -- Model generation complete, it took 17.219751834869385 seconds
-2026-03-30 15:36:24 | INFO | 1 | MacroEnergy | solver.jl:14 | Scaling constraints and RHS
-2026-03-30 16:13:38 | INFO | 1 | MacroEnergy | write_outputs.jl:8 | Writing results for period 1
-2026-03-30 16:13:44 | INFO | 1 | MacroEnergy | write_capacity.jl:68 | Writing capacity results to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_002/results/capacity.csv
-2026-03-30 16:13:52 | INFO | 1 | MacroEnergy | write_cost.jl:36 | Writing discounted costs to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_002/results/costs.csv
-2026-03-30 16:13:53 | INFO | 1 | MacroEnergy | write_cost.jl:60 | Writing undiscounted costs to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_002/results/undiscounted_costs.csv
-2026-03-30 16:13:53 | INFO | 1 | MacroEnergy | write_flow.jl:66 | Writing flow results to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_002/results/flows.csv
-2026-03-30 16:13:57 | INFO | 1 | MacroEnergy | write_duals.jl:38 | Writing constraint dual values to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_002/results
-2026-03-30 16:13:57 | INFO | 1 | MacroEnergy | write_duals.jl:116 | Writing balance constraint dual values to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_002/results
-2026-03-30 16:13:59 | INFO | 1 | MacroEnergy | write_duals.jl:190 | Writing CO2 cap constraint dual values to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_002/results
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | run_tools.jl:123 | Running case at /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | user_additions.jl:19 |  ++ Loading user additions from MacroEnergyExamples/9Zone_US/all_168hr/tmp/UserAdditions.jl
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | user_additions.jl:23 |  ++ Successfully loaded UserAdditions module.
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | load_stages_data.jl:36 | Loading case from /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/system_data.json
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 0.01 seconds
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | load_stages_data.jl:19 | Done loading case data. It took 0.01 seconds
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | case.jl:15 | *** Generating case ***
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | case_settings.jl:108 | Configuring case from settings/case_settings.json
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | case_settings.jl:126 | Configuring case
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | case_settings.jl:150 |  -- Setting solution algorithm
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | case_settings.jl:161 |  -- Solution algorithm set to MacroEnergy.Monolithic()
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | case.jl:30 | Generating systems
+2026-04-03 17:22:04 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-04-03 17:22:32 | INFO | 1 | MacroEnergy | generate_system.jl:38 | Done generating system. It took 27.68 seconds
+2026-04-03 17:22:32 | INFO | 1 | MacroEnergy | case.jl:54 |  -- Discounting fixed costs for period 1
+2026-04-03 17:22:32 | INFO | 1 | MacroEnergy | case.jl:57 |  -- Computing retirement case for period 1
+2026-04-03 17:22:32 | INFO | 1 | MacroEnergy | case.jl:45 | *** Done generating case. It took 27.74 seconds ***
+2026-04-03 17:22:32 | INFO | 1 | MacroEnergy | solver.jl:7 | *** Running simulation with monolithic solver ***
+2026-04-03 17:22:32 | INFO | 1 | MacroEnergy | generate_model.jl:17 | Generating model
+2026-04-03 17:22:32 | INFO | 1 | MacroEnergy | generate_model.jl:30 |  -- Period 1
+2026-04-03 17:22:32 | INFO | 1 | MacroEnergy | generate_model.jl:37 |  -- Adding linking variables
+2026-04-03 17:22:32 | INFO | 1 | MacroEnergy | generate_model.jl:40 |  -- Defining available capacity
+2026-04-03 17:22:32 | INFO | 1 | MacroEnergy | generate_model.jl:43 |  -- Generating planning model
+2026-04-03 17:22:32 | INFO | 1 | MacroEnergy | generate_model.jl:47 |  -- Adding retrofit constraints
+2026-04-03 17:22:32 | INFO | 1 | MacroEnergy | generate_model.jl:51 |  -- Including age-based retirements
+2026-04-03 17:22:32 | INFO | 1 | MacroEnergy | generate_model.jl:59 |  -- Generating operational model
+2026-04-03 17:22:42 | INFO | 1 | MacroEnergy | generate_model.jl:100 |  -- Model generation complete, it took 10.085276126861572 seconds
+2026-04-03 17:22:42 | INFO | 1 | MacroEnergy | solver.jl:14 | Scaling constraints and RHS
+2026-04-03 17:23:03 | INFO | 1 | MacroEnergy | write_outputs.jl:8 | Writing results for period 1
+2026-04-03 17:23:03 | INFO | 1 | MacroEnergy | write_capacity.jl:68 | Writing capacity results to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_005/results/capacity.csv
+2026-04-03 17:23:06 | INFO | 1 | MacroEnergy | write_cost.jl:36 | Writing discounted costs to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_005/results/costs.csv
+2026-04-03 17:23:07 | INFO | 1 | MacroEnergy | write_cost.jl:60 | Writing undiscounted costs to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_005/results/undiscounted_costs.csv
+2026-04-03 17:23:07 | INFO | 1 | MacroEnergy | write_flow.jl:66 | Writing flow results to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_005/results/flows.csv
+2026-04-03 17:23:08 | INFO | 1 | MacroEnergy | write_duals.jl:38 | Writing constraint dual values to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_005/results
+2026-04-03 17:23:08 | INFO | 1 | MacroEnergy | write_duals.jl:116 | Writing balance constraint dual values to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_005/results
+2026-04-03 17:23:09 | INFO | 1 | MacroEnergy | write_duals.jl:190 | Writing CO2 cap constraint dual values to /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_005/results

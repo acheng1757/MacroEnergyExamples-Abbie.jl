@@ -6,5 +6,5 @@ MacroEnergy.retrofitted_capacity(::MacroEnergy.Storage) = 0.0
 (system, model) = run_case(
     @__DIR__;
     optimizer=Gurobi.Optimizer,
-    optimizer_attributes=("Method" => 2, "Crossover" => 1, "BarConvTol" => 1e-2),
+    optimizer_attributes=("Method" => 2, "Crossover" => 0, "BarConvTol" => 1e-3),
 );
