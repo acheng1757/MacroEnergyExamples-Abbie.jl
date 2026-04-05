@@ -12,7 +12,7 @@ def json_to_csv_transforms(json_data, output_path=None):
     """
     
     FIELDS = [
-        "id",
+        "id", "commodity",
         "h2_consumption", "h2_production", "elec_consumption",
         "ethylene_production", "natgas_consumption", "natgas_production",
         "capture_rate", "emission_rate",
@@ -40,6 +40,7 @@ def json_to_csv_transforms(json_data, output_path=None):
 
                 # Pull from edges > ethane_consumption_edge
                 ethane_edge = instance.get("edges", {}).get("ethane_consumption_edge", {})
+                row["commodity"] = ethane_edge.get("commodity")
                 row["investment_cost"] = ethane_edge.get("investment_cost")
                 row["fixed_om_cost"] = ethane_edge.get("fixed_om_cost")
                 row["variable_om_cost"] = ethane_edge.get("variable_om_cost")

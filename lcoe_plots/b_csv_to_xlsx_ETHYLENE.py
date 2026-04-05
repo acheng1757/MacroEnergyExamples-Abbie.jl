@@ -5,7 +5,7 @@ from openpyxl import load_workbook
 from openpyxl.styles import PatternFill
 
 sys.path.append("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/")
-from json_to_csv_ETHYLENE import json_to_csv_transforms
+from a_json_to_csv_ETHYLENE import json_to_csv_transforms
 
 ASSETS_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/"
 XLSX_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/LCOE_Ethylene_Macro.xlsx"
@@ -23,7 +23,7 @@ for json_file in json_files:
     all_rows.extend(rows)
 
 FIELDS = [
-    "id",
+    "id", "commodity",
     "h2_consumption", "h2_production", "elec_consumption",
     "ethylene_production", "natgas_consumption", "natgas_production",
     "capture_rate", "emission_rate",
