@@ -4,31 +4,25 @@ import pandas as pd
 from openpyxl import load_workbook
 
 sys.path.append("/Users/abbie/MacroEnergy-Abbie.jl")
-from MacroEnergyExamples.lcoe_plots.sc_esc_lcoe.a_json_to_csv_ETHYLENE import json_to_csv_transforms
+from MacroEnergyExamples.lcoe_plots.synthetic_lcoe.a_json_to_csv_SYNETHYLENE import json_to_csv_transforms
 
-ASSETS_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/"
-XLSX_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/sc_esc_lcoe/LCOE_SC_ESC_Ethylene.xlsx"
+ASSETS_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/"
+XLSX_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/synthetic_lcoe/LCOE_SYNTHETIC_Ethylene.xlsx"
 
 json_files = [
-    "thermalsteamcracker.json",
-    "thermalsteamcracker_retrofit_option.json",
-    "electrifiedsteamcracker_retrofit_option.json",
+    "synthetic_ethylene.json",
 ]
 
 CSV_TO_XLSX_MAP = {
     "id":                  "id",
-    "commodity":           "commodity",
-    "h2_consumption":      "h2_consumption (MWh/MWh-ethane)",
-    "h2_production":       "h2_production (MWh/MWh-ethane)",
-    "elec_consumption":    "elec_consumption (MWh/MWh-ethane)",
-    "ethylene_production": "ethylene_production (t-ethylene/MWh-ethane)",
-    "natgas_consumption":  "natgas_consumption (MWh/MWh-ethane)",
-    "natgas_production":   "natgas_production (MWh/MWh-ethane)",
-    "capture_rate":        "capture_rate (t-CO2/MWh-ethane)",
-    "emission_rate":       "emission_rate (t-CO2/MWh-ethane)",
-    "investment_cost":     "investment_cost ($/yr per MW ethane)",
-    "fixed_om_cost":       "fixed_om_cost ($/yr per MW ethane)",
-    "variable_om_cost":    "variable_om_cost ($/MWh-ethane)",
+    "h2_consumption":      "h2_consumption (MWh/t-CO2Captured)",
+    "elec_consumption":    "elec_consumption (MWh/t-CO2Captured)",
+    "ethylene_production": "ethylene_production (t-ethylene/t-CO2Captured)",
+    "natgas_production":   "natgas_production (MWh/t-CO2Captured)",
+    "emission_rate":       "emission_rate (t-CO2/t-CO2Captured)",
+    "investment_cost":     "investment_cost ($/yr per t-CO2Captured/hr)",
+    "fixed_om_cost":       "fixed_om_cost ($/yr per t-CO2Captured/hr)",
+    "variable_om_cost":    "variable_om_cost ($/t-CO2Captured)",
 }
 
 FIELDS = list(CSV_TO_XLSX_MAP.keys())

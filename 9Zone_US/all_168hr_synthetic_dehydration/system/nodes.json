@@ -516,6 +516,104 @@
             ]
         },
         {
+            "type": "Ethanol",
+            "global_data": {
+                "time_interval": "Ethanol"
+            },
+            "instance_data": [
+                {
+                    "id": "ethanol_CA",
+                    "location": "CA",
+                    "price": {
+                        "timeseries": {
+                            "path": "system/fuel_prices.csv",
+                            "header": "ethanol_global"
+                        }
+                    }
+                },
+                {
+                    "id": "ethanol_NW",
+                    "location": "NW",
+                    "price": {
+                        "timeseries": {
+                            "path": "system/fuel_prices.csv",
+                            "header": "ethanol_global"
+                        }
+                    }
+                },
+                {
+                    "id": "ethanol_SW",
+                    "location": "SW",
+                    "price": {
+                        "timeseries": {
+                            "path": "system/fuel_prices.csv",
+                            "header": "ethanol_global"
+                        }
+                    }
+                },
+                {
+                    "id": "ethanol_TX",
+                    "location": "TX",
+                    "price": {
+                        "timeseries": {
+                            "path": "system/fuel_prices.csv",
+                            "header": "ethanol_global"
+                        }
+                    }
+                },
+                {
+                    "id": "ethanol_NCEN",
+                    "location": "NCEN",
+                    "price": {
+                        "timeseries": {
+                            "path": "system/fuel_prices.csv",
+                            "header": "ethanol_global"
+                        }
+                    }
+                },
+                {
+                    "id": "ethanol_CEN",
+                    "location": "CEN",
+                    "price": {
+                        "timeseries": {
+                            "path": "system/fuel_prices.csv",
+                            "header": "ethanol_global"
+                        }
+                    }
+                },
+                {
+                    "id": "ethanol_SE",
+                    "location": "SE",
+                    "price": {
+                        "timeseries": {
+                            "path": "system/fuel_prices.csv",
+                            "header": "ethanol_global"
+                        }
+                    }
+                },
+                {
+                    "id": "ethanol_MIDAT",
+                    "location": "MIDAT",
+                    "price": {
+                        "timeseries": {
+                            "path": "system/fuel_prices.csv",
+                            "header": "ethanol_global"
+                        }
+                    }
+                },
+                {
+                    "id": "ethanol_NE",
+                    "location": "NE",
+                    "price": {
+                        "timeseries": {
+                            "path": "system/fuel_prices.csv",
+                            "header": "ethanol_global"
+                        }
+                    }
+                }
+            ]
+        },
+        {
             "type": "Ethylene",
             "global_data": {
                 "time_interval": "Ethylene",
@@ -590,9 +688,83 @@
             ]
         },
         {
+            "type": "Gasoline",
+            "global_data": {
+                "time_interval": "Gasoline",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "gasoline_CA",
+                    "location": "CA",
+                    "price": [
+                        0
+                    ]
+                },
+                {
+                    "id": "gasoline_NW",
+                    "location": "NW",
+                    "price": [
+                        0
+                    ]
+                },
+                {
+                    "id": "gasoline_SW",
+                    "location": "SW",
+                    "price": [
+                        0
+                    ]
+                },
+                {
+                    "id": "gasoline_TX",
+                    "location": "TX",
+                    "price": [
+                        0
+                    ]
+                },
+                {
+                    "id": "gasoline_NCEN",
+                    "location": "NCEN",
+                    "price": [
+                        0
+                    ]
+                },
+                {
+                    "id": "gasoline_CEN",
+                    "location": "CEN",
+                    "price": [
+                        0
+                    ]
+                },
+                {
+                    "id": "gasoline_SE",
+                    "location": "SE",
+                    "price": [
+                        0
+                    ]
+                },
+                {
+                    "id": "gasoline_MIDAT",
+                    "location": "MIDAT",
+                    "price": [
+                        0
+                    ]
+                },
+                {
+                    "id": "gasoline_NE",
+                    "location": "NE",
+                    "price": [
+                        0
+                    ]
+                }
+            ]
+        },
+        {
             "type": "Ethylene",
             "global_data": {
-                "time_interval": "NaturalGas",
+                "time_interval": "Ethylene",
                 "constraints": {
                     "BalanceConstraint": true
                 }
@@ -676,6 +848,98 @@
                         "timeseries": {
                             "path": "system/demand.csv",
                             "header": "Demand_Ethylene_NE"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Gasoline",
+            "global_data": {
+                "time_interval": "Gasoline",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "gasoline_demand_CA",
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand.csv",
+                            "header": "Demand_Gasoline_CA"
+                        }
+                    }
+                },
+                {
+                    "id": "gasoline_demand_SW",
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand.csv",
+                            "header": "Demand_Gasoline_SW"
+                        }
+                    }
+                },
+                {
+                    "id": "gasoline_demand_NW",
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand.csv",
+                            "header": "Demand_Gasoline_NW"
+                        }
+                    }
+                },
+                {
+                    "id": "gasoline_demand_TX",
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand.csv",
+                            "header": "Demand_Gasoline_TX"
+                        }
+                    }
+                },
+                {
+                    "id": "gasoline_demand_NCEN",
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand.csv",
+                            "header": "Demand_Gasoline_NCEN"
+                        }
+                    }
+                },
+                {
+                    "id": "gasoline_demand_CEN",
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand.csv",
+                            "header": "Demand_Gasoline_CEN"
+                        }
+                    }
+                },
+                {
+                    "id": "gasoline_demand_SE",
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand.csv",
+                            "header": "Demand_Gasoline_SE"
+                        }
+                    }
+                },
+                {
+                    "id": "gasoline_demand_MIDAT",
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand.csv",
+                            "header": "Demand_Gasoline_MIDAT"
+                        }
+                    }
+                },
+                {
+                    "id": "gasoline_demand_NE",
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand.csv",
+                            "header": "Demand_Gasoline_NE"
                         }
                     }
                 }

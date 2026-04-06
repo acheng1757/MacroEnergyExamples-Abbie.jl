@@ -2,9 +2,9 @@ import pandas as pd
 from openpyxl import load_workbook
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
-DUALS_CSV     = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_017/results/balance_duals.csv"
-CO2_DUALS_CSV = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_017/results/co2_cap_duals.csv"
-XLSX_PATH     = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/sc_esc_lcoe/LCOE_SYNTHETIC_Ethylene.xlsx"
+DUALS_CSV     = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/results_001/results/balance_duals.csv"
+CO2_DUALS_CSV = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/results_001/results/co2_cap_duals.csv"
+XLSX_PATH     = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/dehydration_lcoe/LCOE_DEHYDRATION_Ethylene.xlsx"
 
 # ── Mapping: xlsx dual column header → CSV column prefix ──────────────────────
 DUAL_COLUMN_MAP = {

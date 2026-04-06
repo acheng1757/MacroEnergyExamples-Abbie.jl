@@ -12,5 +12,5 @@ MacroEnergy.retrofitted_capacity(::MacroEnergy.Storage) = 0.0
 
 system = systems[1]
 
-MacroEnergy.write_duals("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/results_017/results", system, 1.0)
+MacroEnergy.write_duals("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/results_001/results", system, 1.0)
 
