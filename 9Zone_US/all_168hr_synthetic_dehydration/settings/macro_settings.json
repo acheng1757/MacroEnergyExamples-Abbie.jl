@@ -1,0 +1,10 @@
+{
+  "ConstraintScaling":true,
+  "WriteSubcommodities":true,
+  "AutoCreateNodes":false,
+  "AutoCreateLocations":true,
+  "Retrofitting" : true,
+  "OutputLayout": "wide"
+}
+
+
