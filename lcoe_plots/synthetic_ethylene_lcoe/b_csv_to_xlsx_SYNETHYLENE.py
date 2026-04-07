@@ -4,7 +4,7 @@ import pandas as pd
 from openpyxl import load_workbook
 
 sys.path.append("/Users/abbie/MacroEnergy-Abbie.jl")
-from MacroEnergyExamples.lcoe_plots.synthetic_lcoe.a_json_to_csv_SYNETHYLENE import json_to_csv_transforms
+from MacroEnergyExamples.lcoe_plots.synthetic_ethylene_lcoe.a_json_to_csv_SYNETHYLENE import json_to_csv_transforms
 
 ASSETS_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/"
 XLSX_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/synthetic_lcoe/LCOE_SYNTHETIC_Ethylene.xlsx"
