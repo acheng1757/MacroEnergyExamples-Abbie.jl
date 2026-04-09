@@ -4,10 +4,10 @@ import pandas as pd
 from openpyxl import load_workbook
 
 sys.path.append("/Users/abbie/MacroEnergy-Abbie.jl")
-from MacroEnergyExamples.lcoe_plots.dehydration_ethylene_lcoe.a_json_to_csv_ETHANOLETHYLENE import json_to_csv_transforms
+from MacroEnergyExamples.lcoe_plots.bio_ethylene_lcoe.a_json_to_csv import json_to_csv_transforms
 
 ASSETS_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/"
-XLSX_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/dehydration_lcoe/LCOE_DEHYDRATION_Ethylene.xlsx"
+XLSX_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/bio_ethylene_lcoe/LCOE_BIO_Ethylene.xlsx"
 
 json_files = [
     "ethanol_dehydration.json",
@@ -36,6 +36,16 @@ for json_file in json_files:
     all_rows.extend(rows)
 
 combined_df = pd.DataFrame(all_rows)
+
+# Duplicate all rows, appending a suffix to the id of each duplicate
+originals = combined_df.to_dict(orient="records")
+duplicates = []
+for row in originals:
+    duplicate = row.copy()
+    duplicate["id"] = f"{row['id']}_ethanol_biochemical"
+    duplicates.append(duplicate)
+
+combined_df = pd.DataFrame(originals + duplicates)
 
 wb = load_workbook(XLSX_PATH)
 ws = wb.active

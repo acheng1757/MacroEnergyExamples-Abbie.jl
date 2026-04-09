@@ -26,6 +26,7 @@ def json_to_csv_transforms(json_data, output_path=None, field_map=None):
         ("elec_consumption",           "transforms",                  "elec_consumption"),
         ("ethylene_production", "transforms",                  "ethylene_production"),
         ("natgas_production",          "transforms",                  "natgas_production"),
+        ("gasoline_production",          "transforms",                  "gasoline_production"),
         ("emission_rate",            "transforms",                  "emission_rate"),
         ("investment_cost",        "edge:co2_captured_edge", "investment_cost"),
         ("fixed_om_cost",          "edge:co2_captured_edge", "fixed_om_cost"),

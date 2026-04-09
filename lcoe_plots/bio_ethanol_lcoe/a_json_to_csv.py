@@ -22,18 +22,17 @@ def json_to_csv_transforms(json_data, output_path=None, field_map=None):
     # source = "id" | "transforms" | "edge:<edge_name>"
     DEFAULT_FIELD_MAP = [
         ("id",                                          "id",                          "id"),
-        ("commodity",                                   "edge:ethane_consumption_edge", "commodity"),
-        ("h2_consumption",             "transforms",                  "h2_consumption"),
-        ("h2_production",              "transforms",                  "h2_production"),
-        ("elec_consumption",           "transforms",                  "elec_consumption"),
-        ("ethylene_production", "transforms",                  "ethylene_production"),
+        ("commodity",                                   "edge:biomass_consumption_edge", "commodity"),
+        ("elec_production",             "transforms",                  "elec_production"),
+        ("elec_consumption",              "transforms",                  "elec_consumption"),
+        ("ethanol_production", "transforms",                  "ethanol_production"),
         ("natgas_consumption",         "transforms",                  "natgas_consumption"),
-        ("natgas_production",          "transforms",                  "natgas_production"),
+        ("co2_biomass_content",         "transforms",                  "co2_biomass_content"),
         ("capture_rate",             "transforms",                  "capture_rate"),
         ("emission_rate",            "transforms",                  "emission_rate"),
-        ("investment_cost",        "edge:ethane_consumption_edge", "investment_cost"),
-        ("fixed_om_cost",          "edge:ethane_consumption_edge", "fixed_om_cost"),
-        ("variable_om_cost",             "edge:ethane_consumption_edge", "variable_om_cost"),
+        ("investment_cost",        "edge:biomass_consumption_edge", "investment_cost"),
+        ("fixed_om_cost",          "edge:biomass_consumption_edge", "fixed_om_cost"),
+        ("variable_om_cost",             "edge:biomass_consumption_edge", "variable_om_cost"),
     ]
     # ──────────────────────────────────────────────────────────────────────────
 
@@ -86,17 +85,9 @@ def json_to_csv_transforms(json_data, output_path=None, field_map=None):
 # ── USAGE ─────────────────────────────────────────────────────────────────────
 
 # Default mapping
-with open("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/thermalsteamcracker_retrofit_option.json") as f:
+with open("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/bioethanol.json") as f:
     data = json.load(f)
-rows = json_to_csv_transforms(data, output_path="/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/thermalsteamcracker_retrofit_option.csv")
-
-with open("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/electrifiedsteamcracker_retrofit_option.json") as f:
-    data = json.load(f)
-rows = json_to_csv_transforms(data, output_path="/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/electrifiedsteamcracker_retrofit_option.csv")
-
-with open("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/thermalsteamcracker.json") as f:
-    data = json.load(f)
-rows = json_to_csv_transforms(data, output_path="/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/thermalsteamcracker.csv")
+rows = json_to_csv_transforms(data, output_path="/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/bioethanol.csv")
 
 print("DONE JSON TURNED TO CSV")
 

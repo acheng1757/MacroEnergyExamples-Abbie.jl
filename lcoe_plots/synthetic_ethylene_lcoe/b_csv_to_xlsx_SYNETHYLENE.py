@@ -19,6 +19,7 @@ CSV_TO_XLSX_MAP = {
     "elec_consumption":    "elec_consumption (MWh/t-CO2Captured)",
     "ethylene_production": "ethylene_production (t-ethylene/t-CO2Captured)",
     "natgas_production":   "natgas_production (MWh/t-CO2Captured)",
+    "gasoline_production":   "gasoline_production (MWh/t-CO2Captured)",
     "emission_rate":       "emission_rate (t-CO2/t-CO2Captured)",
     "investment_cost":     "investment_cost ($/yr per t-CO2Captured/hr)",
     "fixed_om_cost":       "fixed_om_cost ($/yr per t-CO2Captured/hr)",
