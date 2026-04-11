@@ -26,7 +26,7 @@ CSV_TO_XLSX_MAP = {
     "emission_rate":       "emission_rate (t-CO2/t-CO2Captured)",
     "investment_cost":     "investment_cost ($/yr per t-CO2Captured/hr)",
     "fixed_om_cost":       "fixed_om_cost ($/yr per t-CO2Captured/hr)",
-    "variable_om_cost":    "variable_om_cost ($/t-CO2Captured)",
+    "variable_om_cost":    "variable_om_cost WITHOUT LPG REVENUE ($/t-CO2Captured)",
 }
 
 FIELDS = list(CSV_TO_XLSX_MAP.keys())
