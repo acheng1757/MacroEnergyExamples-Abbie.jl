@@ -303,9 +303,9 @@ def plot_matplotlib(df, active_comps):
         frameon=False,
     )
 
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    fig.savefig(str(MATPLOTLIB_PNG_OUT), dpi=MATPLOTLIB_DPI, bbox_inches="tight")
-    print(f"Matplotlib chart saved → {MATPLOTLIB_PNG_OUT}")
+    #plt.tight_layout(rect=[0, 0, 1, 0.95])
+    #fig.savefig(str(MATPLOTLIB_PNG_OUT), dpi=MATPLOTLIB_DPI, bbox_inches="tight")
+    #print(f"Matplotlib chart saved → {MATPLOTLIB_PNG_OUT}")
     return fig
 
 
