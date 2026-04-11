@@ -1,26 +1,9 @@
-"""
-merge_lc_summaries.py
-
-Concatenates lc_summary_seq and lc_summary_noseq tables from multiple xlsx files.
-Headers are in row 3 (0-indexed row 2). Data starts from row 4 (0-indexed row 3).
-Performs an outer merge so all unique columns across files are preserved.
-Output is sorted by 'LCOE ($/t-ethylene)' and written to a single xlsx with two tabs.
-
-Usage (command line):
-    python merge_lc_summaries.py file1.xlsx file2.xlsx file3.xlsx -o output.xlsx
-    python merge_lc_summaries.py *.xlsx -o output.xlsx
-
-Or just edit HARDCODED_FILES and HARDCODED_OUTPUT below and run:
-    python merge_lc_summaries.py
-"""
-
 import argparse
 import glob
 import sys
 from pathlib import Path
 
 import pandas as pd
-
 # ─────────────────────────────────────────────────────────────────────────────
 # Edit these paths if you prefer not to use command-line arguments
 HARDCODED_FILES = [

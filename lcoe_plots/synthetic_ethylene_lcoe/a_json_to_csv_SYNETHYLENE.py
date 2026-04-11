@@ -2,6 +2,9 @@ import json
 import csv
 import io
 
+# change this manual file path!
+manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration"
+
 def json_to_csv_transforms(json_data, output_path=None, field_map=None):
     """
     Parse JSON and extract fields per instance, with customizable field mapping.
@@ -83,9 +86,9 @@ def json_to_csv_transforms(json_data, output_path=None, field_map=None):
 # ── USAGE ─────────────────────────────────────────────────────────────────────
 
 # Default mapping
-with open("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/synthetic_ethylene.json") as f:
+with open(f"{manual_file_path}/assets/synthetic_ethylene.json") as f:
     data = json.load(f)
-rows = json_to_csv_transforms(data, output_path="/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/synthetic_ethylene.csv")
+rows = json_to_csv_transforms(data, output_path=f"{manual_file_path}/assets/synthetic_ethylene.csv")
 
 print("DONE JSON TURNED TO CSV")
 

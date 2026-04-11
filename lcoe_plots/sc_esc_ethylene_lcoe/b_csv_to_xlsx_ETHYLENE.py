@@ -3,10 +3,13 @@ import json
 import pandas as pd
 from openpyxl import load_workbook
 
+# change this manual file path!
+manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration"
+
 sys.path.append("/Users/abbie/MacroEnergy-Abbie.jl")
 from MacroEnergyExamples.lcoe_plots.sc_esc_ethylene_lcoe.a_json_to_csv_ETHYLENE import json_to_csv_transforms
 
-ASSETS_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/"
+ASSETS_PATH = f'{manual_file_path}/assets/'
 XLSX_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/sc_esc_ethylene_lcoe/LCOE_SC_ESC_Ethylene.xlsx"
 
 json_files = [

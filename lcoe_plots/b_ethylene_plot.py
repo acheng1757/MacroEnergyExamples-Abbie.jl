@@ -1,13 +1,3 @@
-"""
-lcoe_plot.py
-
-Horizontal waterfall LCOE chart with cost component breakdown.
-Produces both a Plotly (interactive) and Matplotlib (publication-quality) version.
-
-Usage:
-    python lcoe_plot.py
-"""
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
