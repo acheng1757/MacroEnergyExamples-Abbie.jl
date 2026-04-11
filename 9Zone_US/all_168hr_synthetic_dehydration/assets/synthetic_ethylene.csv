@@ -1,3 +1,3 @@
-id,commodity,h2_consumption,elec_consumption,ethylene_production,natgas_production,emission_rate,investment_cost,fixed_om_cost,variable_om_cost
-Synthetic_Ethylene_Non_CCS,,5.442470671,0.1763367463,0.1137656428,0.1578773495,0.4293795588,174237.6587,95841.65415,2.946301684
-Synthetic_Ethylene_CCS_90,,5.924367434,0.2446684741,0.1238388794,0.1718564021,0.378854685,209498.3178,115165.852,3.542547876
+id,h2_consumption,elec_consumption,ethylene_production,natgas_production,gasoline_production,emission_rate,investment_cost,fixed_om_cost,variable_om_cost
+Synthetic_Ethylene_Non_CCS,5.442470671,0.1763367463,0.1137656428,0.1578773495,0.7647530773,0.4293795588,174237.6587,95841.65415,2.946301684
+Synthetic_Ethylene_CCS_90,5.924367434,0.2446684741,0.1238388794,0.1718564021,0.8324671827,0.378854685,209498.3178,115165.852,3.542547876
