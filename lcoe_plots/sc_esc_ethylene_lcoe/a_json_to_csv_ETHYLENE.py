@@ -86,17 +86,17 @@ def json_to_csv_transforms(json_data, output_path=None, field_map=None):
 # ── USAGE ─────────────────────────────────────────────────────────────────────
 
 # Default mapping
-with open("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/thermalsteamcracker_retrofit_option.json") as f:
+with open("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/thermalsteamcracker_retrofit_option.json") as f:
     data = json.load(f)
-rows = json_to_csv_transforms(data, output_path="/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/thermalsteamcracker_retrofit_option.csv")
+rows = json_to_csv_transforms(data, output_path="/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/thermalsteamcracker_retrofit_option.csv")
 
-with open("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/electrifiedsteamcracker_retrofit_option.json") as f:
+with open("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/electrifiedsteamcracker_retrofit_option.json") as f:
     data = json.load(f)
-rows = json_to_csv_transforms(data, output_path="/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/electrifiedsteamcracker_retrofit_option.csv")
+rows = json_to_csv_transforms(data, output_path="/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/electrifiedsteamcracker_retrofit_option.csv")
 
-with open("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/thermalsteamcracker.json") as f:
+with open("/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/thermalsteamcracker.json") as f:
     data = json.load(f)
-rows = json_to_csv_transforms(data, output_path="/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr/assets/thermalsteamcracker.csv")
+rows = json_to_csv_transforms(data, output_path="/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets/thermalsteamcracker.csv")
 
 print("DONE JSON TURNED TO CSV")
 

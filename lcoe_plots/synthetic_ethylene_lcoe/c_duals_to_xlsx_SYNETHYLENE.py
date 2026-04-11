@@ -23,6 +23,7 @@ DUAL_COLUMN_MAP = {
     "diesel_demand ($/MWh)":   "diesel_demand",
     "jetfuel_balance ($/MWh)": "jetfuel",
     "jetfuel_demand ($/MWh)":  "jetfuel_demand",
+    "biocorn_supply ($/t)":  "biocorn",
     "bioherb_supply ($/t)":  "bioherb",
     "biowood_supply ($/t)":  "biowood",
     "bioagri_supply ($/t)":  "bioagri",
