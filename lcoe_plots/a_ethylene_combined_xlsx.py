@@ -17,8 +17,8 @@ HARDCODED_OUTPUT = (
 # ─────────────────────────────────────────────────────────────────────────────
 
 SHEETS = ["lc_summary_seq", "lc_summary_noseq"]
-HEADER_ROW = 2      # 0-indexed row where column names live
-DATA_START_ROW = 3  # 0-indexed row where data starts
+HEADER_ROW = 1      # 0-indexed row where column names live
+DATA_START_ROW = 2  # 0-indexed row where data starts
 SORT_COL = "LCOE ($/t-ethylene)"
 
 
@@ -53,6 +53,8 @@ def clean_headers(header_row):
         else:
             seen[h] = 0
             unique_headers.append(h)
+
+    #print(type(unique_headers), unique_headers)
 
     return unique_headers
 
