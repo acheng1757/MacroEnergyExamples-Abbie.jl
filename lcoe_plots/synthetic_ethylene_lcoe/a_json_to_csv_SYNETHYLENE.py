@@ -3,7 +3,7 @@ import csv
 import io
 
 # change this manual file path!
-manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration"
+manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/allethylene_168hr"
 
 def json_to_csv_transforms(json_data, output_path=None, field_map=None):
     """
@@ -82,23 +82,9 @@ def json_to_csv_transforms(json_data, output_path=None, field_map=None):
 
     return rows
 
-
-# ── USAGE ─────────────────────────────────────────────────────────────────────
-
 # Default mapping
 with open(f"{manual_file_path}/assets/synthetic_ethylene.json") as f:
     data = json.load(f)
 rows = json_to_csv_transforms(data, output_path=f"{manual_file_path}/assets/synthetic_ethylene.csv")
 
 print("DONE JSON TURNED TO CSV")
-
-# ── CUSTOM MAPPING EXAMPLE ────────────────────────────────────────────────────
-# Rename columns, pull from a different edge, or add/remove fields:
-#
-# custom_map = [
-#     ("id",                      "id",                       "id"),
-#     ("fuel_type",               "edge:natgas_edge",         "commodity"),   # different edge
-#     ("h2_in",                   "transforms",               "h2_consumption (MWh/MWh-ethane)"),
-#     ("capex",                   "edge:ethane_consumption_edge", "investment_cost"),
-# ]
-# rows = json_to_csv_transforms(data, output_path="custom.csv", field_map=custom_map)

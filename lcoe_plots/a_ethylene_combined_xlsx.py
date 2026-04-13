@@ -7,9 +7,9 @@ import pandas as pd
 # ─────────────────────────────────────────────────────────────────────────────
 # Edit these paths if you prefer not to use command-line arguments
 HARDCODED_FILES = [
-    r"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/bio_ethylene_lcoe/LCOE_BIO_Ethylene.xlsx",
+    #r"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/bio_ethylene_lcoe/LCOE_BIO_Ethylene.xlsx",
     r"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/sc_esc_ethylene_lcoe/LCOE_SC_ESC_Ethylene.xlsx",
-    r"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/synthetic_ethylene_lcoe/LCOE_SYNTHETIC_Ethylene.xlsx",
+    #r"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/synthetic_ethylene_lcoe/LCOE_SYNTHETIC_Ethylene.xlsx",
 ]
 HARDCODED_OUTPUT = (
     r"/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/lc_summary_combined.xlsx"

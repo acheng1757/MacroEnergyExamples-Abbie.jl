@@ -4,7 +4,7 @@ import pandas as pd
 from openpyxl import load_workbook
 
 # change this manual file path!
-manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration"
+manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/allethylene_168hr"
 
 sys.path.append("/Users/abbie/MacroEnergy-Abbie.jl")
 from MacroEnergyExamples.lcoe_plots.synthetic_ethylene_lcoe.a_json_to_csv_SYNETHYLENE import json_to_csv_transforms
@@ -43,8 +43,8 @@ combined_df = pd.DataFrame(all_rows)
 wb = load_workbook(XLSX_PATH)
 ws = wb.active
 
-HEADER_ROW = 3
-DATA_START_ROW = 4
+HEADER_ROW = 2
+DATA_START_ROW = 3
 
 xlsx_header_to_idx = {}
 for cell in ws[HEADER_ROW]:

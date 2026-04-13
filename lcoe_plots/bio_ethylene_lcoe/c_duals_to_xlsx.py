@@ -38,8 +38,8 @@ co2_df = pd.read_csv(CO2_DUALS_CSV)
 co2_sink_value = co2_df.loc[co2_df["Node"] == "co2_sink", "CO2_Shadow_Price"].values
 CO2_SINK_VALUE = round(float(co2_sink_value[0]), 6) if len(co2_sink_value) > 0 else None
 
-HEADER_ROW     = 3
-DATA_START_ROW = 4
+HEADER_ROW     = 2
+DATA_START_ROW = 3
 
 # ── Load data ──────────────────────────────────────────────────────────────────
 duals_df = pd.read_csv(DUALS_CSV)

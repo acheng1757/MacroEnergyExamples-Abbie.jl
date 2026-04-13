@@ -1,0 +1,422 @@
+{
+    "ElectrifiedSteamCracker": [
+        {
+            "type": "SteamCracker",
+            "global_data":{
+                "transforms": {
+                    "timedata": "Ethane",
+                    "constraints": {
+                            "BalanceConstraint": true
+                    }
+                },
+                "edges":{
+                    "elec_consumption_edge":{
+                        "commodity": "Electricity",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "h2_consumption_edge":{
+                        "commodity": "Hydrogen",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "h2_production_edge":{
+                        "commodity": "Hydrogen",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "natgas_consumption_edge":{
+                        "commodity": "NaturalGas",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "natgas_production_edge":{
+                        "commodity": "NaturalGas",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "ethylene_production_edge":{
+                        "commodity": "Ethylene",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "ethane_consumption_edge":{
+                        "commodity": "Ethane",
+                        "unidirectional": true,
+                        "has_capacity": true,
+                        "can_expand": true,
+                        "can_retire": true,
+                        "integer_decisions": false,
+                        "constraints": {
+                            "CapacityConstraint": true,
+                            "MinFlowConstraint": true
+                        }
+                    },
+                    "co2_emission_edge": {
+                        "commodity": "CO2",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "co2_sink"
+                    },
+                    "co2_captured_edge": {
+                        "commodity": "CO2Captured",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    }
+                }
+            },
+            "instance_data":[
+                {
+                    "id": "SW_ESC",
+                    "transforms":{
+                        "h2_consumption": 0,
+                        "h2_production": 0.1598531434,
+                        "elec_consumption": 0.1913827933,
+                        "ethylene_production": 0.05310189724,
+                        "natgas_consumption": 0,
+                        "natgas_production": 0.1181424966,
+                        "capture_rate": 0,
+                        "emission_rate": 0.033512947
+                    },
+                    "edges": {
+                        "ethane_consumption_edge": {
+                            "commodity": "Ethane",
+                            "start_vertex": "ethane_SW",
+                            "availability": {
+                                "timeseries": {
+                                    "path": "system/availability.csv",
+                                    "header": "Ethylene"
+                                    }
+                                },
+                            "investment_cost": 131324.1148,
+                            "fixed_om_cost": 71875.354,
+                            "variable_om_cost": 2.220647733,
+                            "min_flow_fraction": 0.8
+                        },
+                        "elec_consumption_edge": {
+                            "start_vertex": "elec_SW"
+                        },
+                        "h2_consumption_edge": {
+                            "start_vertex": "h2_SW"
+                        },
+                        "h2_production_edge": {
+                            "end_vertex": "h2_SW"
+                        },
+                        "natgas_consumption_edge": {
+                            "start_vertex": "natgas_SW"
+                        },
+                        "natgas_production_edge": {
+                            "end_vertex": "natgas_SW"
+                        },
+                        "ethylene_production_edge":{
+                            "end_vertex": "ethylene_SW"
+                        },
+                        "co2_captured_edge": {
+                            "end_vertex": "co2_captured_SW"
+                        }
+                    }
+                },
+                {
+                    "id": "TX_ESC",
+                    "transforms":{
+                        "h2_consumption": 0,
+                        "h2_production": 0.1598531434,
+                        "elec_consumption": 0.1913827933,
+                        "ethylene_production": 0.05310189724,
+                        "natgas_consumption": 0,
+                        "natgas_production": 0.1181424966,
+                        "capture_rate": 0,
+                        "emission_rate": 0.033512947
+                    },
+                    "edges": {
+                        "ethane_consumption_edge": {
+                            "commodity": "Ethane",
+                            "start_vertex": "ethane_TX",
+                            "availability": {
+                                "timeseries": {
+                                    "path": "system/availability.csv",
+                                    "header": "Ethylene"
+                                    }
+                                },
+                            "investment_cost": 131324.1148,
+                            "fixed_om_cost": 71875.354,
+                            "variable_om_cost": 2.220647733,
+                            "min_flow_fraction": 0.8
+                        },
+                        "elec_consumption_edge": {
+                            "start_vertex": "elec_TX"
+                        },
+                        "h2_consumption_edge": {
+                            "start_vertex": "h2_TX"
+                        },
+                        "h2_production_edge": {
+                            "end_vertex": "h2_TX"
+                        },
+                        "natgas_consumption_edge": {
+                            "start_vertex": "natgas_TX"
+                        },
+                        "natgas_production_edge": {
+                            "end_vertex": "natgas_TX"
+                        },
+                        "ethylene_production_edge":{
+                            "end_vertex": "ethylene_TX"
+                        },
+                        "co2_captured_edge": {
+                            "end_vertex": "co2_captured_TX"
+                        }
+                    }
+                },
+                {
+                    "id": "NCEN_ESC",
+                    "transforms":{
+                        "h2_consumption": 0,
+                        "h2_production": 0.1598531434,
+                        "elec_consumption": 0.1913827933,
+                        "ethylene_production": 0.05310189724,
+                        "natgas_consumption": 0,
+                        "natgas_production": 0.1181424966,
+                        "capture_rate": 0,
+                        "emission_rate": 0.033512947
+                    },
+                    "edges": {
+                        "ethane_consumption_edge": {
+                            "commodity": "Ethane",
+                            "start_vertex": "ethane_NCEN",
+                            "availability": {
+                                "timeseries": {
+                                    "path": "system/availability.csv",
+                                    "header": "Ethylene"
+                                    }
+                                },
+                            "investment_cost": 131324.1148,
+                            "fixed_om_cost": 71875.354,
+                            "variable_om_cost": 2.220647733,
+                            "min_flow_fraction": 0.8
+                        },
+                        "elec_consumption_edge": {
+                            "start_vertex": "elec_NCEN"
+                        },
+                        "h2_consumption_edge": {
+                            "start_vertex": "h2_NCEN"
+                        },
+                        "h2_production_edge": {
+                            "end_vertex": "h2_NCEN"
+                        },
+                        "natgas_consumption_edge": {
+                            "start_vertex": "natgas_NCEN"
+                        },
+                        "natgas_production_edge": {
+                            "end_vertex": "natgas_NCEN"
+                        },
+                        "ethylene_production_edge":{
+                            "end_vertex": "ethylene_NCEN"
+                        },
+                        "co2_captured_edge": {
+                            "end_vertex": "co2_captured_NCEN"
+                        }
+                    }
+                },
+                {
+                    "id": "CEN_ESC",
+                    "transforms":{
+                        "h2_consumption": 0,
+                        "h2_production": 0.1598531434,
+                        "elec_consumption": 0.1913827933,
+                        "ethylene_production": 0.05310189724,
+                        "natgas_consumption": 0,
+                        "natgas_production": 0.1181424966,
+                        "capture_rate": 0,
+                        "emission_rate": 0.033512947
+                    },
+                    "edges": {
+                        "ethane_consumption_edge": {
+                            "commodity": "Ethane",
+                            "start_vertex": "ethane_CEN",
+                            "availability": {
+                                "timeseries": {
+                                    "path": "system/availability.csv",
+                                    "header": "Ethylene"
+                                    }
+                                },
+                            "investment_cost": 131324.1148,
+                            "fixed_om_cost": 71875.354,
+                            "variable_om_cost": 2.220647733,
+                            "min_flow_fraction": 0.8
+                        },
+                        "elec_consumption_edge": {
+                            "start_vertex": "elec_CEN"
+                        },
+                        "h2_consumption_edge": {
+                            "start_vertex": "h2_CEN"
+                        },
+                        "h2_production_edge": {
+                            "end_vertex": "h2_CEN"
+                        },
+                        "natgas_consumption_edge": {
+                            "start_vertex": "natgas_CEN"
+                        },
+                        "natgas_production_edge": {
+                            "end_vertex": "natgas_CEN"
+                        },
+                        "ethylene_production_edge":{
+                            "end_vertex": "ethylene_CEN"
+                        },
+                        "co2_captured_edge": {
+                            "end_vertex": "co2_captured_CEN"
+                        }
+                    }
+                },
+                {
+                    "id": "SE_ESC",
+                    "transforms":{
+                        "h2_consumption": 0,
+                        "h2_production": 0.1598531434,
+                        "elec_consumption": 0.1913827933,
+                        "ethylene_production": 0.05310189724,
+                        "natgas_consumption": 0,
+                        "natgas_production": 0.1181424966,
+                        "capture_rate": 0,
+                        "emission_rate": 0.033512947
+                    },
+                    "edges": {
+                        "ethane_consumption_edge": {
+                            "commodity": "Ethane",
+                            "start_vertex": "ethane_SE",
+                            "availability": {
+                                "timeseries": {
+                                    "path": "system/availability.csv",
+                                    "header": "Ethylene"
+                                    }
+                                },
+                            "investment_cost": 131324.1148,
+                            "fixed_om_cost": 71875.354,
+                            "variable_om_cost": 2.220647733,
+                            "min_flow_fraction": 0.8
+                        },
+                        "elec_consumption_edge": {
+                            "start_vertex": "elec_CEN"
+                        },
+                        "h2_consumption_edge": {
+                            "start_vertex": "h2_CEN"
+                        },
+                        "h2_production_edge": {
+                            "end_vertex": "h2_CEN"
+                        },
+                        "natgas_consumption_edge": {
+                            "start_vertex": "natgas_CEN"
+                        },
+                        "natgas_production_edge": {
+                            "end_vertex": "natgas_CEN"
+                        },
+                        "ethylene_production_edge":{
+                            "end_vertex": "ethylene_CEN"
+                        },
+                        "co2_captured_edge": {
+                            "end_vertex": "co2_captured_CEN"
+                        }
+                    }
+                },
+                {
+                    "id": "MIDAT_ESC",
+                    "transforms":{
+                        "h2_consumption": 0,
+                        "h2_production": 0.1598531434,
+                        "elec_consumption": 0.1913827933,
+                        "ethylene_production": 0.05310189724,
+                        "natgas_consumption": 0,
+                        "natgas_production": 0.1181424966,
+                        "capture_rate": 0,
+                        "emission_rate": 0.033512947
+                    },
+                    "edges": {
+                        "ethane_consumption_edge": {
+                            "commodity": "Ethane",
+                            "start_vertex": "ethane_MIDAT",
+                            "availability": {
+                                "timeseries": {
+                                    "path": "system/availability.csv",
+                                    "header": "Ethylene"
+                                    }
+                                },
+                            "investment_cost": 131324.1148,
+                            "fixed_om_cost": 71875.354,
+                            "variable_om_cost": 2.220647733,
+                            "min_flow_fraction": 0.8
+                        },
+                        "elec_consumption_edge": {
+                            "start_vertex": "elec_MIDAT"
+                        },
+                        "h2_consumption_edge": {
+                            "start_vertex": "h2_MIDAT"
+                        },
+                        "h2_production_edge": {
+                            "end_vertex": "h2_MIDAT"
+                        },
+                        "natgas_consumption_edge": {
+                            "start_vertex": "natgas_MIDAT"
+                        },
+                        "natgas_production_edge": {
+                            "end_vertex": "natgas_MIDAT"
+                        },
+                        "ethylene_production_edge":{
+                            "end_vertex": "ethylene_MIDAT"
+                        },
+                        "co2_captured_edge": {
+                            "end_vertex": "co2_captured_MIDAT"
+                        }
+                    }
+                },
+                {
+                    "id": "NE_ESC",
+                    "transforms":{
+                        "h2_consumption": 0,
+                        "h2_production": 0.1598531434,
+                        "elec_consumption": 0.1913827933,
+                        "ethylene_production": 0.05310189724,
+                        "natgas_consumption": 0,
+                        "natgas_production": 0.1181424966,
+                        "capture_rate": 0,
+                        "emission_rate": 0.033512947
+                    },
+                    "edges": {
+                        "ethane_consumption_edge": {
+                            "commodity": "Ethane",
+                            "start_vertex": "ethane_NE",
+                            "availability": {
+                                "timeseries": {
+                                    "path": "system/availability.csv",
+                                    "header": "Ethylene"
+                                    }
+                                },
+                            "investment_cost": 131324.1148,
+                            "fixed_om_cost": 71875.354,
+                            "variable_om_cost": 2.220647733,
+                            "min_flow_fraction": 0.8
+                        },
+                        "elec_consumption_edge": {
+                            "start_vertex": "elec_NE"
+                        },
+                        "h2_consumption_edge": {
+                            "start_vertex": "h2_NE"
+                        },
+                        "h2_production_edge": {
+                            "end_vertex": "h2_NE"
+                        },
+                        "natgas_consumption_edge": {
+                            "start_vertex": "natgas_NE"
+                        },
+                        "natgas_production_edge": {
+                            "end_vertex": "natgas_NE"
+                        },
+                        "ethylene_production_edge":{
+                            "end_vertex": "ethylene_NE"
+                        },
+                        "co2_captured_edge": {
+                            "end_vertex": "co2_captured_NE"
+                        }
+                    }
+                }
+           ]
+        }
+    ]
+}

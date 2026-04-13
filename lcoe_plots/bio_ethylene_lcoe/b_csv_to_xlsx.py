@@ -53,8 +53,8 @@ combined_df = pd.DataFrame(originals + duplicates)
 wb = load_workbook(XLSX_PATH)
 ws = wb.active
 
-HEADER_ROW = 3
-DATA_START_ROW = 4
+HEADER_ROW = 2
+DATA_START_ROW = 3
 
 xlsx_header_to_idx = {}
 for cell in ws[HEADER_ROW]:
