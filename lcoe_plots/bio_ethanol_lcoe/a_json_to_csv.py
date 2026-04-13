@@ -3,7 +3,7 @@ import csv
 import io
 
 # change this manual file path!
-manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration"
+manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/allethylene_168hr"
 
 def json_to_csv_transforms(json_data, output_path=None, field_map=None):
     """
@@ -91,5 +91,13 @@ def json_to_csv_transforms(json_data, output_path=None, field_map=None):
 with open(f'{manual_file_path}/assets/bioethanol.json') as f:
     data = json.load(f)
 rows = json_to_csv_transforms(data, output_path=f'{manual_file_path}/assets/bioethanol.csv')
+
+with open(f'{manual_file_path}/assets/drymillethanol.json') as f:
+    data = json.load(f)
+rows = json_to_csv_transforms(data, output_path=f'{manual_file_path}/assets/drymillethanol.csv')
+
+with open(f'{manual_file_path}/assets/drymillccsethanol_retrofit_option.json') as f:
+    data = json.load(f)
+rows = json_to_csv_transforms(data, output_path=f'{manual_file_path}/assets/drymillccsethanol_retrofit_option.csv')
 
 print("DONE JSON TURNED TO CSV")

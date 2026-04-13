@@ -2,7 +2,7 @@ import pandas as pd
 from openpyxl import load_workbook
 
 # change this manual file path!
-manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/results_001"
+manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/allethylene_168hr/results_006"
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
 DUALS_CSV     = f'{manual_file_path}/results/balance_duals.csv'
@@ -29,6 +29,7 @@ DUAL_COLUMN_MAP = {
     "bioherb_supply ($/t)":  "bioherb",
     "biowood_supply ($/t)":  "biowood",
     "bioagri_supply ($/t)":  "bioagri",
+    "biocorn_supply ($/t)":  "corn",
     "co2_captured ($/t)":  "co2_captured",
 }
 

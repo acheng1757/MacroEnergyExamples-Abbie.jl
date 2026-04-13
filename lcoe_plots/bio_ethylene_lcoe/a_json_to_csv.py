@@ -3,7 +3,7 @@ import csv
 import io
 
 # manual file path
-manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration/assets"
+manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/allethylene_168hr/assets"
 
 def json_to_csv_transforms(json_data, output_path=None, field_map=None):
     """

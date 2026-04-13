@@ -4,7 +4,7 @@ import pandas as pd
 from openpyxl import load_workbook
 
 # change this manual file path!
-manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration"
+manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/allethylene_168hr"
 
 sys.path.append("/Users/abbie/MacroEnergy-Abbie.jl")
 from MacroEnergyExamples.lcoe_plots.bio_ethanol_lcoe.a_json_to_csv import json_to_csv_transforms
@@ -14,6 +14,8 @@ XLSX_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/bi
 
 json_files = [
     "bioethanol.json",
+    "drymillethanol.json",
+    "drymillccsethanol_retrofit_option.json",
 ]
 
 CSV_TO_XLSX_MAP = {

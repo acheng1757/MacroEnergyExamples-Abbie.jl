@@ -1,3 +1,4 @@
+abstract type Biomass_Corn <: MacroEnergy.Biomass end
 abstract type JetFuel <: MacroEnergy.LiquidFuels end
 abstract type Biomass_Herb <: MacroEnergy.Biomass end
 abstract type Fossil_Diesel <: MacroEnergy.LiquidFuels end

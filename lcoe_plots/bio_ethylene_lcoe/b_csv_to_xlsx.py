@@ -7,13 +7,13 @@ sys.path.append("/Users/abbie/MacroEnergy-Abbie.jl")
 from MacroEnergyExamples.lcoe_plots.bio_ethylene_lcoe.a_json_to_csv import json_to_csv_transforms
 
 # change this manual file path!
-manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/all_168hr_synthetic_dehydration"
+manual_file_path = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/9Zone_US/allethylene_168hr"
 
 ASSETS_PATH = f'{manual_file_path}/assets/'
 XLSX_PATH = "/Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/lcoe_plots/bio_ethylene_lcoe/LCOE_BIO_Ethylene.xlsx" # this will stay the same
 
 json_files = [
-    "ethanol_dehydration.json",
+    "ethanol_dehydration.json"
 ]
 
 CSV_TO_XLSX_MAP = {

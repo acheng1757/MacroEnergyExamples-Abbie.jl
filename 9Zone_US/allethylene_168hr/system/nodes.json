@@ -1,6 +1,37 @@
 {
     "nodes": [
       {
+    "type": "Biomass_Corn",
+    "global_data": {
+      "time_interval": "Biomass",
+      "constraints": {
+        "BalanceConstraint": true
+      }
+    },
+    "instance_data": [
+      {
+        "id": "corn_NCEN",
+        "location": "NCEN",
+        "max_supply": [
+         10000000000000000000000000000000000
+        ],
+        "price_supply": [
+          155
+        ]
+      },
+      {
+        "id": "corn_CEN",
+        "location": "CEN",
+        "max_supply": [
+         10000000000000000000000000000000000
+        ],
+        "price_supply": [
+          155
+        ]
+      }
+    ]
+  },
+      {
     "type": "Biomass_Agri",
     "global_data": {
       "time_interval": "Biomass",

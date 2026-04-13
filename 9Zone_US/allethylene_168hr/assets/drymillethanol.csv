@@ -1,0 +1,3 @@
+id,commodity,elec_production,elec_consumption,ethanol_production,natgas_consumption,co2_biomass_content,capture_rate,emission_rate,investment_cost,fixed_om_cost,variable_om_cost
+NCEN_Ethanol_DryMill,Biomass_Corn,0,0.06193,3.2587,0.7507,1.65,0,0.73836,0,154043.63,79.65256661
+CEN_Ethanol_DryMill,Biomass_Corn,0,0.06193,3.2587,0.7507,1.65,0,0.73836,0,154043.63,79.65256661
