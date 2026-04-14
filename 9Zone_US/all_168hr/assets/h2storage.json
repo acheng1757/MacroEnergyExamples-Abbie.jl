@@ -5,7 +5,7 @@
       "global_data": {
         "timedata": "Hydrogen",
         "storage_commodity": "Hydrogen",
-        "storage_long_duration": true,
+        "storage_long_duration": false,
         "discharge_can_retire": false,
         "charge_can_retire": false,
         "storage_can_retire": false,
