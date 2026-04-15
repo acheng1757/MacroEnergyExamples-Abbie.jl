@@ -19,7 +19,7 @@
         "LiquidFuels": 1,
         "CO2Captured": 1
     },
-    "NumberOfSubperiods": 3,
+    "NumberOfSubperiods": 24,
     "SubPeriodMap": {
         "path": "system/Period_map.csv"
     },

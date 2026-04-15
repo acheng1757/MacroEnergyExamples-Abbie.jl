@@ -12,8 +12,6 @@
           "capacity_size": 35.243,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -31,8 +29,6 @@
           "capacity_size": 20.655,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -50,8 +46,6 @@
           "capacity_size": 241.356,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -69,8 +63,6 @@
           "capacity_size": 10.632,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -88,8 +80,6 @@
           "capacity_size": 161.2,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -107,8 +97,6 @@
           "capacity_size": 10.578,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -126,8 +114,6 @@
           "capacity_size": 86.17,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -145,8 +131,6 @@
           "capacity_size": 3.63,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -164,8 +148,6 @@
           "capacity_size": 275.447,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -183,8 +165,6 @@
           "capacity_size": 13.533,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -202,8 +182,6 @@
           "capacity_size": 139.405,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -221,8 +199,6 @@
           "capacity_size": 4.655,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -240,8 +216,6 @@
           "capacity_size": 17.142,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -259,8 +233,6 @@
           "capacity_size": 176.157,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -278,8 +250,6 @@
           "capacity_size": 27.14,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -297,8 +267,6 @@
           "capacity_size": 264.43,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {
@@ -316,8 +284,6 @@
           "capacity_size": 111.009,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": false,
           "elec_can_retire": true,
           "availability": {

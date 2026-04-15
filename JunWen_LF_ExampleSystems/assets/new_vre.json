@@ -16,8 +16,6 @@
           "fixed_om_cost": 57294.4,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -35,8 +33,6 @@
           "fixed_om_cost": 57294.4,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -54,8 +50,6 @@
           "fixed_om_cost": 57294.4,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -73,8 +67,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -92,8 +84,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -111,8 +101,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -130,8 +118,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -149,8 +135,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -168,8 +152,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -187,8 +169,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -206,8 +186,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -225,8 +203,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -244,8 +220,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -263,8 +237,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -282,8 +254,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -301,8 +271,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -320,8 +288,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -339,8 +305,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -358,8 +322,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -377,8 +339,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -396,8 +356,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -415,8 +373,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -434,8 +390,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -453,8 +407,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -472,8 +424,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -491,8 +441,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -510,8 +458,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -529,8 +475,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -548,8 +492,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -567,8 +509,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -586,8 +526,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -605,8 +543,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -624,8 +560,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -643,8 +577,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -662,8 +594,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -681,8 +611,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -700,8 +628,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -719,8 +645,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -738,8 +662,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -757,8 +679,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -776,8 +696,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -795,8 +713,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -814,8 +730,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -833,8 +747,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -852,8 +764,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -871,8 +781,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -890,8 +798,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -909,8 +815,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -928,8 +832,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -947,8 +849,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -966,8 +866,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -985,8 +883,6 @@
           "fixed_om_cost": 13510.19684,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1004,8 +900,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1023,8 +917,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1042,8 +934,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1061,8 +951,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1080,8 +968,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1099,8 +985,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1118,8 +1002,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1137,8 +1019,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1156,8 +1036,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1175,8 +1053,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1194,8 +1070,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1213,8 +1087,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1232,8 +1104,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1251,8 +1121,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1270,8 +1138,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1289,8 +1155,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1308,8 +1172,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1327,8 +1189,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1346,8 +1206,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1365,8 +1223,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1384,8 +1240,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1403,8 +1257,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1422,8 +1274,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1441,8 +1291,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1460,8 +1308,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1479,8 +1325,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1498,8 +1342,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1517,8 +1359,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1536,8 +1376,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1555,8 +1393,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1574,8 +1410,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1593,8 +1427,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1612,8 +1444,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1631,8 +1461,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1650,8 +1478,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1669,8 +1495,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1688,8 +1512,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1707,8 +1529,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1726,8 +1546,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1745,8 +1563,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1764,8 +1580,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1783,8 +1597,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1802,8 +1614,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1821,8 +1631,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1840,8 +1648,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1859,8 +1665,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1878,8 +1682,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1897,8 +1699,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1916,8 +1716,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1935,8 +1733,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1954,8 +1750,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
@@ -1973,8 +1767,6 @@
           "fixed_om_cost": 26256.10757,
           "ramp_up_fraction": 1.0,
           "ramp_down_fraction": 1.0,
-          "can_expand": NaN,
-          "can_retire": NaN,
           "elec_can_expand": true,
           "elec_can_retire": true,
           "availability": {
