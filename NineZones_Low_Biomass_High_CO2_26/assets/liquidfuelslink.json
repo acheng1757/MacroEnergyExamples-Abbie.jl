@@ -1,0 +1,335 @@
+{
+    "link": [
+        {
+            "type": "TransmissionLink",
+            "global_data": {
+                "edges": {
+                    "transmission_edge": {
+                        "has_capacity": true,
+                        "unidirectional": false,
+                        "can_expand": true,
+                        "can_retire": false,
+                        "integer_decisions": false,
+                        "constraints": {
+                            "CapacityConstraint": true
+                        }
+                    }
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "NE_to_MIDAT_Gasoline",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Gasoline",
+                            "start_vertex": "gasoline_NE",
+                            "end_vertex": "gasoline_MIDAT",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "MIDAT_to_SE_Gasoline",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Gasoline",
+                            "start_vertex": "gasoline_MIDAT",
+                            "end_vertex": "gasoline_SE",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "SE_to_NCEN_Gasoline",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Gasoline",
+                            "start_vertex": "gasoline_SE",
+                            "end_vertex": "gasoline_NCEN",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "NCEN_to_CEN_Gasoline",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Gasoline",
+                            "start_vertex": "gasoline_NCEN",
+                            "end_vertex": "gasoline_CEN",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "CEN_to_TX_Gasoline",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Gasoline",
+                            "start_vertex": "gasoline_CEN",
+                            "end_vertex": "gasoline_TX",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "TX_to_SW_Gasoline",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Gasoline",
+                            "start_vertex": "gasoline_TX",
+                            "end_vertex": "gasoline_SW",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "SW_to_NW_Gasoline",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Gasoline",
+                            "start_vertex": "gasoline_SW",
+                            "end_vertex": "gasoline_NW",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "NW_to_CA_Gasoline",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Gasoline",
+                            "start_vertex": "gasoline_NW",
+                            "end_vertex": "gasoline_CA",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "NE_to_MIDAT_Diesel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Diesel",
+                            "start_vertex": "diesel_NE",
+                            "end_vertex": "diesel_MIDAT",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "MIDAT_to_SE_Diesel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Diesel",
+                            "start_vertex": "diesel_MIDAT",
+                            "end_vertex": "diesel_SE",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "SE_to_NCEN_Diesel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Diesel",
+                            "start_vertex": "diesel_SE",
+                            "end_vertex": "diesel_NCEN",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "NCEN_to_CEN_Diesel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Diesel",
+                            "start_vertex": "diesel_NCEN",
+                            "end_vertex": "diesel_CEN",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "CEN_to_TX_Diesel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Diesel",
+                            "start_vertex": "diesel_CEN",
+                            "end_vertex": "diesel_TX",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "TX_to_SW_Diesel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Diesel",
+                            "start_vertex": "diesel_TX",
+                            "end_vertex": "diesel_SW",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "SW_to_NW_Diesel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Diesel",
+                            "start_vertex": "diesel_SW",
+                            "end_vertex": "diesel_NW",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "NW_to_CA_Diesel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "Diesel",
+                            "start_vertex": "diesel_NW",
+                            "end_vertex": "diesel_CA",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "NE_to_MIDAT_JetFuel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "JetFuel",
+                            "start_vertex": "jetfuel_NE",
+                            "end_vertex": "jetfuel_MIDAT",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "MIDAT_to_SE_JetFuel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "JetFuel",
+                            "start_vertex": "jetfuel_MIDAT",
+                            "end_vertex": "jetfuel_SE",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "SE_to_NCEN_JetFuel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "JetFuel",
+                            "start_vertex": "jetfuel_SE",
+                            "end_vertex": "jetfuel_NCEN",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "NCEN_to_CEN_JetFuel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "JetFuel",
+                            "start_vertex": "jetfuel_NCEN",
+                            "end_vertex": "jetfuel_CEN",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "CEN_to_TX_JetFuel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "JetFuel",
+                            "start_vertex": "jetfuel_CEN",
+                            "end_vertex": "jetfuel_TX",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "TX_to_SW_JetFuel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "JetFuel",
+                            "start_vertex": "jetfuel_TX",
+                            "end_vertex": "jetfuel_SW",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "SW_to_NW_JetFuel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "JetFuel",
+                            "start_vertex": "jetfuel_SW",
+                            "end_vertex": "jetfuel_NW",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                },
+                {
+                    "id": "NW_to_CA_JetFuel",
+                    "edges": {
+                        "transmission_edge": {
+                            "commodity": "JetFuel",
+                            "start_vertex": "jetfuel_NW",
+                            "end_vertex": "jetfuel_CA",
+                            "existing_capacity": 999999999999999999999999,
+                            "investment_cost": 0,
+                            "loss_fraction": 0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
