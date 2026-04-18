@@ -1,0 +1,118 @@
+{
+  "electrolyzer": [
+    {
+      "type": "Electrolyzer",
+      "global_data": {
+        "can_expand": true,
+        "can_retire": true,
+        "capacity_size": 1.5756,
+        "investment_cost": 45885.95,
+        "fixed_om_cost": 1174.68,
+        "efficiency_rate": 0.8745,
+        "uc": true,
+        "ramp_up_fraction": 1.0,
+        "ramp_down_fraction": 1.0,
+        "min_flow_fraction": 0.1,
+        "h2_constraints": {
+          "CapacityConstraint": true,
+          "RampingLimitConstraint": true,
+          "MinFlowConstraint": true,
+          "MinUpTimeConstraint": true,
+          "MinDownTimeConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "CA_Electrolyzer",
+          "location": "CA",
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "CA_Electrolyzer"
+            }
+          }
+        },
+        {
+          "id": "NW_Electrolyzer",
+          "location": "NW",
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NW_Electrolyzer"
+            }
+          }
+        },
+        {
+          "id": "SW_Electrolyzer",
+          "location": "SW",
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SW_Electrolyzer"
+            }
+          }
+        },
+        {
+          "id": "TX_Electrolyzer",
+          "location": "TX",
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "TX_Electrolyzer"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Electrolyzer",
+          "location": "NCEN",
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NCEN_Electrolyzer"
+            }
+          }
+        },
+        {
+          "id": "CEN_Electrolyzer",
+          "location": "CEN",
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "CEN_Electrolyzer"
+            }
+          }
+        },
+        {
+          "id": "SE_Electrolyzer",
+          "location": "SE",
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_Electrolyzer"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Electrolyzer",
+          "location": "MIDAT",
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "MIDAT_Electrolyzer"
+            }
+          }
+        },
+        {
+          "id": "NE_Electrolyzer",
+          "location": "NE",
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NE_Electrolyzer"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
