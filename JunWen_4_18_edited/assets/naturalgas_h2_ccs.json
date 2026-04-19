@@ -19,7 +19,7 @@
           "id": "CA_ATR_wCCS_94pct",
           "location": "CA",
           "electricity_consumption": 0.1015,
-          "fuel_consumption": 1.2995428999999998,
+          "fuel_consumption": 1.2998578063000001,
           "investment_cost": 63682.4,
           "fixed_om_cost": 25797.59,
           "variable_om_cost": 2.13,
@@ -32,8 +32,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.009957653,
-          "capture_rate": 0.171090582,
+          "emission_rate": 0.010058996,
+          "capture_rate": 0.172831839,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -45,7 +45,7 @@
           "id": "NW_ATR_wCCS_94pct",
           "location": "NW",
           "electricity_consumption": 0.1015,
-          "fuel_consumption": 1.2995428999999998,
+          "fuel_consumption": 1.2998578063000001,
           "investment_cost": 63682.4,
           "fixed_om_cost": 25797.59,
           "variable_om_cost": 2.13,
@@ -58,8 +58,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.009957653,
-          "capture_rate": 0.171090582,
+          "emission_rate": 0.010058996,
+          "capture_rate": 0.172831839,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -71,7 +71,7 @@
           "id": "SW_ATR_wCCS_94pct",
           "location": "SW",
           "electricity_consumption": 0.1015,
-          "fuel_consumption": 1.2995428999999998,
+          "fuel_consumption": 1.2998578063000001,
           "investment_cost": 63682.4,
           "fixed_om_cost": 25797.59,
           "variable_om_cost": 2.13,
@@ -84,8 +84,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.009957653,
-          "capture_rate": 0.171090582,
+          "emission_rate": 0.010058996,
+          "capture_rate": 0.172831839,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -97,7 +97,7 @@
           "id": "TX_ATR_wCCS_94pct",
           "location": "TX",
           "electricity_consumption": 0.1015,
-          "fuel_consumption": 1.2995428999999998,
+          "fuel_consumption": 1.2998578063000001,
           "investment_cost": 63682.4,
           "fixed_om_cost": 25797.59,
           "variable_om_cost": 2.13,
@@ -110,8 +110,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.009957653,
-          "capture_rate": 0.171090582,
+          "emission_rate": 0.010058996,
+          "capture_rate": 0.172831839,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -123,7 +123,7 @@
           "id": "NCEN_ATR_wCCS_94pct",
           "location": "NCEN",
           "electricity_consumption": 0.1015,
-          "fuel_consumption": 1.2995428999999998,
+          "fuel_consumption": 1.2998578063000001,
           "investment_cost": 63682.4,
           "fixed_om_cost": 25797.59,
           "variable_om_cost": 2.13,
@@ -136,8 +136,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.009957653,
-          "capture_rate": 0.171090582,
+          "emission_rate": 0.010058996,
+          "capture_rate": 0.172831839,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -149,7 +149,7 @@
           "id": "CEN_ATR_wCCS_94pct",
           "location": "CEN",
           "electricity_consumption": 0.1015,
-          "fuel_consumption": 1.2995428999999998,
+          "fuel_consumption": 1.2998578063000001,
           "investment_cost": 63682.4,
           "fixed_om_cost": 25797.59,
           "variable_om_cost": 2.13,
@@ -162,8 +162,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.009957653,
-          "capture_rate": 0.171090582,
+          "emission_rate": 0.010058996,
+          "capture_rate": 0.172831839,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -175,7 +175,7 @@
           "id": "SE_ATR_wCCS_94pct",
           "location": "SE",
           "electricity_consumption": 0.1015,
-          "fuel_consumption": 1.2995428999999998,
+          "fuel_consumption": 1.2998578063000001,
           "investment_cost": 63682.4,
           "fixed_om_cost": 25797.59,
           "variable_om_cost": 2.13,
@@ -188,8 +188,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.009957653,
-          "capture_rate": 0.171090582,
+          "emission_rate": 0.010058996,
+          "capture_rate": 0.172831839,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -201,7 +201,7 @@
           "id": "MIDAT_ATR_wCCS_94pct",
           "location": "MIDAT",
           "electricity_consumption": 0.1015,
-          "fuel_consumption": 1.2995428999999998,
+          "fuel_consumption": 1.2998578063000001,
           "investment_cost": 63682.4,
           "fixed_om_cost": 25797.59,
           "variable_om_cost": 2.13,
@@ -214,8 +214,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.009957653,
-          "capture_rate": 0.171090582,
+          "emission_rate": 0.010058996,
+          "capture_rate": 0.172831839,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -227,7 +227,7 @@
           "id": "NE_ATR_wCCS_94pct",
           "location": "NE",
           "electricity_consumption": 0.1015,
-          "fuel_consumption": 1.2995428999999998,
+          "fuel_consumption": 1.2998578063000001,
           "investment_cost": 63682.4,
           "fixed_om_cost": 25797.59,
           "variable_om_cost": 2.13,
@@ -240,8 +240,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.009957653,
-          "capture_rate": 0.171090582,
+          "emission_rate": 0.010058996,
+          "capture_rate": 0.172831839,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -270,7 +270,7 @@
           "id": "CA_Large_SMR_wCCS_96pct",
           "location": "CA",
           "electricity_consumption": 0.0517,
-          "fuel_consumption": 1.382667,
+          "fuel_consumption": 1.3830020490000001,
           "investment_cost": 80573.69,
           "fixed_om_cost": 33260.09,
           "variable_om_cost": 2.9,
@@ -283,8 +283,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.006879833,
-          "capture_rate": 0.174168402,
+          "emission_rate": 0.006949852,
+          "capture_rate": 0.175940983,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -296,7 +296,7 @@
           "id": "NW_Large_SMR_wCCS_96pct",
           "location": "NW",
           "electricity_consumption": 0.0517,
-          "fuel_consumption": 1.382667,
+          "fuel_consumption": 1.3830020490000001,
           "investment_cost": 80573.69,
           "fixed_om_cost": 33260.09,
           "variable_om_cost": 2.9,
@@ -309,8 +309,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.006879833,
-          "capture_rate": 0.174168402,
+          "emission_rate": 0.006949852,
+          "capture_rate": 0.175940983,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -322,7 +322,7 @@
           "id": "SW_Large_SMR_wCCS_96pct",
           "location": "SW",
           "electricity_consumption": 0.0517,
-          "fuel_consumption": 1.382667,
+          "fuel_consumption": 1.3830020490000001,
           "investment_cost": 80573.69,
           "fixed_om_cost": 33260.09,
           "variable_om_cost": 2.9,
@@ -335,8 +335,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.006879833,
-          "capture_rate": 0.174168402,
+          "emission_rate": 0.006949852,
+          "capture_rate": 0.175940983,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -348,7 +348,7 @@
           "id": "TX_Large_SMR_wCCS_96pct",
           "location": "TX",
           "electricity_consumption": 0.0517,
-          "fuel_consumption": 1.382667,
+          "fuel_consumption": 1.3830020490000001,
           "investment_cost": 80573.69,
           "fixed_om_cost": 33260.09,
           "variable_om_cost": 2.9,
@@ -361,8 +361,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.006879833,
-          "capture_rate": 0.174168402,
+          "emission_rate": 0.006949852,
+          "capture_rate": 0.175940983,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -374,7 +374,7 @@
           "id": "NCEN_Large_SMR_wCCS_96pct",
           "location": "NCEN",
           "electricity_consumption": 0.0517,
-          "fuel_consumption": 1.382667,
+          "fuel_consumption": 1.3830020490000001,
           "investment_cost": 80573.69,
           "fixed_om_cost": 33260.09,
           "variable_om_cost": 2.9,
@@ -387,8 +387,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.006879833,
-          "capture_rate": 0.174168402,
+          "emission_rate": 0.006949852,
+          "capture_rate": 0.175940983,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -400,7 +400,7 @@
           "id": "CEN_Large_SMR_wCCS_96pct",
           "location": "CEN",
           "electricity_consumption": 0.0517,
-          "fuel_consumption": 1.382667,
+          "fuel_consumption": 1.3830020490000001,
           "investment_cost": 80573.69,
           "fixed_om_cost": 33260.09,
           "variable_om_cost": 2.9,
@@ -413,8 +413,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.006879833,
-          "capture_rate": 0.174168402,
+          "emission_rate": 0.006949852,
+          "capture_rate": 0.175940983,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -426,7 +426,7 @@
           "id": "SE_Large_SMR_wCCS_96pct",
           "location": "SE",
           "electricity_consumption": 0.0517,
-          "fuel_consumption": 1.382667,
+          "fuel_consumption": 1.3830020490000001,
           "investment_cost": 80573.69,
           "fixed_om_cost": 33260.09,
           "variable_om_cost": 2.9,
@@ -439,8 +439,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.006879833,
-          "capture_rate": 0.174168402,
+          "emission_rate": 0.006949852,
+          "capture_rate": 0.175940983,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -452,7 +452,7 @@
           "id": "MIDAT_Large_SMR_wCCS_96pct",
           "location": "MIDAT",
           "electricity_consumption": 0.0517,
-          "fuel_consumption": 1.382667,
+          "fuel_consumption": 1.3830020490000001,
           "investment_cost": 80573.69,
           "fixed_om_cost": 33260.09,
           "variable_om_cost": 2.9,
@@ -465,8 +465,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.006879833,
-          "capture_rate": 0.174168402,
+          "emission_rate": 0.006949852,
+          "capture_rate": 0.175940983,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -478,7 +478,7 @@
           "id": "NE_Large_SMR_wCCS_96pct",
           "location": "NE",
           "electricity_consumption": 0.0517,
-          "fuel_consumption": 1.382667,
+          "fuel_consumption": 1.3830020490000001,
           "investment_cost": 80573.69,
           "fixed_om_cost": 33260.09,
           "variable_om_cost": 2.9,
@@ -491,8 +491,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.006879833,
-          "capture_rate": 0.174168402,
+          "emission_rate": 0.006949852,
+          "capture_rate": 0.175940983,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",

@@ -18,14 +18,13 @@
           "RampingLimitConstraint": true
         },
         "discharge_existing_capacity": 0,
-        "storage_loss_fraction": 0.0,
-        "charge_electricity_consumption": 0.018,
-        "discharge_electricity_consumption": 0.0098
+        "storage_loss_fraction": 0.0
       },
       "instance_data": [
         {
           "id": "CA_Above_ground_storage",
           "location": "CA",
+          "discharge_electricity_consumption": 0.0098,
           "fuel_consumption": 0.0,
           "charge_investment_cost": 3636.81,
           "storage_investment_cost": 986.25,
@@ -35,6 +34,7 @@
           "discharge_ramp_up_fraction": 1.0,
           "discharge_ramp_down_fraction": 1.0,
           "storage_min_storage_level": 0.3,
+          "charge_electricity_consumption": 0.018,
           "charge_efficiency": 1,
           "discharge_efficiency": 1,
           "can_expand": true,
@@ -43,6 +43,7 @@
         {
           "id": "NW_Above_ground_storage",
           "location": "NW",
+          "discharge_electricity_consumption": 0.0098,
           "fuel_consumption": 0.0,
           "charge_investment_cost": 3636.81,
           "storage_investment_cost": 986.25,
@@ -52,6 +53,7 @@
           "discharge_ramp_up_fraction": 1.0,
           "discharge_ramp_down_fraction": 1.0,
           "storage_min_storage_level": 0.3,
+          "charge_electricity_consumption": 0.018,
           "charge_efficiency": 1,
           "discharge_efficiency": 1,
           "can_expand": true,
@@ -60,6 +62,7 @@
         {
           "id": "SW_Above_ground_storage",
           "location": "SW",
+          "discharge_electricity_consumption": 0.0098,
           "fuel_consumption": 0.0,
           "charge_investment_cost": 3636.81,
           "storage_investment_cost": 986.25,
@@ -69,6 +72,7 @@
           "discharge_ramp_up_fraction": 1.0,
           "discharge_ramp_down_fraction": 1.0,
           "storage_min_storage_level": 0.3,
+          "charge_electricity_consumption": 0.018,
           "charge_efficiency": 1,
           "discharge_efficiency": 1,
           "can_expand": true,
@@ -77,6 +81,7 @@
         {
           "id": "TX_Above_ground_storage",
           "location": "TX",
+          "discharge_electricity_consumption": 0.0098,
           "fuel_consumption": 0.0,
           "charge_investment_cost": 3636.81,
           "storage_investment_cost": 986.25,
@@ -86,6 +91,7 @@
           "discharge_ramp_up_fraction": 1.0,
           "discharge_ramp_down_fraction": 1.0,
           "storage_min_storage_level": 0.3,
+          "charge_electricity_consumption": 0.018,
           "charge_efficiency": 1,
           "discharge_efficiency": 1,
           "can_expand": true,
@@ -94,6 +100,7 @@
         {
           "id": "NCEN_Above_ground_storage",
           "location": "NCEN",
+          "discharge_electricity_consumption": 0.0098,
           "fuel_consumption": 0.0,
           "charge_investment_cost": 3636.81,
           "storage_investment_cost": 986.25,
@@ -103,6 +110,7 @@
           "discharge_ramp_up_fraction": 1.0,
           "discharge_ramp_down_fraction": 1.0,
           "storage_min_storage_level": 0.3,
+          "charge_electricity_consumption": 0.018,
           "charge_efficiency": 1,
           "discharge_efficiency": 1,
           "can_expand": true,
@@ -111,6 +119,7 @@
         {
           "id": "CEN_Above_ground_storage",
           "location": "CEN",
+          "discharge_electricity_consumption": 0.0098,
           "fuel_consumption": 0.0,
           "charge_investment_cost": 3636.81,
           "storage_investment_cost": 986.25,
@@ -120,6 +129,7 @@
           "discharge_ramp_up_fraction": 1.0,
           "discharge_ramp_down_fraction": 1.0,
           "storage_min_storage_level": 0.3,
+          "charge_electricity_consumption": 0.018,
           "charge_efficiency": 1,
           "discharge_efficiency": 1,
           "can_expand": true,
@@ -128,6 +138,7 @@
         {
           "id": "SE_Above_ground_storage",
           "location": "SE",
+          "discharge_electricity_consumption": 0.0098,
           "fuel_consumption": 0.0,
           "charge_investment_cost": 3636.81,
           "storage_investment_cost": 986.25,
@@ -137,6 +148,7 @@
           "discharge_ramp_up_fraction": 1.0,
           "discharge_ramp_down_fraction": 1.0,
           "storage_min_storage_level": 0.3,
+          "charge_electricity_consumption": 0.018,
           "charge_efficiency": 1,
           "discharge_efficiency": 1,
           "can_expand": true,
@@ -145,6 +157,7 @@
         {
           "id": "MIDAT_Above_ground_storage",
           "location": "MIDAT",
+          "discharge_electricity_consumption": 0.0098,
           "fuel_consumption": 0.0,
           "charge_investment_cost": 3636.81,
           "storage_investment_cost": 986.25,
@@ -154,6 +167,7 @@
           "discharge_ramp_up_fraction": 1.0,
           "discharge_ramp_down_fraction": 1.0,
           "storage_min_storage_level": 0.3,
+          "charge_electricity_consumption": 0.018,
           "charge_efficiency": 1,
           "discharge_efficiency": 1,
           "can_expand": true,
@@ -162,6 +176,7 @@
         {
           "id": "NE_Above_ground_storage",
           "location": "NE",
+          "discharge_electricity_consumption": 0.0098,
           "fuel_consumption": 0.0,
           "charge_investment_cost": 3636.81,
           "storage_investment_cost": 986.25,
@@ -171,6 +186,7 @@
           "discharge_ramp_up_fraction": 1.0,
           "discharge_ramp_down_fraction": 1.0,
           "storage_min_storage_level": 0.3,
+          "charge_electricity_consumption": 0.018,
           "charge_efficiency": 1,
           "discharge_efficiency": 1,
           "can_expand": true,

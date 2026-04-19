@@ -34,8 +34,8 @@
           "min_flow_fraction": 0.5,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.005431447056000005,
-          "capture_rate": 0.17561678814399997
+          "emission_rate": 0.005486725050000005,
+          "capture_rate": 0.17740410995
         },
         {
           "id": "NW_naturalgas_ccccsavgcf_conservative_0",
@@ -55,8 +55,8 @@
           "min_flow_fraction": 0.5,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.005431447056000005,
-          "capture_rate": 0.17561678814399997
+          "emission_rate": 0.005486725050000005,
+          "capture_rate": 0.17740410995
         },
         {
           "id": "SW_naturalgas_ccccsavgcf_conservative_0",
@@ -76,8 +76,8 @@
           "min_flow_fraction": 0.5,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.005431447056000005,
-          "capture_rate": 0.17561678814399997
+          "emission_rate": 0.005486725050000005,
+          "capture_rate": 0.17740410995
         },
         {
           "id": "TX_naturalgas_ccccsavgcf_conservative_0",
@@ -97,8 +97,8 @@
           "min_flow_fraction": 0.5,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.005431447056000005,
-          "capture_rate": 0.17561678814399997
+          "emission_rate": 0.005486725050000005,
+          "capture_rate": 0.17740410995
         },
         {
           "id": "NCEN_naturalgas_ccccsavgcf_conservative_0",
@@ -118,8 +118,8 @@
           "min_flow_fraction": 0.5,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.005431447056000005,
-          "capture_rate": 0.17561678814399997
+          "emission_rate": 0.005486725050000005,
+          "capture_rate": 0.17740410995
         },
         {
           "id": "CEN_naturalgas_ccccsavgcf_conservative_0",
@@ -139,8 +139,8 @@
           "min_flow_fraction": 0.5,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.005431447056000005,
-          "capture_rate": 0.17561678814399997
+          "emission_rate": 0.005486725050000005,
+          "capture_rate": 0.17740410995
         },
         {
           "id": "SE_naturalgas_ccccsavgcf_conservative_0",
@@ -160,8 +160,8 @@
           "min_flow_fraction": 0.5,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.005431447056000005,
-          "capture_rate": 0.17561678814399997
+          "emission_rate": 0.005486725050000005,
+          "capture_rate": 0.17740410995
         },
         {
           "id": "MIDAT_naturalgas_ccccsavgcf_conservative_0",
@@ -181,8 +181,8 @@
           "min_flow_fraction": 0.5,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.005431447056000005,
-          "capture_rate": 0.17561678814399997
+          "emission_rate": 0.005486725050000005,
+          "capture_rate": 0.17740410995
         },
         {
           "id": "NE_naturalgas_ccccsavgcf_conservative_0",
@@ -202,8 +202,8 @@
           "min_flow_fraction": 0.5,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.005431447056000005,
-          "capture_rate": 0.17561678814399997
+          "emission_rate": 0.005486725050000005,
+          "capture_rate": 0.17740410995
         }
       ]
     }

@@ -20,14 +20,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.75010972,
-          "emission_rate": 1.223097489,
+          "natgas_production": 2.750776129,
+          "emission_rate": 1.217908257,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -42,14 +41,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.75615724,
-          "emission_rate": 1.227002596,
+          "natgas_production": 2.756825114,
+          "emission_rate": 1.221801953,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -64,14 +62,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7380146799999996,
-          "emission_rate": 1.214287274,
+          "natgas_production": 2.738678158,
+          "emission_rate": 1.209120865,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -86,14 +83,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7440621999999997,
-          "emission_rate": 1.217192381,
+          "natgas_production": 2.744727143,
+          "emission_rate": 1.212014561,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -108,14 +104,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.77278792,
-          "emission_rate": 1.237991641,
+          "natgas_production": 2.773459824,
+          "emission_rate": 1.232759617,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -130,14 +125,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.75615724,
-          "emission_rate": 1.224002596,
+          "natgas_production": 2.756825114,
+          "emission_rate": 1.218801953,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -152,14 +146,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7516215999999996,
-          "emission_rate": 1.218823765,
+          "natgas_production": 2.752288375,
+          "emission_rate": 1.213631681,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -174,14 +167,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7667404,
-          "emission_rate": 1.235086533,
+          "natgas_production": 2.767410839,
+          "emission_rate": 1.229865921,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -196,14 +188,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.77732356,
-          "emission_rate": 1.242170471,
+          "natgas_production": 2.777996563,
+          "emission_rate": 1.236929889,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -218,14 +209,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.9269996799999998,
-          "emission_rate": 1.313071874,
+          "natgas_production": 2.927708953,
+          "emission_rate": 1.307548865,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -240,14 +230,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.92095216,
-          "emission_rate": 1.289166766,
+          "natgas_production": 2.921659968,
+          "emission_rate": 1.283655169,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -262,14 +251,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.8937383199999998,
-          "emission_rate": 1.274093784,
+          "natgas_production": 2.894439533,
+          "emission_rate": 1.268633537,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -284,14 +272,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.8710601199999997,
-          "emission_rate": 1.301199632,
+          "natgas_production": 2.871755838,
+          "emission_rate": 1.295782177,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -306,14 +293,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.8816432799999996,
-          "emission_rate": 1.28028357,
+          "natgas_production": 2.882341562,
+          "emission_rate": 1.274846145,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -328,14 +314,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.8831551600000003,
-          "emission_rate": 1.280009846,
+          "natgas_production": 2.883853809,
+          "emission_rate": 1.274569569,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -350,14 +335,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.8937383199999998,
-          "emission_rate": 1.297093784,
+          "natgas_production": 2.894439533,
+          "emission_rate": 1.291633537,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -372,14 +356,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.87408388,
-          "emission_rate": 1.285652186,
+          "natgas_production": 2.87478033,
+          "emission_rate": 1.280229025,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -394,14 +377,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.85594132,
-          "emission_rate": 1.308936864,
+          "natgas_production": 2.856633374,
+          "emission_rate": 1.303547937,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -416,14 +398,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7652285199999995,
-          "emission_rate": 1.218360257,
+          "natgas_production": 2.765898592,
+          "emission_rate": 1.213142497,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -438,14 +419,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.52786336,
-          "emission_rate": 1.2063348,
+          "natgas_production": 2.528475914,
+          "emission_rate": 1.201564929,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -460,14 +440,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.57473164,
-          "emission_rate": 1.22084938,
+          "natgas_production": 2.575355551,
+          "emission_rate": 1.215991073,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -482,14 +461,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.50820892,
-          "emission_rate": 1.178893202,
+          "natgas_production": 2.508816711,
+          "emission_rate": 1.174160417,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -504,14 +482,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.6155524000000003,
-          "emission_rate": 1.236458854,
+          "natgas_production": 2.616186203,
+          "emission_rate": 1.231523521,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -526,14 +503,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.59589796,
-          "emission_rate": 1.230017256,
+          "natgas_production": 2.596527,
+          "emission_rate": 1.225119009,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -548,14 +524,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.60496924,
-          "emission_rate": 1.217374916,
+          "natgas_production": 2.605600478,
+          "emission_rate": 1.212459553,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -570,14 +545,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.61252864,
-          "emission_rate": 1.2350063,
+          "natgas_production": 2.61316171,
+          "emission_rate": 1.230076673,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -592,14 +566,13 @@
           "variable_om_cost": 9.04,
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.6427662400000003,
-          "emission_rate": 1.236531836,
+          "natgas_production": 2.643406637,
+          "emission_rate": 1.231545153,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         }
@@ -625,14 +598,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.72879104,
-          "emission_rate": 0.742186409,
-          "capture_rate": 0.484770789,
+          "natgas_production": 2.729452283,
+          "emission_rate": 0.739071776,
+          "capture_rate": 0.482736417,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -647,14 +619,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.73479168,
-          "emission_rate": 0.744553743,
-          "capture_rate": 0.48631705,
+          "natgas_production": 2.735454377,
+          "emission_rate": 0.74143226,
+          "capture_rate": 0.484278205,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -669,14 +640,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7167897599999997,
-          "emission_rate": 0.736846842,
-          "capture_rate": 0.481283166,
+          "natgas_production": 2.717448095,
+          "emission_rate": 0.733745907,
+          "capture_rate": 0.479257742,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -691,14 +661,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7227903999999996,
-          "emission_rate": 0.738609276,
-          "capture_rate": 0.482434328,
+          "natgas_production": 2.723450189,
+          "emission_rate": 0.735501492,
+          "capture_rate": 0.480404429,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -713,14 +682,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.75129344,
-          "emission_rate": 0.751215134,
-          "capture_rate": 0.490668044,
+          "natgas_production": 2.751960136,
+          "emission_rate": 0.748074817,
+          "capture_rate": 0.488616896,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -735,14 +703,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.73479168,
-          "emission_rate": 0.742739043,
-          "capture_rate": 0.48513175,
+          "natgas_production": 2.735454377,
+          "emission_rate": 0.73961756,
+          "capture_rate": 0.483092905,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -757,14 +724,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7302912,
-          "emission_rate": 0.739602517,
-          "capture_rate": 0.483083079,
+          "natgas_production": 2.730952806,
+          "emission_rate": 0.736486172,
+          "capture_rate": 0.481047589,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -779,14 +745,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7452928,
-          "emission_rate": 0.749452701,
-          "capture_rate": 0.489516882,
+          "natgas_production": 2.745958042,
+          "emission_rate": 0.746319233,
+          "capture_rate": 0.487470208,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -801,14 +766,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7557939200000003,
-          "emission_rate": 0.75374676,
-          "capture_rate": 0.492321615,
+          "natgas_production": 2.756461706,
+          "emission_rate": 0.750601305,
+          "capture_rate": 0.490267112,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -823,14 +787,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.90430976,
-          "emission_rate": 0.796762087,
-          "capture_rate": 0.520417756,
+          "natgas_production": 2.905013535,
+          "emission_rate": 0.793447118,
+          "capture_rate": 0.518252531,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -845,14 +808,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.89830912,
-          "emission_rate": 0.782296754,
-          "capture_rate": 0.510969495,
+          "natgas_production": 2.899011441,
+          "emission_rate": 0.778988633,
+          "capture_rate": 0.508808744,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -867,14 +829,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.87130624,
-          "emission_rate": 0.773156003,
-          "capture_rate": 0.504999069,
+          "natgas_production": 2.872002017,
+          "emission_rate": 0.769878704,
+          "capture_rate": 0.502858449,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -889,14 +850,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.8488038399999995,
-          "emission_rate": 0.789533078,
-          "capture_rate": 0.515696014,
+          "natgas_production": 2.849494164,
+          "emission_rate": 0.786281463,
+          "capture_rate": 0.51357217,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -911,14 +871,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.8593049599999993,
-          "emission_rate": 0.776889936,
-          "capture_rate": 0.507437947,
+          "natgas_production": 2.859997829,
+          "emission_rate": 0.773626335,
+          "capture_rate": 0.505306274,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -933,14 +892,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.86080512,
-          "emission_rate": 0.776725645,
-          "capture_rate": 0.507330637,
+          "natgas_production": 2.861498353,
+          "emission_rate": 0.773460331,
+          "capture_rate": 0.505197846,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -955,14 +913,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.87130624,
-          "emission_rate": 0.787068703,
-          "capture_rate": 0.514086369,
+          "natgas_production": 2.872002017,
+          "emission_rate": 0.783791404,
+          "capture_rate": 0.511945749,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -977,14 +934,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.8518041600000004,
-          "emission_rate": 0.780130995,
-          "capture_rate": 0.509554895,
+          "natgas_production": 2.852495212,
+          "emission_rate": 0.776875955,
+          "capture_rate": 0.507428814,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -999,14 +955,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.8338022400000002,
-          "emission_rate": 0.794200494,
-          "capture_rate": 0.518744611,
+          "natgas_production": 2.834488929,
+          "emission_rate": 0.790966002,
+          "capture_rate": 0.516631951,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1021,14 +976,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7437926399999997,
-          "emission_rate": 0.739333693,
-          "capture_rate": 0.482907492,
+          "natgas_production": 2.744457518,
+          "emission_rate": 0.736201937,
+          "capture_rate": 0.480861936,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1043,14 +997,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.50826752,
-          "emission_rate": 0.73185798,
-          "capture_rate": 0.478024612,
+          "natgas_production": 2.508875325,
+          "emission_rate": 0.728995052,
+          "capture_rate": 0.476154645,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1065,14 +1018,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.55477248,
-          "emission_rate": 0.740677639,
-          "capture_rate": 0.483785312,
+          "natgas_production": 2.555391555,
+          "emission_rate": 0.73776163,
+          "capture_rate": 0.481880675,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1087,14 +1039,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.48876544,
-          "emission_rate": 0.715241871,
-          "capture_rate": 0.467171538,
+          "natgas_production": 2.48936852,
+          "emission_rate": 0.712401202,
+          "capture_rate": 0.46531611,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1109,14 +1060,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.5952768,
-          "emission_rate": 0.750154465,
-          "capture_rate": 0.489975251,
+          "natgas_production": 2.59590569,
+          "emission_rate": 0.747192224,
+          "capture_rate": 0.488040416,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1131,14 +1081,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.57577472,
-          "emission_rate": 0.746241256,
-          "capture_rate": 0.487419276,
+          "natgas_production": 2.576398884,
+          "emission_rate": 0.743301275,
+          "capture_rate": 0.485498981,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1153,14 +1102,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.58477568,
-          "emission_rate": 0.738601606,
-          "capture_rate": 0.482429318,
+          "natgas_production": 2.585402025,
+          "emission_rate": 0.735651352,
+          "capture_rate": 0.480502313,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1175,14 +1123,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.59227648,
-          "emission_rate": 0.749273248,
-          "capture_rate": 0.48939967,
+          "natgas_production": 2.592904643,
+          "emission_rate": 0.746314432,
+          "capture_rate": 0.487467073,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1197,14 +1144,13 @@
           "variable_om_cost": 9.76,
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.62227968,
-          "emission_rate": 0.750221715,
-          "capture_rate": 0.490019176,
+          "natgas_production": 2.622915113,
+          "emission_rate": 0.747228654,
+          "capture_rate": 0.488064211,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         }
@@ -1230,14 +1176,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.72879104,
-          "emission_rate": 0.010919919,
-          "capture_rate": 1.216037279,
+          "natgas_production": 2.729452283,
+          "emission_rate": 0.010874093,
+          "capture_rate": 1.2109341,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1252,14 +1197,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.73479168,
-          "emission_rate": 0.01095475,
-          "capture_rate": 1.219916043,
+          "natgas_production": 2.735454377,
+          "emission_rate": 0.010908823,
+          "capture_rate": 1.214801642,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1274,14 +1218,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7167897599999997,
-          "emission_rate": 0.010841357,
-          "capture_rate": 1.207288651,
+          "natgas_production": 2.717448095,
+          "emission_rate": 0.010795732,
+          "capture_rate": 1.202207916,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1296,14 +1239,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7227903999999996,
-          "emission_rate": 0.010867288,
-          "capture_rate": 1.210176315,
+          "natgas_production": 2.723450189,
+          "emission_rate": 0.010821563,
+          "capture_rate": 1.205084358,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1318,14 +1260,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.75129344,
-          "emission_rate": 0.01105276,
-          "capture_rate": 1.230830418,
+          "natgas_production": 2.751960136,
+          "emission_rate": 0.011006556,
+          "capture_rate": 1.225685157,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1340,14 +1281,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.73479168,
-          "emission_rate": 0.01092805,
-          "capture_rate": 1.216942743,
+          "natgas_production": 2.735454377,
+          "emission_rate": 0.010882123,
+          "capture_rate": 1.211828342,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1362,14 +1302,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7302912,
-          "emission_rate": 0.010881902,
-          "capture_rate": 1.211803695,
+          "natgas_production": 2.730952806,
+          "emission_rate": 0.01083605,
+          "capture_rate": 1.20669771,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1384,14 +1323,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7452928,
-          "emission_rate": 0.011026829,
-          "capture_rate": 1.227942754,
+          "natgas_production": 2.745958042,
+          "emission_rate": 0.010980726,
+          "capture_rate": 1.222808715,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1406,14 +1344,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7557939200000003,
-          "emission_rate": 0.011090009,
-          "capture_rate": 1.234978366,
+          "natgas_production": 2.756461706,
+          "emission_rate": 0.011043729,
+          "capture_rate": 1.229824688,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1428,14 +1365,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.90430976,
-          "emission_rate": 0.011722901,
-          "capture_rate": 1.305456943,
+          "natgas_production": 2.905013535,
+          "emission_rate": 0.011674127,
+          "capture_rate": 1.300025522,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1450,14 +1386,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.89830912,
-          "emission_rate": 0.01151007,
-          "capture_rate": 1.281756179,
+          "natgas_production": 2.899011441,
+          "emission_rate": 0.011461397,
+          "capture_rate": 1.27633598,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1472,14 +1407,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.87130624,
-          "emission_rate": 0.01137558,
-          "capture_rate": 1.266779492,
+          "natgas_production": 2.872002017,
+          "emission_rate": 0.011327361,
+          "capture_rate": 1.261409792,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1494,14 +1428,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.8488038399999995,
-          "emission_rate": 0.011616539,
-          "capture_rate": 1.293612553,
+          "natgas_production": 2.849494164,
+          "emission_rate": 0.011568697,
+          "capture_rate": 1.288284936,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1516,14 +1449,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.8593049599999993,
-          "emission_rate": 0.011430518,
-          "capture_rate": 1.272897365,
+          "natgas_production": 2.859997829,
+          "emission_rate": 0.0113825,
+          "capture_rate": 1.267550109,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1538,14 +1470,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.86080512,
-          "emission_rate": 0.011428101,
-          "capture_rate": 1.272628181,
+          "natgas_production": 2.861498353,
+          "emission_rate": 0.011380058,
+          "capture_rate": 1.267278119,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1560,14 +1491,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.87130624,
-          "emission_rate": 0.01158028,
-          "capture_rate": 1.289574792,
+          "natgas_production": 2.872002017,
+          "emission_rate": 0.011532061,
+          "capture_rate": 1.284205092,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1582,14 +1512,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.8518041600000004,
-          "emission_rate": 0.011478204,
-          "capture_rate": 1.278207685,
+          "natgas_production": 2.852495212,
+          "emission_rate": 0.011430312,
+          "capture_rate": 1.272874456,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1604,14 +1533,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.8338022400000002,
-          "emission_rate": 0.011685211,
-          "capture_rate": 1.301259894,
+          "natgas_production": 2.834488929,
+          "emission_rate": 0.011637622,
+          "capture_rate": 1.295960331,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1626,14 +1554,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.7437926399999997,
-          "emission_rate": 0.010877947,
-          "capture_rate": 1.211363238,
+          "natgas_production": 2.744457518,
+          "emission_rate": 0.010831868,
+          "capture_rate": 1.206232004,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1648,14 +1575,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.50826752,
-          "emission_rate": 0.010767955,
-          "capture_rate": 1.199114637,
+          "natgas_production": 2.508875325,
+          "emission_rate": 0.010725832,
+          "capture_rate": 1.194423865,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1670,14 +1596,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.55477248,
-          "emission_rate": 0.01089772,
-          "capture_rate": 1.213565231,
+          "natgas_production": 2.555391555,
+          "emission_rate": 0.010854817,
+          "capture_rate": 1.208787488,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1692,14 +1617,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.48876544,
-          "emission_rate": 0.010523479,
-          "capture_rate": 1.17188993,
+          "natgas_production": 2.48936852,
+          "emission_rate": 0.010481684,
+          "capture_rate": 1.167235629,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1714,14 +1638,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.5952768,
-          "emission_rate": 0.011037154,
-          "capture_rate": 1.229092561,
+          "natgas_production": 2.59590569,
+          "emission_rate": 0.010993571,
+          "capture_rate": 1.22423907,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1736,14 +1659,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.57577472,
-          "emission_rate": 0.010979579,
-          "capture_rate": 1.222680954,
+          "natgas_production": 2.576398884,
+          "emission_rate": 0.010936322,
+          "capture_rate": 1.217863935,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1758,14 +1680,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.58477568,
-          "emission_rate": 0.010867175,
-          "capture_rate": 1.21016375,
+          "natgas_production": 2.585402025,
+          "emission_rate": 0.010823768,
+          "capture_rate": 1.205329897,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1780,14 +1701,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.59227648,
-          "emission_rate": 0.011024189,
-          "capture_rate": 1.227648729,
+          "natgas_production": 2.592904643,
+          "emission_rate": 0.010980655,
+          "capture_rate": 1.222800849,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         },
@@ -1802,14 +1722,13 @@
           "variable_om_cost": 14.86,
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
-          "max_flow_fraction": 0.9,
-          "natgas_production": 2.62227968,
-          "emission_rate": 0.011038144,
-          "capture_rate": 1.229202748,
+          "natgas_production": 2.622915113,
+          "emission_rate": 0.010994106,
+          "capture_rate": 1.224298758,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
-              "header": "SE_BECCS_NaturalGas_Wood"
+              "header": "beccs_naturalgas"
             }
           }
         }

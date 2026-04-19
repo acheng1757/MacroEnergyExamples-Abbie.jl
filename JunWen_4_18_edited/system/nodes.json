@@ -109,66 +109,39 @@
             "instance_data": [
                 {
                     "id": "natgas_CA",
-                    "location": "CA",
-                    "price": [
-                        0
-                    ]
+                    "location": "CA"
                 },
                 {
                     "id": "natgas_SW",
-                    "location": "SW",
-                    "price": [
-                        0
-                    ]
+                    "location": "SW"
                 },
                 {
                     "id": "natgas_NW",
-                    "location": "NW",
-                    "price": [
-                        0
-                    ]
+                    "location": "NW"
                 },
                 {
                     "id": "natgas_NCEN",
-                    "location": "NCEN",
-                    "price": [
-                        0
-                    ]
+                    "location": "NCEN"
                 },
                 {
                     "id": "natgas_CEN",
-                    "location": "CEN",
-                    "price": [
-                        0
-                    ]
+                    "location": "CEN"
                 },
                 {
                     "id": "natgas_TX",
-                    "location": "TX",
-                    "price": [
-                        0
-                    ]
+                    "location": "TX"
                 },
                 {
                     "id": "natgas_SE",
-                    "location": "SE",
-                    "price": [
-                        0
-                    ]
+                    "location": "SE"
                 },
                 {
                     "id": "natgas_MIDAT",
-                    "location": "MIDAT",
-                    "price": [
-                        0
-                    ]
+                    "location": "MIDAT"
                 },
                 {
                     "id": "natgas_NE",
-                    "location": "NE",
-                    "price": [
-                        0
-                    ]
+                    "location": "NE"
                 }
             ]
         },
@@ -272,9 +245,12 @@
             "instance_data": [
                 {
                     "id": "uranium_source",
-                    "price": [
-                        2.490863394
-                    ]
+                    "price": {
+                        "timeseries": {
+                            "path": "system/fuel_prices.csv",
+                            "header": "uranium_source"
+                        }
+                    }
                 }
             ]
         },

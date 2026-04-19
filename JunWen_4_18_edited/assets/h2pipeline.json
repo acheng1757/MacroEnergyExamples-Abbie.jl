@@ -19,7 +19,7 @@
                 },
                 "discharge_capacity_size": 787.8,
                 "discharge_can_retire": false,
-                "discharge_max_capacity": 787800,
+                "discharge_max_capacity": 787800.0,
                 "discharge_constraints": {
                     "CapacityConstraint": true,
                     "MaxCapacityConstraint": true
@@ -31,8 +31,7 @@
                     "location": "CA",
                     "charge_electricity_consumption": 0.2442,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 80331.6815,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 80331.68150139629,
                     "external_discharge_end_vertex": "h2_NW"
                 },
                 {
@@ -40,8 +39,7 @@
                     "location": "NW",
                     "charge_electricity_consumption": 0.2442,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 80331.6815,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 80331.68150139629,
                     "external_discharge_end_vertex": "h2_CA"
                 },
                 {
@@ -49,8 +47,7 @@
                     "location": "CA",
                     "charge_electricity_consumption": 0.1887,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 63241.9667,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 63241.96669510028,
                     "external_discharge_end_vertex": "h2_SW"
                 },
                 {
@@ -58,8 +55,7 @@
                     "location": "SW",
                     "charge_electricity_consumption": 0.1887,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 63241.9667,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 63241.96669510028,
                     "external_discharge_end_vertex": "h2_CA"
                 },
                 {
@@ -67,8 +63,7 @@
                     "location": "NW",
                     "charge_electricity_consumption": 0.222,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 74561.364,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 74561.36400050775,
                     "external_discharge_end_vertex": "h2_SW"
                 },
                 {
@@ -76,8 +71,7 @@
                     "location": "SW",
                     "charge_electricity_consumption": 0.222,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 74561.364,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 74561.36400050775,
                     "external_discharge_end_vertex": "h2_NW"
                 },
                 {
@@ -85,8 +79,7 @@
                     "location": "SW",
                     "charge_electricity_consumption": 0.2775,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 94504.35982,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 94504.35981975122,
                     "external_discharge_end_vertex": "h2_CEN"
                 },
                 {
@@ -94,8 +87,7 @@
                     "location": "CEN",
                     "charge_electricity_consumption": 0.2775,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 94504.35982,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 94504.35981975122,
                     "external_discharge_end_vertex": "h2_SW"
                 },
                 {
@@ -103,8 +95,7 @@
                     "location": "TX",
                     "charge_electricity_consumption": 0.1887,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 63855.13228,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 63855.132276212236,
                     "external_discharge_end_vertex": "h2_CEN"
                 },
                 {
@@ -112,8 +103,7 @@
                     "location": "CEN",
                     "charge_electricity_consumption": 0.1887,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 63855.13228,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 63855.132276212236,
                     "external_discharge_end_vertex": "h2_TX"
                 },
                 {
@@ -121,8 +111,7 @@
                     "location": "NCEN",
                     "charge_electricity_consumption": 0.1887,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 62668.73417,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 62668.73416653973,
                     "external_discharge_end_vertex": "h2_CEN"
                 },
                 {
@@ -130,8 +119,7 @@
                     "location": "CEN",
                     "charge_electricity_consumption": 0.1887,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 62668.73417,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 62668.73416653973,
                     "external_discharge_end_vertex": "h2_NCEN"
                 },
                 {
@@ -139,8 +127,7 @@
                     "location": "NCEN",
                     "charge_electricity_consumption": 0.333,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 114926.5523,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 114926.55226961158,
                     "external_discharge_end_vertex": "h2_SE"
                 },
                 {
@@ -148,8 +135,7 @@
                     "location": "SE",
                     "charge_electricity_consumption": 0.333,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 114926.5523,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 114926.55226961158,
                     "external_discharge_end_vertex": "h2_NCEN"
                 },
                 {
@@ -157,8 +143,7 @@
                     "location": "NCEN",
                     "charge_electricity_consumption": 0.2886,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 96951.54316,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 96951.5431551155,
                     "external_discharge_end_vertex": "h2_MIDAT"
                 },
                 {
@@ -166,8 +151,7 @@
                     "location": "MIDAT",
                     "charge_electricity_consumption": 0.2886,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 96951.54316,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 96951.5431551155,
                     "external_discharge_end_vertex": "h2_NCEN"
                 },
                 {
@@ -175,8 +159,7 @@
                     "location": "CEN",
                     "charge_electricity_consumption": 0.2997,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost":100743.5686,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 100743.56864737245,
                     "external_discharge_end_vertex": "h2_SE"
                 },
                 {
@@ -184,8 +167,7 @@
                     "location": "SE",
                     "charge_electricity_consumption": 0.2997,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 100743.5686,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 100743.56864737245,
                     "external_discharge_end_vertex": "h2_CEN"
                 },
                 {
@@ -193,8 +175,7 @@
                     "location": "SE",
                     "charge_electricity_consumption": 0.1887,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 63476.41236,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 63476.41235846661,
                     "external_discharge_end_vertex": "h2_MIDAT"
                 },
                 {
@@ -202,8 +183,7 @@
                     "location": "MIDAT",
                     "charge_electricity_consumption": 0.1887,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 63476.41236,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 63476.41235846661,
                     "external_discharge_end_vertex": "h2_SE"
                 },
                 {
@@ -211,8 +191,7 @@
                     "location": "MIDAT",
                     "charge_electricity_consumption": 0.1887,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 61184.77041,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 61184.77040720995,
                     "external_discharge_end_vertex": "h2_NE"
                 },
                 {
@@ -220,8 +199,7 @@
                     "location": "NE",
                     "charge_electricity_consumption": 0.1887,
                     "discharge_electricity_consumption": 0.0,
-                    "discharge_investment_cost": 61184.77041,
-                    "discharge_fixed_om_cost": 0,
+                    "discharge_investment_cost": 61184.77040720995,
                     "external_discharge_end_vertex": "h2_MIDAT"
                 }
             ]

@@ -14,11 +14,12 @@
         "inflow_can_retire": false,
         "storage_can_expand": false,
         "storage_can_retire": false,
-        "storage_long_duration": false,
+        "storage_long_duration": true,
         "storage_constraints": {
           "MinStorageOutflowConstraint": true,
           "StorageChargeDischargeRatioConstraint": true,
-          "BalanceConstraint": true
+          "BalanceConstraint": true,
+          "LongDurationStorageImplicitMinMaxConstraint": true
         }
       },
       "instance_data": [
