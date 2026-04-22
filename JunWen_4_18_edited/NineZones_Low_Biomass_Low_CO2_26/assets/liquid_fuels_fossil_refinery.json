@@ -1,0 +1,26 @@
+{
+    "FossilPetroleumRefinery": [
+        {
+            "type": "FossilLiquidFuelsRefinery",
+            "global_data": {
+                "co2_sink": "co2_sink",
+                "jetfuel_ratio": 0.2763,
+                "diesel_ratio": 0.7449,
+                "gasoline_emission_rate": 0.0,
+                "jetfuel_emission_rate": 0.0,
+                "diesel_emission_rate": 0.0
+            },
+            "instance_data": [
+                {"id": "CA_Fossil_Petroleum_Refinery",    "location": "CA"},
+                {"id": "NW_Fossil_Petroleum_Refinery",    "location": "NW"},
+                {"id": "SW_Fossil_Petroleum_Refinery",    "location": "SW"},
+                {"id": "TX_Fossil_Petroleum_Refinery",    "location": "TX"},
+                {"id": "NCEN_Fossil_Petroleum_Refinery",  "location": "NCEN"},
+                {"id": "CEN_Fossil_Petroleum_Refinery",   "location": "CEN"},
+                {"id": "SE_Fossil_Petroleum_Refinery",    "location": "SE"},
+                {"id": "MIDAT_Fossil_Petroleum_Refinery", "location": "MIDAT"},
+                {"id": "NE_Fossil_Petroleum_Refinery",    "location": "NE"}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+2026-04-22 14:52:30 | INFO | 1 | MacroEnergy | run_tools.jl:123 | Running case at /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/JunWen_4_18_edited/NineZones_High_Biomass_High_CO2_26
+2026-04-22 14:52:30 | INFO | 1 | MacroEnergy | user_additions.jl:19 |  ++ Loading user additions from MacroEnergyExamples/JunWen_4_18_edited/NineZones_High_Biomass_High_CO2_26/tmp/UserAdditions.jl
+2026-04-22 14:52:30 | INFO | 1 | MacroEnergy | user_additions.jl:23 |  ++ Successfully loaded UserAdditions module.
+2026-04-22 14:52:30 | INFO | 1 | MacroEnergy | load_stages_data.jl:36 | Loading case from /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/JunWen_4_18_edited/NineZones_High_Biomass_High_CO2_26/system_data.json
+2026-04-22 14:52:30 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
+2026-04-22 14:52:30 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 0.01 seconds
+2026-04-22 14:52:30 | INFO | 1 | MacroEnergy | load_stages_data.jl:19 | Done loading case data. It took 0.01 seconds
+2026-04-22 14:52:30 | INFO | 1 | MacroEnergy | case.jl:15 | *** Generating case ***
+2026-04-22 14:52:30 | INFO | 1 | MacroEnergy | case_settings.jl:126 | Configuring case
+2026-04-22 14:52:30 | INFO | 1 | MacroEnergy | case_settings.jl:150 |  -- Setting solution algorithm
+2026-04-22 14:52:30 | INFO | 1 | MacroEnergy | case_settings.jl:161 |  -- Solution algorithm set to MacroEnergy.Monolithic()
+2026-04-22 14:52:30 | INFO | 1 | MacroEnergy | case.jl:30 | Generating systems
+2026-04-22 14:52:30 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
