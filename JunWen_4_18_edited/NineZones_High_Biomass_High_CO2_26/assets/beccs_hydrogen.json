@@ -6,8 +6,7 @@
           "MinFlowConstraint": true
         },
         "co2_sink": "co2_sink",
-        "fuel_commodity": "NaturalGas",
-        "timedata": "NaturalGas"
+        "fuel_commodity": "NaturalGas"
       },
       "instance_data": [
         {
