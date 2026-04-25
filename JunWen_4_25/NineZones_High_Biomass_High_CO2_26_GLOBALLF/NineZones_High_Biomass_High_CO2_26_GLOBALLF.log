@@ -1,0 +1,27 @@
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | run_tools.jl:123 | Running case at /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/JunWen_4_25/NineZones_High_Biomass_High_CO2_26_GLOBALLF
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | user_additions.jl:78 |  ++ Loading user additions from MacroEnergyExamples/JunWen_4_25/NineZones_High_Biomass_High_CO2_26_GLOBALLF/user_additions
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | user_additions.jl:114 |  ++ Successfully loaded user additions.
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | user_additions.jl:122 |  ++ Added user assets: 0
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | load_stages_data.jl:37 | Loading case from /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/JunWen_4_25/NineZones_High_Biomass_High_CO2_26_GLOBALLF/system_data.json
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 0.0 seconds
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | load_stages_data.jl:20 | Done loading case data. It took 0.0 seconds
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | case.jl:15 | *** Generating case ***
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | case_settings.jl:129 | Configuring case
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | case_settings.jl:154 |  -- Setting solution algorithm
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | case_settings.jl:165 |  -- Solution algorithm set to MacroEnergy.Monolithic()
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | case.jl:30 | Generating systems
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-04-25 12:53:48 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
+2026-04-25 13:01:44 | INFO | 1 | MacroEnergy | generate_system.jl:43 | Done generating system. It took 476.45 seconds
+2026-04-25 13:01:46 | INFO | 1 | MacroEnergy | case.jl:54 |  -- Discounting fixed costs for period 1
+2026-04-25 13:01:46 | INFO | 1 | MacroEnergy | case.jl:57 |  -- Computing retirement case for period 1
+2026-04-25 13:01:47 | INFO | 1 | MacroEnergy | case.jl:45 | *** Done generating case. It took 478.96 seconds ***
+2026-04-25 13:01:47 | INFO | 1 | MacroEnergy | solver.jl:7 | *** Running simulation with monolithic solver ***
+2026-04-25 13:01:47 | INFO | 1 | MacroEnergy | generate_model.jl:17 | Generating model
+2026-04-25 13:01:47 | INFO | 1 | MacroEnergy | generate_model.jl:30 |  -- Period 1
+2026-04-25 13:01:47 | INFO | 1 | MacroEnergy | generate_model.jl:37 |  -- Adding linking variables
+2026-04-25 13:01:49 | INFO | 1 | MacroEnergy | generate_model.jl:40 |  -- Defining available capacity
+2026-04-25 13:01:51 | INFO | 1 | MacroEnergy | generate_model.jl:43 |  -- Generating planning model
+2026-04-25 13:01:54 | INFO | 1 | MacroEnergy | generate_model.jl:51 |  -- Including age-based retirements
+2026-04-25 13:01:55 | INFO | 1 | MacroEnergy | generate_model.jl:59 |  -- Generating operational model
