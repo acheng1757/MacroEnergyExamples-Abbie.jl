@@ -1,0 +1,345 @@
+{
+    "ngpipeline": [
+        {
+            "type": "GasStorage",
+            "global_data": {
+                "storage_commodity": "NaturalGas",
+                "storage_long_duration": false,
+                "storage_constraints": {
+                    "StorageCapacityConstraint": true,
+                    "BalanceConstraint": true,
+                    "StorageMinDurationConstraint": true,
+                    "StorageMaxDurationConstraint": true,
+                    "StorageChargeDischargeRatioConstraint": true
+                },
+                "storage_min_duration": 1.0,
+                "storage_max_duration": 1.0,
+                "storage_charge_discharge_ratio": 1.0,
+                "storage_can_retire": false,
+                "charge_can_retire": false,
+                "charge_constraints": {
+                    "CapacityConstraint": true
+                },
+                "discharge_can_retire": false,
+                "discharge_constraints": {
+                    "CapacityConstraint": true,
+                    "MaxCapacityConstraint": true
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "natgas_CA_to_SW",
+                    "location": "CA",
+                    "storage_capacity_size": 11052.8797,
+                    "charge_capacity_size": 11052.8797,
+                    "discharge_capacity_size": 11052.8797,
+                    "discharge_max_capacity": 11052.8797,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_SW"
+                },
+                {
+                    "id": "natgas_NW_to_CA",
+                    "location": "NW",
+                    "storage_capacity_size": 28772.9781,
+                    "charge_capacity_size": 28772.9781,
+                    "discharge_capacity_size": 28772.9781,
+                    "discharge_max_capacity": 28772.9781,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_CA"
+                },
+                {
+                    "id": "natgas_NW_to_SW",
+                    "location": "NW",
+                    "storage_capacity_size": 146209.8249,
+                    "charge_capacity_size": 146209.8249,
+                    "discharge_capacity_size": 146209.8249,
+                    "discharge_max_capacity": 146209.8249,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_SW"
+                },
+                {
+                    "id": "natgas_NW_to_NCEN",
+                    "location": "NW",
+                    "storage_capacity_size": 40548.3511,
+                    "charge_capacity_size": 40548.3511,
+                    "discharge_capacity_size": 40548.3511,
+                    "discharge_max_capacity": 40548.3511,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_NCEN"
+                },
+                {
+                    "id": "natgas_NW_to_CEN",
+                    "location": "NW",
+                    "storage_capacity_size": 35021.9112,
+                    "charge_capacity_size": 35021.9112,
+                    "discharge_capacity_size": 35021.9112,
+                    "discharge_max_capacity": 35021.9112,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_CEN"
+                },
+                {
+                    "id": "natgas_SW_to_CA",
+                    "location": "SW",
+                    "storage_capacity_size": 119819.807,
+                    "charge_capacity_size": 119819.807,
+                    "discharge_capacity_size": 119819.807,
+                    "discharge_max_capacity": 119819.807,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_CA"
+                },
+                {
+                    "id": "natgas_SW_to_NW",
+                    "location": "SW",
+                    "storage_capacity_size": 105775.5517,
+                    "charge_capacity_size": 105775.5517,
+                    "discharge_capacity_size": 105775.5517,
+                    "discharge_max_capacity": 105775.5517,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_NW"
+                },
+                {
+                    "id": "natgas_SW_to_TX",
+                    "location": "SW",
+                    "storage_capacity_size": 54567.2558,
+                    "charge_capacity_size": 54567.2558,
+                    "discharge_capacity_size": 54567.2558,
+                    "discharge_max_capacity": 54567.2558,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_TX"
+                },
+                {
+                    "id": "natgas_SW_to_CEN",
+                    "location": "SW",
+                    "storage_capacity_size": 61741.4874,
+                    "charge_capacity_size": 61741.4874,
+                    "discharge_capacity_size": 61741.4874,
+                    "discharge_max_capacity": 61741.4874,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_CEN"
+                },
+                {
+                    "id": "natgas_TX_to_CEN",
+                    "location": "TX",
+                    "storage_capacity_size": 320710.9656,
+                    "charge_capacity_size": 320710.9656,
+                    "discharge_capacity_size": 320710.9656,
+                    "discharge_max_capacity": 320710.9656,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_CEN"
+                },
+                {
+                    "id": "natgas_NCEN_to_NW",
+                    "location": "NCEN",
+                    "storage_capacity_size": 4588.4661,
+                    "charge_capacity_size": 4588.4661,
+                    "discharge_capacity_size": 4588.4661,
+                    "discharge_max_capacity": 4588.4661,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_NW"
+                },
+                {
+                    "id": "natgas_NCEN_to_CEN",
+                    "location": "NCEN",
+                    "storage_capacity_size": 83314.8833,
+                    "charge_capacity_size": 83314.8833,
+                    "discharge_capacity_size": 83314.8833,
+                    "discharge_max_capacity": 83314.8833,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_CEN"
+                },
+                {
+                    "id": "natgas_NCEN_to_SE",
+                    "location": "NCEN",
+                    "storage_capacity_size": 38748.4555,
+                    "charge_capacity_size": 38748.4555,
+                    "discharge_capacity_size": 38748.4555,
+                    "discharge_max_capacity": 38748.4555,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_SE"
+                },
+                {
+                    "id": "natgas_NCEN_to_MIDAT",
+                    "location": "NCEN",
+                    "storage_capacity_size": 91198.9328,
+                    "charge_capacity_size": 91198.9328,
+                    "discharge_capacity_size": 91198.9328,
+                    "discharge_max_capacity": 91198.9328,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_MIDAT"
+                },
+                {
+                    "id": "natgas_CEN_to_NW",
+                    "location": "CEN",
+                    "storage_capacity_size": 1077.4023,
+                    "charge_capacity_size": 1077.4023,
+                    "discharge_capacity_size": 1077.4023,
+                    "discharge_max_capacity": 1077.4023,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_NW"
+                },
+                {
+                    "id": "natgas_CEN_to_SW",
+                    "location": "CEN",
+                    "storage_capacity_size": 41803.2078,
+                    "charge_capacity_size": 41803.2078,
+                    "discharge_capacity_size": 41803.2078,
+                    "discharge_max_capacity": 41803.2078,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_SW"
+                },
+                {
+                    "id": "natgas_CEN_to_TX",
+                    "location": "CEN",
+                    "storage_capacity_size": 167795.8961,
+                    "charge_capacity_size": 167795.8961,
+                    "discharge_capacity_size": 167795.8961,
+                    "discharge_max_capacity": 167795.8961,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_TX"
+                },
+                {
+                    "id": "natgas_CEN_to_NCEN",
+                    "location": "CEN",
+                    "storage_capacity_size": 156121.9257,
+                    "charge_capacity_size": 156121.9257,
+                    "discharge_capacity_size": 156121.9257,
+                    "discharge_max_capacity": 156121.9257,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_NCEN"
+                },
+                {
+                    "id": "natgas_CEN_to_SE",
+                    "location": "CEN",
+                    "storage_capacity_size": 410338.1586,
+                    "charge_capacity_size": 410338.1586,
+                    "discharge_capacity_size": 410338.1586,
+                    "discharge_max_capacity": 410338.1586,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_SE"
+                },
+                {
+                    "id": "natgas_SE_to_NCEN",
+                    "location": "SE",
+                    "storage_capacity_size": 65379.3044,
+                    "charge_capacity_size": 65379.3044,
+                    "discharge_capacity_size": 65379.3044,
+                    "discharge_max_capacity": 65379.3044,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_NCEN"
+                },
+                {
+                    "id": "natgas_SE_to_CEN",
+                    "location": "SE",
+                    "storage_capacity_size": 135930.1397,
+                    "charge_capacity_size": 135930.1397,
+                    "discharge_capacity_size": 135930.1397,
+                    "discharge_max_capacity": 135930.1397,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_CEN"
+                },
+                {
+                    "id": "natgas_SE_to_MIDAT",
+                    "location": "SE",
+                    "storage_capacity_size": 132558.5044,
+                    "charge_capacity_size": 132558.5044,
+                    "discharge_capacity_size": 132558.5044,
+                    "discharge_max_capacity": 132558.5044,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_MIDAT"
+                },
+                {
+                    "id": "natgas_MIDAT_to_NCEN",
+                    "location": "MIDAT",
+                    "storage_capacity_size": 134827.3868,
+                    "charge_capacity_size": 134827.3868,
+                    "discharge_capacity_size": 134827.3868,
+                    "discharge_max_capacity": 134827.3868,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_NCEN"
+                },
+                {
+                    "id": "natgas_MIDAT_to_SE",
+                    "location": "MIDAT",
+                    "storage_capacity_size": 150925.0442,
+                    "charge_capacity_size": 150925.0442,
+                    "discharge_capacity_size": 150925.0442,
+                    "discharge_max_capacity": 150925.0442,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_SE"
+                },
+                {
+                    "id": "natgas_MIDAT_to_NE",
+                    "location": "MIDAT",
+                    "storage_capacity_size": 129110.8172,
+                    "charge_capacity_size": 129110.8172,
+                    "discharge_capacity_size": 129110.8172,
+                    "discharge_max_capacity": 129110.8172,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_NE"
+                },
+                {
+                    "id": "natgas_NE_to_MIDAT",
+                    "location": "NE",
+                    "storage_capacity_size": 22600.0969,
+                    "charge_capacity_size": 22600.0969,
+                    "discharge_capacity_size": 22600.0969,
+                    "discharge_max_capacity": 22600.0969,
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "discharge_investment_cost": 0.0,
+                    "external_discharge_end_vertex": "natgas_MIDAT"
+                }
+            ]
+        }
+    ]
+}

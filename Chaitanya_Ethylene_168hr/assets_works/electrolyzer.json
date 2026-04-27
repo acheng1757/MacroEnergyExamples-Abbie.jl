@@ -1,0 +1,146 @@
+{
+  "electrolyzer": [
+    {
+      "type": "Electrolyzer",
+      "global_data": {
+        "h2_constraints": {
+          "CapacityConstraint": true,
+          "RampingLimitConstraint": true,
+          "MinFlowConstraint": true
+        },
+        "uc": true,
+        "startup_cost": 0.0,
+        "min_up_time": 0,
+        "min_down_time": 0
+      },
+      "instance_data": [
+        {
+          "id": "CA_Electrolyzer",
+          "location": "CA",
+          "efficiency_rate": 0.8749,
+          "investment_cost": 45867.78,
+          "fixed_om_cost": 688.02,
+          "variable_om_cost": 0.0,
+          "capacity_size": 1.5762,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.1,
+          "can_expand": true,
+          "can_retire": true
+        },
+        {
+          "id": "NW_Electrolyzer",
+          "location": "NW",
+          "efficiency_rate": 0.8749,
+          "investment_cost": 45867.78,
+          "fixed_om_cost": 688.02,
+          "variable_om_cost": 0.0,
+          "capacity_size": 1.5762,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.1,
+          "can_expand": true,
+          "can_retire": true
+        },
+        {
+          "id": "SW_Electrolyzer",
+          "location": "SW",
+          "efficiency_rate": 0.8749,
+          "investment_cost": 45867.78,
+          "fixed_om_cost": 688.02,
+          "variable_om_cost": 0.0,
+          "capacity_size": 1.5762,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.1,
+          "can_expand": true,
+          "can_retire": true
+        },
+        {
+          "id": "TX_Electrolyzer",
+          "location": "TX",
+          "efficiency_rate": 0.8749,
+          "investment_cost": 45867.78,
+          "fixed_om_cost": 688.02,
+          "variable_om_cost": 0.0,
+          "capacity_size": 1.5762,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.1,
+          "can_expand": true,
+          "can_retire": true
+        },
+        {
+          "id": "NCEN_Electrolyzer",
+          "location": "NCEN",
+          "efficiency_rate": 0.8749,
+          "investment_cost": 45867.78,
+          "fixed_om_cost": 688.02,
+          "variable_om_cost": 0.0,
+          "capacity_size": 1.5762,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.1,
+          "can_expand": true,
+          "can_retire": true
+        },
+        {
+          "id": "CEN_Electrolyzer",
+          "location": "CEN",
+          "efficiency_rate": 0.8749,
+          "investment_cost": 45867.78,
+          "fixed_om_cost": 688.02,
+          "variable_om_cost": 0.0,
+          "capacity_size": 1.5762,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.1,
+          "can_expand": true,
+          "can_retire": true
+        },
+        {
+          "id": "SE_Electrolyzer",
+          "location": "SE",
+          "efficiency_rate": 0.8749,
+          "investment_cost": 45867.78,
+          "fixed_om_cost": 688.02,
+          "variable_om_cost": 0.0,
+          "capacity_size": 1.5762,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.1,
+          "can_expand": true,
+          "can_retire": true
+        },
+        {
+          "id": "MIDAT_Electrolyzer",
+          "location": "MIDAT",
+          "efficiency_rate": 0.8749,
+          "investment_cost": 45867.78,
+          "fixed_om_cost": 688.02,
+          "variable_om_cost": 0.0,
+          "capacity_size": 1.5762,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.1,
+          "can_expand": true,
+          "can_retire": true
+        },
+        {
+          "id": "NE_Electrolyzer",
+          "location": "NE",
+          "efficiency_rate": 0.8749,
+          "investment_cost": 45867.78,
+          "fixed_om_cost": 688.02,
+          "variable_om_cost": 0.0,
+          "capacity_size": 1.5762,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.1,
+          "can_expand": true,
+          "can_retire": true
+        }
+      ]
+    }
+  ]
+}
