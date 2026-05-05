@@ -8,7 +8,8 @@
         "Uranium": 168,
         "LiquidFuels": 168,
         "CO2Captured": 168,
-        "Ethylene": 168
+        "Ethylene": 168,
+        "Ethane": 168
     },
     "HoursPerTimeStep": {
         "Hydrogen": 1,
@@ -19,7 +20,8 @@
         "Uranium": 1,
         "LiquidFuels": 1,
         "CO2Captured": 1,
-        "Ethylene": 1
+        "Ethylene": 1,
+        "Ethane": 1
     },
     "NumberOfSubperiods": 1,
     "SubPeriodMap": {

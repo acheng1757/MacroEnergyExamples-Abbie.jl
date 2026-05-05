@@ -2132,7 +2132,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "NaturalGas_MW_CA"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2141,7 +2141,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "NaturalGas_MW_SW"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2150,7 +2150,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "NaturalGas_MW_NW"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2159,7 +2159,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "NaturalGas_MW_NCEN"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2168,7 +2168,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "NaturalGas_MW_CEN"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2177,7 +2177,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "NaturalGas_MW_TX"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2186,7 +2186,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "NaturalGas_MW_SE"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2195,7 +2195,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "NaturalGas_MW_MIDAT"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2204,7 +2204,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "NaturalGas_MW_NE"
+                            "header": "Demand_Zero"
                         }
                     }
                 }
@@ -2253,7 +2253,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Electricity_MW_CA"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2263,7 +2263,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Electricity_MW_NW"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2273,7 +2273,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Electricity_MW_SW"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2283,7 +2283,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Electricity_MW_NCEN"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2293,7 +2293,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Electricity_MW_CEN"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2303,7 +2303,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Electricity_MW_TX"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2313,7 +2313,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Electricity_MW_SE"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2323,7 +2323,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Electricity_MW_MIDAT"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2333,7 +2333,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Electricity_MW_NE"
+                            "header": "Demand_Zero"
                         }
                     }
                 }
@@ -2362,7 +2362,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Hydrogen_MW_CA"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2372,7 +2372,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Hydrogen_MW_NW"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2382,7 +2382,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Hydrogen_MW_SW"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2392,7 +2392,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Hydrogen_MW_NCEN"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2402,7 +2402,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Hydrogen_MW_CEN"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2412,7 +2412,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Hydrogen_MW_TX"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2422,7 +2422,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Hydrogen_MW_SE"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2432,7 +2432,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Hydrogen_MW_MIDAT"
+                            "header": "Demand_Zero"
                         }
                     }
                 },
@@ -2442,7 +2442,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Hydrogen_MW_NE"
+                            "header": "Demand_Zero"
                         }
                     }
                 }
@@ -2630,7 +2630,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Gasoline_MW_Global"
+                            "header": "Demand_Zero"
                         }
                     }
                 }
@@ -2685,7 +2685,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "JetFuel_MW_Global"
+                            "header": "Demand_Zero"
                         }
                     }
                 }
@@ -2740,130 +2740,78 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Diesel_MW_Global"
+                            "header": "Demand_Zero"
                         }
                     }
                 }
             ]
         },
         {
-            "type": "Fossil_Ethanol",
+            "type": "Ethane",
             "global_data": {
-                "time_interval": "LiquidFuels"
+                "time_interval": "Ethane"
             },
             "instance_data": [
                 {
-                    "id": "fossil_ethanol_CA",
+                    "id": "ethane_NCEN",
                     "supply": {
                         "segment1": {
                             "price": {
                                 "timeseries": {
                                     "path": "system/fuel_prices.csv",
-                                    "header": "diesel_fossil_global"
+                                    "header": "ethane_global"
                                 }
                             }
                         }
                     }
                 },
                 {
-                    "id": "fossil_ethanol_NW",
+                    "id": "ethane_CEN",
                     "supply": {
                         "segment1": {
                             "price": {
                                 "timeseries": {
                                     "path": "system/fuel_prices.csv",
-                                    "header": "diesel_fossil_global"
+                                    "header": "ethane_global"
                                 }
                             }
                         }
                     }
                 },
                 {
-                    "id": "fossil_ethanol_SW",
+                    "id": "ethane_TX",
                     "supply": {
                         "segment1": {
                             "price": {
                                 "timeseries": {
                                     "path": "system/fuel_prices.csv",
-                                    "header": "diesel_fossil_global"
+                                    "header": "ethane_global"
                                 }
                             }
                         }
                     }
                 },
                 {
-                    "id": "fossil_ethanol_NCEN",
+                    "id": "ethane_MIDAT",
                     "supply": {
                         "segment1": {
                             "price": {
                                 "timeseries": {
                                     "path": "system/fuel_prices.csv",
-                                    "header": "diesel_fossil_global"
+                                    "header": "ethane_global"
                                 }
                             }
                         }
                     }
                 },
                 {
-                    "id": "fossil_ethanol_CEN",
+                    "id": "ethane_SE",
                     "supply": {
                         "segment1": {
                             "price": {
                                 "timeseries": {
                                     "path": "system/fuel_prices.csv",
-                                    "header": "diesel_fossil_global"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "id": "fossil_ethanol_TX",
-                    "supply": {
-                        "segment1": {
-                            "price": {
-                                "timeseries": {
-                                    "path": "system/fuel_prices.csv",
-                                    "header": "diesel_fossil_global"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "id": "fossil_ethanol_MIDAT",
-                    "supply": {
-                        "segment1": {
-                            "price": {
-                                "timeseries": {
-                                    "path": "system/fuel_prices.csv",
-                                    "header": "diesel_fossil_global"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "id": "fossil_ethanol_SE",
-                    "supply": {
-                        "segment1": {
-                            "price": {
-                                "timeseries": {
-                                    "path": "system/fuel_prices.csv",
-                                    "header": "diesel_fossil_global"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "id": "fossil_ethanol_NE",
-                    "supply": {
-                        "segment1": {
-                            "price": {
-                                "timeseries": {
-                                    "path": "system/fuel_prices.csv",
-                                    "header": "diesel_fossil_global"
+                                    "header": "ethane_global"
                                 }
                             }
                         }
