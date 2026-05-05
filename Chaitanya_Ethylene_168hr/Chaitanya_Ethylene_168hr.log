@@ -1,32 +1,16 @@
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | run_tools.jl:123 | Running case at /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/Chaitanya_Ethylene_168hr
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | user_additions.jl:78 |  ++ Loading user additions from MacroEnergyExamples/Chaitanya_Ethylene_168hr/user_additions
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | user_additions.jl:114 |  ++ Successfully loaded user additions.
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | user_additions.jl:122 |  ++ Added user assets: 0
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | load_stages_data.jl:37 | Loading case from /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/Chaitanya_Ethylene_168hr/system_data.json
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 0.0 seconds
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | load_stages_data.jl:20 | Done loading case data. It took 0.0 seconds
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | case.jl:15 | *** Generating case ***
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | case_settings.jl:111 | Configuring case from /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/Chaitanya_Ethylene_168hr/settings/case_settings.json
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | case_settings.jl:129 | Configuring case
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | case_settings.jl:154 |  -- Setting solution algorithm
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | case_settings.jl:165 |  -- Solution algorithm set to MacroEnergy.Monolithic()
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | case.jl:30 | Generating systems
-2026-04-27 13:53:22 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
-2026-04-27 13:53:23 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
-2026-04-27 13:54:43 | INFO | 1 | MacroEnergy | generate_system.jl:43 | Done generating system. It took 81.02 seconds
-2026-04-27 13:54:43 | INFO | 1 | MacroEnergy | case.jl:54 |  -- Discounting fixed costs for period 1
-2026-04-27 13:54:43 | INFO | 1 | MacroEnergy | case.jl:57 |  -- Computing retirement case for period 1
-2026-04-27 13:54:43 | INFO | 1 | MacroEnergy | case.jl:45 | *** Done generating case. It took 81.13 seconds ***
-2026-04-27 13:54:43 | INFO | 1 | MacroEnergy | solver.jl:7 | *** Running simulation with monolithic solver ***
-2026-04-27 13:54:43 | INFO | 1 | MacroEnergy | generate_model.jl:17 | Generating model
-2026-04-27 13:54:43 | INFO | 1 | MacroEnergy | generate_model.jl:30 |  -- Period 1
-2026-04-27 13:54:43 | INFO | 1 | MacroEnergy | generate_model.jl:37 |  -- Adding linking variables
-2026-04-27 13:54:43 | INFO | 1 | MacroEnergy | generate_model.jl:40 |  -- Defining available capacity
-2026-04-27 13:54:43 | INFO | 1 | MacroEnergy | generate_model.jl:43 |  -- Generating planning model
-2026-04-27 13:54:44 | INFO | 1 | MacroEnergy | generate_model.jl:51 |  -- Including age-based retirements
-2026-04-27 13:54:44 | INFO | 1 | MacroEnergy | generate_model.jl:59 |  -- Generating operational model
-2026-04-27 13:54:54 | WARN | 1 | MacroEnergy | max_non_served_demand_per_segment.jl:35 | MaxNonServedDemandPerSegmentConstraint required for a node that does not have a non-served demand variable so Macro will not create this constraint
-2026-04-27 13:54:54 | WARN | 1 | MacroEnergy | max_non_served_demand.jl:28 | MaxNonServedDemandConstraint required for a node that does not have a non-served demand variable so Macro will not create this constraint
-2026-04-27 13:55:00 | INFO | 1 | MacroEnergy | generate_model.jl:98 |  -- Model generation complete, it took 16.391933917999268 seconds
-2026-04-27 13:55:00 | INFO | 1 | MacroEnergy | solver.jl:14 | Scaling constraints and RHS
+2026-05-05 15:01:55 | INFO | 1 | MacroEnergy | run_tools.jl:123 | Running case at /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/Chaitanya_Ethylene_168hr
+2026-05-05 15:01:55 | INFO | 1 | MacroEnergy | user_additions.jl:78 |  ++ Loading user additions from MacroEnergyExamples/Chaitanya_Ethylene_168hr/user_additions
+2026-05-05 15:01:55 | INFO | 1 | MacroEnergy | user_additions.jl:114 |  ++ Successfully loaded user additions.
+2026-05-05 15:01:55 | INFO | 1 | MacroEnergy | user_additions.jl:122 |  ++ Added user assets: 0
+2026-05-05 15:01:55 | INFO | 1 | MacroEnergy | load_stages_data.jl:37 | Loading case from /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/Chaitanya_Ethylene_168hr/system_data.json
+2026-05-05 15:01:55 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
+2026-05-05 15:01:56 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 0.43 seconds
+2026-05-05 15:01:56 | INFO | 1 | MacroEnergy | load_stages_data.jl:20 | Done loading case data. It took 0.43 seconds
+2026-05-05 15:01:56 | INFO | 1 | MacroEnergy | case.jl:15 | *** Generating case ***
+2026-05-05 15:01:56 | INFO | 1 | MacroEnergy | case_settings.jl:111 | Configuring case from /Users/abbie/MacroEnergy-Abbie.jl/MacroEnergyExamples/Chaitanya_Ethylene_168hr/settings/case_settings.json
+2026-05-05 15:01:56 | INFO | 1 | MacroEnergy | case_settings.jl:129 | Configuring case
+2026-05-05 15:01:56 | INFO | 1 | MacroEnergy | case_settings.jl:154 |  -- Setting solution algorithm
+2026-05-05 15:01:56 | INFO | 1 | MacroEnergy | case_settings.jl:165 |  -- Solution algorithm set to MacroEnergy.Monolithic()
+2026-05-05 15:01:56 | INFO | 1 | MacroEnergy | case.jl:30 | Generating systems
+2026-05-05 15:01:57 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-05-05 15:01:58 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities

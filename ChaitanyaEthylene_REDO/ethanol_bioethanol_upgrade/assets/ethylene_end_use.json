@@ -1,0 +1,75 @@
+{
+    "FuelsEndUse": [
+        {
+            "type": "FuelsEndUse",
+            "global_data": {
+                "co2_sink": "co2_sink"
+            },
+            "instance_data": [
+                {
+                    "id": "CA_Ethylene_Use",
+                    "emission_rate": 0,
+                    "fuel_commodity": "Ethylene",
+                    "fuel_start_vertex": "ethylene_CA",
+                    "fuel_demand_end_vertex": "ethylene_demand_CA"
+                },
+                {
+                    "id": "NW_Ethylene_Use",
+                    "emission_rate": 0,
+                    "fuel_commodity": "Ethylene",
+                    "fuel_start_vertex": "ethylene_NW",
+                    "fuel_demand_end_vertex": "ethylene_demand_NW"
+                },
+                {
+                    "id": "SW_Ethylene_Use",
+                    "emission_rate": 0,
+                    "fuel_commodity": "Ethylene",
+                    "fuel_start_vertex": "ethylene_SW",
+                    "fuel_demand_end_vertex": "ethylene_demand_SW"
+                },
+                {
+                    "id": "TX_Ethylene_Use",
+                    "emission_rate": 0,
+                    "fuel_commodity": "Ethylene",
+                    "fuel_start_vertex": "ethylene_TX",
+                    "fuel_demand_end_vertex": "ethylene_demand_TX"
+                },
+                {
+                    "id": "NCEN_Ethylene_Use",
+                    "emission_rate": 0,
+                    "fuel_commodity": "Ethylene",
+                    "fuel_start_vertex": "ethylene_NCEN",
+                    "fuel_demand_end_vertex": "ethylene_demand_NCEN"
+                },
+                {
+                    "id": "MIDAT_Ethylene_Use",
+                    "emission_rate": 0,
+                    "fuel_commodity": "Ethylene",
+                    "fuel_start_vertex": "ethylene_MIDAT",
+                    "fuel_demand_end_vertex": "ethylene_demand_MIDAT"
+                },
+                {
+                    "id": "SE_Ethylene_Use",
+                    "emission_rate": 0,
+                    "fuel_commodity": "Ethylene",
+                    "fuel_start_vertex": "ethylene_SE",
+                    "fuel_demand_end_vertex": "ethylene_demand_SE"
+                },
+                {
+                    "id": "NE_Ethylene_Use",
+                    "emission_rate": 0,
+                    "fuel_commodity": "Ethylene",
+                    "fuel_start_vertex": "ethylene_NE",
+                    "fuel_demand_end_vertex": "ethylene_demand_NE"
+                },
+                {
+                    "id": "CEN_Ethylene_Use",
+                    "emission_rate": 0,
+                    "fuel_commodity": "Ethylene",
+                    "fuel_start_vertex": "ethylene_CEN",
+                    "fuel_demand_end_vertex": "ethylene_demand_CEN"
+                }
+            ]
+        }
+    ]
+}

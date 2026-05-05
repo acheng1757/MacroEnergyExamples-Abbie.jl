@@ -1,7 +1,7 @@
 {
-    "FuelsEndUse": [
+    "DownstreamEmissions": [
         {
-            "type": "FuelsEndUse",
+            "type": "DownstreamEmissions",
             "global_data": {
                 "co2_sink": "co2_sink"
             },

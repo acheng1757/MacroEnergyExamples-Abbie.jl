@@ -9,6 +9,7 @@
           "CapacityConstraint": true
         },
         "ethylene_end_vertex": "ethylene_global",
+        "ethanol_commodity": "Ethanol",
         "min_flow_fraction": 0.85
       },
       "instance_data": [
