@@ -20,9 +20,9 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.001828908,
-          "capture_rate": 0.181061927,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -40,9 +40,9 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.001828908,
-          "capture_rate": 0.181061927,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -60,9 +60,9 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.001828908,
-          "capture_rate": 0.181061927,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -80,9 +80,9 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.001828908,
-          "capture_rate": 0.181061927,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -100,9 +100,9 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.001828908,
-          "capture_rate": 0.181061927,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -120,9 +120,9 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.001828908,
-          "capture_rate": 0.181061927,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -140,9 +140,9 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.001828908,
-          "capture_rate": 0.181061927,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -160,9 +160,9 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.001828908,
-          "capture_rate": 0.181061927,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -180,9 +180,189 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.001828908,
-          "capture_rate": 0.181061927,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "natgas_dac"
+            }
+          }
+        },
+        {
+          "id": "CA_Sorbent_wNGCC_DAC",
+          "location": "CA",
+          "fuel_consumption": 6.636,
+          "investment_cost": 2390000.0,
+          "fixed_om_cost": 1320000.0,
+          "variable_om_cost": 68.32,
+          "electricity_production": 0.0,
+          "ramp_up_fraction": 1,
+          "ramp_down_fraction": 1,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "natgas_dac"
+            }
+          }
+        },
+        {
+          "id": "NW_Sorbent_wNGCC_DAC",
+          "location": "NW",
+          "fuel_consumption": 6.636,
+          "investment_cost": 2390000.0,
+          "fixed_om_cost": 1320000.0,
+          "variable_om_cost": 68.32,
+          "electricity_production": 0.0,
+          "ramp_up_fraction": 1,
+          "ramp_down_fraction": 1,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "natgas_dac"
+            }
+          }
+        },
+        {
+          "id": "SW_Sorbent_wNGCC_DAC",
+          "location": "SW",
+          "fuel_consumption": 6.636,
+          "investment_cost": 2390000.0,
+          "fixed_om_cost": 1320000.0,
+          "variable_om_cost": 68.32,
+          "electricity_production": 0.0,
+          "ramp_up_fraction": 1,
+          "ramp_down_fraction": 1,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "natgas_dac"
+            }
+          }
+        },
+        {
+          "id": "TX_Sorbent_wNGCC_DAC",
+          "location": "TX",
+          "fuel_consumption": 6.636,
+          "investment_cost": 2390000.0,
+          "fixed_om_cost": 1320000.0,
+          "variable_om_cost": 68.32,
+          "electricity_production": 0.0,
+          "ramp_up_fraction": 1,
+          "ramp_down_fraction": 1,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "natgas_dac"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Sorbent_wNGCC_DAC",
+          "location": "NCEN",
+          "fuel_consumption": 6.636,
+          "investment_cost": 2390000.0,
+          "fixed_om_cost": 1320000.0,
+          "variable_om_cost": 68.32,
+          "electricity_production": 0.0,
+          "ramp_up_fraction": 1,
+          "ramp_down_fraction": 1,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "natgas_dac"
+            }
+          }
+        },
+        {
+          "id": "CEN_Sorbent_wNGCC_DAC",
+          "location": "CEN",
+          "fuel_consumption": 6.636,
+          "investment_cost": 2390000.0,
+          "fixed_om_cost": 1320000.0,
+          "variable_om_cost": 68.32,
+          "electricity_production": 0.0,
+          "ramp_up_fraction": 1,
+          "ramp_down_fraction": 1,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "natgas_dac"
+            }
+          }
+        },
+        {
+          "id": "SE_Sorbent_wNGCC_DAC",
+          "location": "SE",
+          "fuel_consumption": 6.636,
+          "investment_cost": 2390000.0,
+          "fixed_om_cost": 1320000.0,
+          "variable_om_cost": 68.32,
+          "electricity_production": 0.0,
+          "ramp_up_fraction": 1,
+          "ramp_down_fraction": 1,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "natgas_dac"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Sorbent_wNGCC_DAC",
+          "location": "MIDAT",
+          "fuel_consumption": 6.636,
+          "investment_cost": 2390000.0,
+          "fixed_om_cost": 1320000.0,
+          "variable_om_cost": 68.32,
+          "electricity_production": 0.0,
+          "ramp_up_fraction": 1,
+          "ramp_down_fraction": 1,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "natgas_dac"
+            }
+          }
+        },
+        {
+          "id": "NE_Sorbent_wNGCC_DAC",
+          "location": "NE",
+          "fuel_consumption": 6.636,
+          "investment_cost": 2390000.0,
+          "fixed_om_cost": 1320000.0,
+          "variable_om_cost": 68.32,
+          "electricity_production": 0.0,
+          "ramp_up_fraction": 1,
+          "ramp_down_fraction": 1,
+          "min_flow_fraction": 0,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -201,188 +381,7 @@
         },
         "co2_sink": "co2_sink"
       },
-      "instance_data": [
-        {
-          "id": "CA_Sorbent_wNGCC_DAC",
-          "location": "CA",
-          "fuel_consumption": 6.636,
-          "investment_cost": 2390000.0,
-          "fixed_om_cost": 1320000.0,
-          "variable_om_cost": 68.32,
-          "electricity_production": 0.0,
-          "ramp_up_fraction": 1,
-          "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.018289084,
-          "capture_rate": 0.164601752,
-          "availability": {
-            "timeseries": {
-              "path": "system/availability.csv",
-              "header": "natgas_dac"
-            }
-          }
-        },
-        {
-          "id": "NW_Sorbent_wNGCC_DAC",
-          "location": "NW",
-          "fuel_consumption": 6.636,
-          "investment_cost": 2390000.0,
-          "fixed_om_cost": 1320000.0,
-          "variable_om_cost": 68.32,
-          "electricity_production": 0.0,
-          "ramp_up_fraction": 1,
-          "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.018289084,
-          "capture_rate": 0.164601752,
-          "availability": {
-            "timeseries": {
-              "path": "system/availability.csv",
-              "header": "natgas_dac"
-            }
-          }
-        },
-        {
-          "id": "SW_Sorbent_wNGCC_DAC",
-          "location": "SW",
-          "fuel_consumption": 6.636,
-          "investment_cost": 2390000.0,
-          "fixed_om_cost": 1320000.0,
-          "variable_om_cost": 68.32,
-          "electricity_production": 0.0,
-          "ramp_up_fraction": 1,
-          "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.018289084,
-          "capture_rate": 0.164601752,
-          "availability": {
-            "timeseries": {
-              "path": "system/availability.csv",
-              "header": "natgas_dac"
-            }
-          }
-        },
-        {
-          "id": "TX_Sorbent_wNGCC_DAC",
-          "location": "TX",
-          "fuel_consumption": 6.636,
-          "investment_cost": 2390000.0,
-          "fixed_om_cost": 1320000.0,
-          "variable_om_cost": 68.32,
-          "electricity_production": 0.0,
-          "ramp_up_fraction": 1,
-          "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.018289084,
-          "capture_rate": 0.164601752,
-          "availability": {
-            "timeseries": {
-              "path": "system/availability.csv",
-              "header": "natgas_dac"
-            }
-          }
-        },
-        {
-          "id": "NCEN_Sorbent_wNGCC_DAC",
-          "location": "NCEN",
-          "fuel_consumption": 6.636,
-          "investment_cost": 2390000.0,
-          "fixed_om_cost": 1320000.0,
-          "variable_om_cost": 68.32,
-          "electricity_production": 0.0,
-          "ramp_up_fraction": 1,
-          "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.018289084,
-          "capture_rate": 0.164601752,
-          "availability": {
-            "timeseries": {
-              "path": "system/availability.csv",
-              "header": "natgas_dac"
-            }
-          }
-        },
-        {
-          "id": "CEN_Sorbent_wNGCC_DAC",
-          "location": "CEN",
-          "fuel_consumption": 6.636,
-          "investment_cost": 2390000.0,
-          "fixed_om_cost": 1320000.0,
-          "variable_om_cost": 68.32,
-          "electricity_production": 0.0,
-          "ramp_up_fraction": 1,
-          "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.018289084,
-          "capture_rate": 0.164601752,
-          "availability": {
-            "timeseries": {
-              "path": "system/availability.csv",
-              "header": "natgas_dac"
-            }
-          }
-        },
-        {
-          "id": "SE_Sorbent_wNGCC_DAC",
-          "location": "SE",
-          "fuel_consumption": 6.636,
-          "investment_cost": 2390000.0,
-          "fixed_om_cost": 1320000.0,
-          "variable_om_cost": 68.32,
-          "electricity_production": 0.0,
-          "ramp_up_fraction": 1,
-          "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.018289084,
-          "capture_rate": 0.164601752,
-          "availability": {
-            "timeseries": {
-              "path": "system/availability.csv",
-              "header": "natgas_dac"
-            }
-          }
-        },
-        {
-          "id": "MIDAT_Sorbent_wNGCC_DAC",
-          "location": "MIDAT",
-          "fuel_consumption": 6.636,
-          "investment_cost": 2390000.0,
-          "fixed_om_cost": 1320000.0,
-          "variable_om_cost": 68.32,
-          "electricity_production": 0.0,
-          "ramp_up_fraction": 1,
-          "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.018289084,
-          "capture_rate": 0.164601752,
-          "availability": {
-            "timeseries": {
-              "path": "system/availability.csv",
-              "header": "natgas_dac"
-            }
-          }
-        },
-        {
-          "id": "NE_Sorbent_wNGCC_DAC",
-          "location": "NE",
-          "fuel_consumption": 6.636,
-          "investment_cost": 2390000.0,
-          "fixed_om_cost": 1320000.0,
-          "variable_om_cost": 68.32,
-          "electricity_production": 0.0,
-          "ramp_up_fraction": 1,
-          "ramp_down_fraction": 1,
-          "min_flow_fraction": 0.85,
-          "emission_rate": 0.018289084,
-          "capture_rate": 0.164601752,
-          "availability": {
-            "timeseries": {
-              "path": "system/availability.csv",
-              "header": "natgas_dac"
-            }
-          }
-        }
-      ]
+      "instance_data": []
     }
   ]
 }
