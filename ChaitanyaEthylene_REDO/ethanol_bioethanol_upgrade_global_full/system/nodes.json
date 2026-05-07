@@ -535,7 +535,7 @@
   "type": "CO2Captured",
   "global_data": {
     "time_interval": "CO2Captured",
-    "BalanceConstraint": false
+    "BalanceConstraint": true
   },
   "instance_data": [
     {
@@ -2750,6 +2750,45 @@
                 "time_interval": "Ethane"
             },
             "instance_data": [
+              {
+                    "id": "ethane_CA",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "ethane_high"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "ethane_SW",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "ethane_high"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "ethane_NW",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "ethane_high"
+                                }
+                            }
+                        }
+                    }
+                },
                 {
                     "id": "ethane_NCEN",
                     "supply": {
@@ -2810,6 +2849,19 @@
                                 "timeseries": {
                                     "path": "system/fuel_prices.csv",
                                     "header": "ethane_global"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "ethane_NE",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "ethane_high"
                                 }
                             }
                         }
