@@ -9,3 +9,4 @@ abstract type Fossil_Gasoline <: MacroEnergy.LiquidFuels end
 abstract type Fossil_JetFuel <: MacroEnergy.LiquidFuels end
 abstract type Fossil_Diesel <: MacroEnergy.LiquidFuels end
 abstract type Ethanol <: MacroEnergy.LiquidFuels end
+abstract type Upstream_Ethanol <: MacroEnergy.LiquidFuels end

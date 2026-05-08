@@ -2899,56 +2899,9 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Ethylene_Global_Demand"
+                            "header": "NaturalGas_MW_CA"
                         }
                     }
-                }
-            ]
-        },
-        {
-            "type": "Ethanol",
-            "global_data": {
-                "time_interval": "LiquidFuels",
-                "constraints": {
-                    "BalanceConstraint": true
-                }
-            },
-            "instance_data": [
-                {
-                    "id": "ethanol_CA",
-                    "location": "CA"
-                },
-                {
-                    "id": "ethanol_SW",
-                    "location": "SW"
-                },
-                {
-                    "id": "ethanol_NW",
-                    "location": "NW"
-                },
-                {
-                    "id": "ethanol_NCEN",
-                    "location": "NCEN"
-                },
-                {
-                    "id": "ethanol_CEN",
-                    "location": "CEN"
-                },
-                {
-                    "id": "ethanol_TX",
-                    "location": "TX"
-                },
-                {
-                    "id": "ethanol_SE",
-                    "location": "SE"
-                },
-                {
-                    "id": "ethanol_MIDAT",
-                    "location": "MIDAT"
-                },
-                {
-                    "id": "ethanol_NE",
-                    "location": "NE"
                 }
             ]
         }
