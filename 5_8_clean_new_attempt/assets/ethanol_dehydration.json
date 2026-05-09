@@ -1,0 +1,410 @@
+{
+  "ethanol_dehydration": [
+    {
+      "type": "EthanolDehydration",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "ethylene_end_vertex": "ethylene_global",
+        "min_flow_fraction": 0
+      },
+      "instance_data": [
+        {
+          "id": "CA_B-NGin",
+          "location": "CA",
+          "elec_consumption": 0,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0,
+          "ethylene_production": 100,
+          "h2_consumption": 0.0,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.02119106665383049,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_B-NGin",
+          "location": "NW",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.1159,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.0,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.02119106665383049,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_B-NGin",
+          "location": "SW",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.1159,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.0,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.02119106665383049,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_B-NGin",
+          "location": "TX",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.1159,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.0,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.02119106665383049,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_B-NGin",
+          "location": "NCEN",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.1159,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.0,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.02119106665383049,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_B-NGin",
+          "location": "CEN",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.1159,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.0,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.02119106665383049,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_B-NGin",
+          "location": "SE",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.1159,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.0,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.02119106665383049,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_B-NGin",
+          "location": "MIDAT",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.1159,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.0,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.02119106665383049,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_B-NGin",
+          "location": "NE",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.1159,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.0,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.02119106665383049,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "EthanolDehydration",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "ethylene_end_vertex": "ethylene_global",
+        "min_flow_fraction": 0
+      },
+      "instance_data": [
+        {
+          "id": "CA_B-H2in",
+          "location": "CA",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.0,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.11586445780007959,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.0,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_B-H2in",
+          "location": "NW",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.0,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.11586445780007959,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.0,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_B-H2in",
+          "location": "SW",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.0,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.11586445780007959,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.0,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_B-H2in",
+          "location": "TX",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.0,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.11586445780007959,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.0,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_B-H2in",
+          "location": "NCEN",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.0,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.11586445780007959,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.0,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_B-H2in",
+          "location": "CEN",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.0,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.11586445780007959,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.0,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_B-H2in",
+          "location": "SE",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.0,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.11586445780007959,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.0,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_B-H2in",
+          "location": "MIDAT",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.0,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.11586445780007959,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.0,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_B-H2in",
+          "location": "NE",
+          "elec_consumption": 0.0162,
+          "investment_cost": 6577.97,
+          "fixed_om_cost": 6324.13,
+          "variable_om_cost": 0.11,
+          "natgas_consumption": 0.0,
+          "ethylene_production": 0.07044902489964132,
+          "h2_consumption": 0.11586445780007959,
+          "process_emission_rate": 0.009152737315126253,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0.0,
+          "fuel_capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

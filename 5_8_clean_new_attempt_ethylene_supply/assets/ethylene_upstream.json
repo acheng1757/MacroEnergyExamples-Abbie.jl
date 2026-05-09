@@ -1,0 +1,163 @@
+{
+    "GasolineFossilUpstream": [
+        {
+            "type": "FossilFuelsUpstream",
+            "global_data":{
+                "transforms": {
+                    "timedata": "Ethylene",
+                    "constraints": {
+                            "BalanceConstraint": true
+                    },
+                    "emission_rate": 0
+                },
+                "edges" :{
+                    "fossil_fuel_edge": {
+                        "commodity": "Ethylene",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "co2_edge": {
+                        "commodity": "CO2",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "co2_sink"
+                    },
+                    "fuel_edge": {
+                        "commodity": "Ethylene",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    }
+                }
+            },
+            "instance_data":[
+                {
+                    "id": "Ethylene_Fossil_Upstream_CA",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Ethylene",
+                                "start_vertex": "fossil_ethylene_CA"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Ethylene",
+                                "end_vertex": "ethylene_global"
+                            }
+                        }
+
+                },
+               {
+                    "id": "Ethylene_Fossil_Upstream_SW",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Ethylene",
+                                "start_vertex": "fossil_ethylene_SW"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Ethylene",
+                                "end_vertex": "ethylene_global"
+                            }
+                        }
+
+                },
+                {
+                    "id": "Ethylene_Fossil_Upstream_NW",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Ethylene",
+                                "start_vertex": "fossil_ethylene_NW"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Ethylene",
+                                "end_vertex": "ethylene_global"
+                            }
+                        }
+
+                },
+                {
+                    "id": "Ethylene_Fossil_Upstream_NCEN",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Ethylene",
+                                "start_vertex": "fossil_ethylene_NCEN"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Ethylene",
+                                "end_vertex": "ethylene_global"
+                            }
+                        }
+
+                },
+                {
+                    "id": "Ethylene_Fossil_Upstream_CEN",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Ethylene",
+                                "start_vertex": "fossil_ethylene_CEN"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Ethylene",
+                                "end_vertex": "ethylene_global"
+                            }
+                        }
+
+                },
+                {
+                    "id": "Ethylene_Fossil_Upstream_TX",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Ethylene",
+                                "start_vertex": "fossil_ethylene_TX"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Ethylene",
+                                "end_vertex": "ethylene_global"
+                            }
+                        }
+
+                },
+                {
+                    "id": "Ethylene_Fossil_Upstream_MIDAT",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Ethylene",
+                                "start_vertex": "fossil_ethylene_MIDAT"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Ethylene",
+                                "end_vertex": "ethylene_global"
+                            }
+                        }
+
+                },
+                {
+                    "id": "Ethylene_Fossil_Upstream_SE",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Ethylene",
+                                "start_vertex": "fossil_ethylene_SE"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Ethylene",
+                                "end_vertex": "ethylene_global"
+                            }
+                        }
+
+                },
+                {
+                    "id": "Ethylene_Fossil_Upstream_NE",
+                    "edges":{
+                            "fossil_fuel_edge": {
+                                "commodity": "Fossil_Ethylene",
+                                "start_vertex": "fossil_ethylene_NE"
+                            },
+                            "fuel_edge": {
+                                "commodity": "Ethylene",
+                                "end_vertex": "ethylene_global"
+                            }
+                        }
+
+                }
+           ]
+        }
+    ]
+
+}
