@@ -50,7 +50,8 @@
             "constraints": {
               "CapacityConstraint": true,
               "MinFlowConstraint": true
-            }
+            },
+            "can_retrofit": true
           },
           "co2_emission_edge": {
             "commodity": "CO2",
@@ -121,6 +122,7 @@
               "id": "CA_H2in-CH4out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -134,6 +136,7 @@
               "id": "CA_F-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -147,6 +150,7 @@
               "id": "CA_F-CC90-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7750.849927,
@@ -160,6 +164,7 @@
               "id": "CA_F-CC90-NGin-H2out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7776.653997,
@@ -173,6 +178,7 @@
               "id": "CA_F-H2in_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -186,6 +192,7 @@
               "id": "CA_F-Ein_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 67702.50365,
@@ -251,6 +258,7 @@
               "id": "NW_H2in-CH4out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -264,6 +272,7 @@
               "id": "NW_F-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -277,6 +286,7 @@
               "id": "NW_F-CC90-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7750.849927,
@@ -290,6 +300,7 @@
               "id": "NW_F-CC90-NGin-H2out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7776.653997,
@@ -303,6 +314,7 @@
               "id": "NW_F-H2in_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -316,6 +328,7 @@
               "id": "NW_F-Ein_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 67702.50365,
@@ -381,6 +394,7 @@
               "id": "SW_H2in-CH4out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -394,6 +408,7 @@
               "id": "SW_F-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -407,6 +422,7 @@
               "id": "SW_F-CC90-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7750.849927,
@@ -420,6 +436,7 @@
               "id": "SW_F-CC90-NGin-H2out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7776.653997,
@@ -433,6 +450,7 @@
               "id": "SW_F-H2in_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -446,6 +464,7 @@
               "id": "SW_F-Ein_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 67702.50365,
@@ -511,6 +530,7 @@
               "id": "TX_H2in-CH4out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -524,6 +544,7 @@
               "id": "TX_F-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -537,6 +558,7 @@
               "id": "TX_F-CC90-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7750.849927,
@@ -550,6 +572,7 @@
               "id": "TX_F-CC90-NGin-H2out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7776.653997,
@@ -563,6 +586,7 @@
               "id": "TX_F-H2in_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -576,6 +600,7 @@
               "id": "TX_F-Ein_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 67702.50365,
@@ -641,6 +666,7 @@
               "id": "NCEN_H2in-CH4out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -654,6 +680,7 @@
               "id": "NCEN_F-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -667,6 +694,7 @@
               "id": "NCEN_F-CC90-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7750.849927,
@@ -680,6 +708,7 @@
               "id": "NCEN_F-CC90-NGin-H2out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7776.653997,
@@ -693,6 +722,7 @@
               "id": "NCEN_F-H2in_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -706,6 +736,7 @@
               "id": "NCEN_F-Ein_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 67702.50365,
@@ -771,6 +802,7 @@
               "id": "CEN_H2in-CH4out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -784,6 +816,7 @@
               "id": "CEN_F-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -797,6 +830,7 @@
               "id": "CEN_F-CC90-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7750.849927,
@@ -810,6 +844,7 @@
               "id": "CEN_F-CC90-NGin-H2out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7776.653997,
@@ -823,6 +858,7 @@
               "id": "CEN_F-H2in_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -836,6 +872,7 @@
               "id": "CEN_F-Ein_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 67702.50365,
@@ -901,6 +938,7 @@
               "id": "SE_H2in-CH4out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -914,6 +952,7 @@
               "id": "SE_F-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -927,6 +966,7 @@
               "id": "SE_F-CC90-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7750.849927,
@@ -940,6 +980,7 @@
               "id": "SE_F-CC90-NGin-H2out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7776.653997,
@@ -953,6 +994,7 @@
               "id": "SE_F-H2in_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -966,6 +1008,7 @@
               "id": "SE_F-Ein_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 67702.50365,
@@ -1031,6 +1074,7 @@
               "id": "MIDAT_H2in-CH4out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -1044,6 +1088,7 @@
               "id": "MIDAT_F-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -1057,6 +1102,7 @@
               "id": "MIDAT_F-CC90-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7750.849927,
@@ -1070,6 +1116,7 @@
               "id": "MIDAT_F-CC90-NGin-H2out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7776.653997,
@@ -1083,6 +1130,7 @@
               "id": "MIDAT_F-H2in_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -1096,6 +1144,7 @@
               "id": "MIDAT_F-Ein_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 67702.50365,
@@ -1161,6 +1210,7 @@
               "id": "NE_H2in-CH4out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -1174,6 +1224,7 @@
               "id": "NE_F-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -1187,6 +1238,7 @@
               "id": "NE_F-CC90-NGin_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7750.849927,
@@ -1200,6 +1252,7 @@
               "id": "NE_F-CC90-NGin-H2out_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 7776.653997,
@@ -1213,6 +1266,7 @@
               "id": "NE_F-H2in_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 0,
@@ -1226,6 +1280,7 @@
               "id": "NE_F-Ein_RETROFIT",
               "edges": {
                 "ethane_consumption_edge": {
+                  "type": "SteamCracker",
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
                   "investment_cost": 67702.50365,
