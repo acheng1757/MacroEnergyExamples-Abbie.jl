@@ -3,6 +3,6 @@
   "WriteSubcommodities":true,
   "AutoCreateNodes":true,
   "AutoCreateLocations":true,
-  "OutputLayout": "wide",
+  "OutputLayout": "long",
   "Retrofitting": true
 }
