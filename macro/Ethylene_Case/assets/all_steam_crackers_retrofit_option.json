@@ -68,12 +68,12 @@
       },
       "instance_data": [
         {
-          "id": "CA_F-CC90-NGin",
+          "id": "CA_F-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.00805296662375736,
+            "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
             "process_emission_rate": 0.022673365365952096,
@@ -85,14 +85,14 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CA",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 99124.32549884709,
+              "fixed_om_cost": 54252.00070719136,
+              "variable_om_cost": 1.6761598478054,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -117,12 +117,12 @@
           }
         },
         {
-          "id": "NW_F-CC90-NGin",
+          "id": "NW_F-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.00805296662375736,
+            "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
             "process_emission_rate": 0.022673365365952096,
@@ -134,14 +134,14 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NW",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 99124.32549884709,
+              "fixed_om_cost": 54252.00070719136,
+              "variable_om_cost": 1.6761598478054,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -166,12 +166,12 @@
           }
         },
         {
-          "id": "SW_F-CC90-NGin",
+          "id": "SW_F-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.00805296662375736,
+            "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
             "process_emission_rate": 0.022673365365952096,
@@ -183,14 +183,14 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SW",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 99124.32549884709,
+              "fixed_om_cost": 54252.00070719136,
+              "variable_om_cost": 1.6761598478054,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -215,12 +215,12 @@
           }
         },
         {
-          "id": "TX_F-CC90-NGin",
+          "id": "TX_F-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.00805296662375736,
+            "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
             "process_emission_rate": 0.022673365365952096,
@@ -232,14 +232,14 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_TX",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 99124.32549884709,
+              "fixed_om_cost": 54252.00070719136,
+              "variable_om_cost": 1.6761598478054,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -264,12 +264,12 @@
           }
         },
         {
-          "id": "NCEN_F-CC90-NGin",
+          "id": "NCEN_F-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.00805296662375736,
+            "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
             "process_emission_rate": 0.022673365365952096,
@@ -281,14 +281,14 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NCEN",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 99124.32549884709,
+              "fixed_om_cost": 54252.00070719136,
+              "variable_om_cost": 1.6761598478054,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -313,12 +313,12 @@
           }
         },
         {
-          "id": "CEN_F-CC90-NGin",
+          "id": "CEN_F-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.00805296662375736,
+            "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
             "process_emission_rate": 0.022673365365952096,
@@ -330,14 +330,14 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CEN",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 99124.32549884709,
+              "fixed_om_cost": 54252.00070719136,
+              "variable_om_cost": 1.6761598478054,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -362,12 +362,12 @@
           }
         },
         {
-          "id": "SE_F-CC90-NGin",
+          "id": "SE_F-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.00805296662375736,
+            "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
             "process_emission_rate": 0.022673365365952096,
@@ -379,14 +379,14 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SE",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 99124.32549884709,
+              "fixed_om_cost": 54252.00070719136,
+              "variable_om_cost": 1.6761598478054,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -411,12 +411,12 @@
           }
         },
         {
-          "id": "MIDAT_F-CC90-NGin",
+          "id": "MIDAT_F-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.00805296662375736,
+            "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
             "process_emission_rate": 0.022673365365952096,
@@ -428,14 +428,14 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_MIDAT",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 99124.32549884709,
+              "fixed_om_cost": 54252.00070719136,
+              "variable_om_cost": 1.6761598478054,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -460,12 +460,12 @@
           }
         },
         {
-          "id": "NE_F-CC90-NGin",
+          "id": "NE_F-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.00805296662375736,
+            "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
             "process_emission_rate": 0.022673365365952096,
@@ -477,14 +477,14 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NE",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 99124.32549884709,
+              "fixed_om_cost": 54252.00070719136,
+              "variable_om_cost": 1.6761598478054,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -578,31 +578,31 @@
       },
       "instance_data": [
         {
-          "id": "CA_F-NGin-H2out",
+          "id": "CA_F-CC90-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
+            "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.0,
-            "natgas_consumption": 0.1837585478605609,
+            "elec_consumption": 0.00805296662375736,
+            "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.00024277224885588944,
+            "fuel_capture_rate": 0.0021849502397030054
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CA",
-              "investment_cost": 99124.32549884709,
-              "fixed_om_cost": 54252.00070719136,
-              "variable_om_cost": 1.6761598478054,
+              "investment_cost": 106875.17587080522,
+              "fixed_om_cost": 58496.39029512962,
+              "variable_om_cost": 1.8072241869576304,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -627,31 +627,31 @@
           }
         },
         {
-          "id": "NW_F-NGin-H2out",
+          "id": "NW_F-CC90-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
+            "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.0,
-            "natgas_consumption": 0.1837585478605609,
+            "elec_consumption": 0.00805296662375736,
+            "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.00024277224885588944,
+            "fuel_capture_rate": 0.0021849502397030054
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NW",
-              "investment_cost": 99124.32549884709,
-              "fixed_om_cost": 54252.00070719136,
-              "variable_om_cost": 1.6761598478054,
+              "investment_cost": 106875.17587080522,
+              "fixed_om_cost": 58496.39029512962,
+              "variable_om_cost": 1.8072241869576304,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -676,31 +676,31 @@
           }
         },
         {
-          "id": "SW_F-NGin-H2out",
+          "id": "SW_F-CC90-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
+            "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.0,
-            "natgas_consumption": 0.1837585478605609,
+            "elec_consumption": 0.00805296662375736,
+            "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.00024277224885588944,
+            "fuel_capture_rate": 0.0021849502397030054
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SW",
-              "investment_cost": 99124.32549884709,
-              "fixed_om_cost": 54252.00070719136,
-              "variable_om_cost": 1.6761598478054,
+              "investment_cost": 106875.17587080522,
+              "fixed_om_cost": 58496.39029512962,
+              "variable_om_cost": 1.8072241869576304,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -725,31 +725,31 @@
           }
         },
         {
-          "id": "TX_F-NGin-H2out",
+          "id": "TX_F-CC90-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
+            "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.0,
-            "natgas_consumption": 0.1837585478605609,
+            "elec_consumption": 0.00805296662375736,
+            "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.00024277224885588944,
+            "fuel_capture_rate": 0.0021849502397030054
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_TX",
-              "investment_cost": 99124.32549884709,
-              "fixed_om_cost": 54252.00070719136,
-              "variable_om_cost": 1.6761598478054,
+              "investment_cost": 106875.17587080522,
+              "fixed_om_cost": 58496.39029512962,
+              "variable_om_cost": 1.8072241869576304,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -774,31 +774,31 @@
           }
         },
         {
-          "id": "NCEN_F-NGin-H2out",
+          "id": "NCEN_F-CC90-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
+            "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.0,
-            "natgas_consumption": 0.1837585478605609,
+            "elec_consumption": 0.00805296662375736,
+            "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.00024277224885588944,
+            "fuel_capture_rate": 0.0021849502397030054
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NCEN",
-              "investment_cost": 99124.32549884709,
-              "fixed_om_cost": 54252.00070719136,
-              "variable_om_cost": 1.6761598478054,
+              "investment_cost": 106875.17587080522,
+              "fixed_om_cost": 58496.39029512962,
+              "variable_om_cost": 1.8072241869576304,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -823,31 +823,31 @@
           }
         },
         {
-          "id": "CEN_F-NGin-H2out",
+          "id": "CEN_F-CC90-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
+            "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.0,
-            "natgas_consumption": 0.1837585478605609,
+            "elec_consumption": 0.00805296662375736,
+            "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.00024277224885588944,
+            "fuel_capture_rate": 0.0021849502397030054
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CEN",
-              "investment_cost": 99124.32549884709,
-              "fixed_om_cost": 54252.00070719136,
-              "variable_om_cost": 1.6761598478054,
+              "investment_cost": 106875.17587080522,
+              "fixed_om_cost": 58496.39029512962,
+              "variable_om_cost": 1.8072241869576304,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -872,31 +872,31 @@
           }
         },
         {
-          "id": "SE_F-NGin-H2out",
+          "id": "SE_F-CC90-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
+            "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.0,
-            "natgas_consumption": 0.1837585478605609,
+            "elec_consumption": 0.00805296662375736,
+            "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.00024277224885588944,
+            "fuel_capture_rate": 0.0021849502397030054
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SE",
-              "investment_cost": 99124.32549884709,
-              "fixed_om_cost": 54252.00070719136,
-              "variable_om_cost": 1.6761598478054,
+              "investment_cost": 106875.17587080522,
+              "fixed_om_cost": 58496.39029512962,
+              "variable_om_cost": 1.8072241869576304,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -921,31 +921,31 @@
           }
         },
         {
-          "id": "MIDAT_F-NGin-H2out",
+          "id": "MIDAT_F-CC90-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
+            "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.0,
-            "natgas_consumption": 0.1837585478605609,
+            "elec_consumption": 0.00805296662375736,
+            "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.00024277224885588944,
+            "fuel_capture_rate": 0.0021849502397030054
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_MIDAT",
-              "investment_cost": 99124.32549884709,
-              "fixed_om_cost": 54252.00070719136,
-              "variable_om_cost": 1.6761598478054,
+              "investment_cost": 106875.17587080522,
+              "fixed_om_cost": 58496.39029512962,
+              "variable_om_cost": 1.8072241869576304,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -970,31 +970,31 @@
           }
         },
         {
-          "id": "NE_F-NGin-H2out",
+          "id": "NE_F-CC90-NGin",
           "transforms": {
             "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
+            "h2_production": 0.0,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.0,
-            "natgas_consumption": 0.1837585478605609,
+            "elec_consumption": 0.00805296662375736,
+            "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.00024277224885588944,
+            "fuel_capture_rate": 0.0021849502397030054
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NE",
-              "investment_cost": 99124.32549884709,
-              "fixed_om_cost": 54252.00070719136,
-              "variable_om_cost": 1.6761598478054,
+              "investment_cost": 106875.17587080522,
+              "fixed_om_cost": 58496.39029512962,
+              "variable_om_cost": 1.8072241869576304,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1096,10 +1096,10 @@
             "elec_consumption": 0.009388737329991419,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.003360775425660544,
+            "fuel_capture_rate": 0.030246978830944904
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -1112,7 +1112,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1145,10 +1145,10 @@
             "elec_consumption": 0.009388737329991419,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.003360775425660544,
+            "fuel_capture_rate": 0.030246978830944904
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -1161,7 +1161,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1194,10 +1194,10 @@
             "elec_consumption": 0.009388737329991419,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.003360775425660544,
+            "fuel_capture_rate": 0.030246978830944904
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -1210,7 +1210,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1243,10 +1243,10 @@
             "elec_consumption": 0.009388737329991419,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.003360775425660544,
+            "fuel_capture_rate": 0.030246978830944904
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -1259,7 +1259,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1292,10 +1292,10 @@
             "elec_consumption": 0.009388737329991419,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.003360775425660544,
+            "fuel_capture_rate": 0.030246978830944904
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -1308,7 +1308,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1341,10 +1341,10 @@
             "elec_consumption": 0.009388737329991419,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.003360775425660544,
+            "fuel_capture_rate": 0.030246978830944904
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -1357,7 +1357,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1390,10 +1390,10 @@
             "elec_consumption": 0.009388737329991419,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.003360775425660544,
+            "fuel_capture_rate": 0.030246978830944904
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -1406,7 +1406,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1439,10 +1439,10 @@
             "elec_consumption": 0.009388737329991419,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.003360775425660544,
+            "fuel_capture_rate": 0.030246978830944904
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -1455,7 +1455,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1488,10 +1488,10 @@
             "elec_consumption": 0.009388737329991419,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.022673365365952096,
-            "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.0022673365365952092,
+            "process_capture_rate": 0.02040602882935689,
+            "fuel_emission_rate": 0.003360775425660544,
+            "fuel_capture_rate": 0.030246978830944904
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -1504,7 +1504,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1622,7 +1622,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1671,7 +1671,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1720,7 +1720,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1769,7 +1769,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1818,7 +1818,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1867,7 +1867,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1916,7 +1916,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -1965,7 +1965,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2014,7 +2014,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2132,7 +2132,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2181,7 +2181,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2230,7 +2230,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2279,7 +2279,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2328,7 +2328,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2377,7 +2377,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2426,7 +2426,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2475,7 +2475,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2524,7 +2524,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2642,7 +2642,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2691,7 +2691,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2740,7 +2740,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2789,7 +2789,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2838,7 +2838,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2887,7 +2887,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2936,7 +2936,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -2985,7 +2985,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },
@@ -3034,7 +3034,7 @@
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
-                  "header": "synthetic_fuels"
+                  "header": "ethylene"
                 }
               }
             },

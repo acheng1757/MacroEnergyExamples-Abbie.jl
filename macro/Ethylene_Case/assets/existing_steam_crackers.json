@@ -45,7 +45,7 @@
             "commodity": "Ethane",
             "unidirectional": true,
             "has_capacity": true,
-            "can_expand": false,
+            "can_expand": true,
             "can_retire": true,
             "integer_decisions": false,
             "constraints": {
@@ -69,18 +69,18 @@
       },
       "instance_data": [
         {
-          "id": "CA_F-NGin",
+          "id": "CA_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
             "ethylene_production": 0.05310189716107201,
-            "natgas_consumption": 0.01327416154318993,
+            "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
             "process_emission_rate": 0.022673365365952096,
             "fuel_capture_rate": 0.0,
-            "fuel_emission_rate": 0.002427722488558895
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -116,88 +116,21 @@
             "co2_captured_edge": {
               "end_vertex": "co2_captured_CA"
             }
-          },
-          "retrofit_options": [
-            {
-              "template_id": "CA_F-H2in-CH4out",
-              "id": "CA_F-H2in-CH4out_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 0,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "CA_F-CC90-NGin",
-              "id": "CA_F-CC90-NGin_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 7750.849927,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "CA_F-CC90-NGin-H2out",
-              "id": "CA_F-CC90-NGin-H2out_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 7776.653997,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "CA_F-H2in",
-              "id": "CA_F-H2in_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 0,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "CA_F-Ein",
-              "id": "CA_F-Ein_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 67702.50365,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            }
-          ]
+          }
         },
         {
-          "id": "NW_F-NGin",
+          "id": "NW_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
             "ethylene_production": 0.05310189716107201,
-            "natgas_consumption": 0.01327416154318993,
+            "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
             "process_emission_rate": 0.022673365365952096,
             "fuel_capture_rate": 0.0,
-            "fuel_emission_rate": 0.002427722488558895
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -233,88 +166,21 @@
             "co2_captured_edge": {
               "end_vertex": "co2_captured_NW"
             }
-          },
-          "retrofit_options": [
-            {
-              "template_id": "NW_F-H2in-CH4out",
-              "id": "NW_F-H2in-CH4out_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 0,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "NW_F-CC90-NGin",
-              "id": "NW_F-CC90-NGin_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 7750.849927,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "NW_F-CC90-NGin-H2out",
-              "id": "NW_F-CC90-NGin-H2out_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 7776.653997,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "NW_F-H2in",
-              "id": "NW_F-H2in_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 0,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "NW_F-Ein",
-              "id": "NW_F-Ein_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 67702.50365,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            }
-          ]
+          }
         },
         {
-          "id": "SW_F-NGin",
+          "id": "SW_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
             "ethylene_production": 0.05310189716107201,
-            "natgas_consumption": 0.01327416154318993,
+            "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
             "process_emission_rate": 0.022673365365952096,
             "fuel_capture_rate": 0.0,
-            "fuel_emission_rate": 0.002427722488558895
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -350,88 +216,21 @@
             "co2_captured_edge": {
               "end_vertex": "co2_captured_SW"
             }
-          },
-          "retrofit_options": [
-            {
-              "template_id": "SW_F-H2in-CH4out",
-              "id": "SW_F-H2in-CH4out_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 0,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "SW_F-CC90-NGin",
-              "id": "SW_F-CC90-NGin_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 7750.849927,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "SW_F-CC90-NGin-H2out",
-              "id": "SW_F-CC90-NGin-H2out_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 7776.653997,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "SW_F-H2in",
-              "id": "SW_F-H2in_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 0,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "SW_F-Ein",
-              "id": "SW_F-Ein_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 67702.50365,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            }
-          ]
+          }
         },
         {
-          "id": "TX_F-NGin",
+          "id": "TX_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
             "ethylene_production": 0.05310189716107201,
-            "natgas_consumption": 0.01327416154318993,
+            "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
             "process_emission_rate": 0.022673365365952096,
             "fuel_capture_rate": 0.0,
-            "fuel_emission_rate": 0.002427722488558895
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -469,6 +268,19 @@
             }
           },
           "retrofit_options": [
+            {
+              "template_id": "TX_F-NGin",
+              "id": "TX_F-NGin_RETROFIT",
+              "edges": {
+                "ethane_consumption_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "investment_cost": 0,
+                  "can_expand": true,
+                  "existing_capacity": 0
+                }
+              }
+            },
             {
               "template_id": "TX_F-H2in-CH4out",
               "id": "TX_F-H2in-CH4out_RETROFIT",
@@ -537,18 +349,18 @@
           ]
         },
         {
-          "id": "NCEN_F-NGin",
+          "id": "NCEN_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
             "ethylene_production": 0.05310189716107201,
-            "natgas_consumption": 0.01327416154318993,
+            "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
             "process_emission_rate": 0.022673365365952096,
             "fuel_capture_rate": 0.0,
-            "fuel_emission_rate": 0.002427722488558895
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -586,6 +398,19 @@
             }
           },
           "retrofit_options": [
+            {
+              "template_id": "NCEN_F-NGin",
+              "id": "NCEN_F-NGin_RETROFIT",
+              "edges": {
+                "ethane_consumption_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "investment_cost": 0,
+                  "can_expand": true,
+                  "existing_capacity": 0
+                }
+              }
+            },
             {
               "template_id": "NCEN_F-H2in-CH4out",
               "id": "NCEN_F-H2in-CH4out_RETROFIT",
@@ -654,18 +479,18 @@
           ]
         },
         {
-          "id": "CEN_F-NGin",
+          "id": "CEN_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
             "ethylene_production": 0.05310189716107201,
-            "natgas_consumption": 0.01327416154318993,
+            "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
             "process_emission_rate": 0.022673365365952096,
             "fuel_capture_rate": 0.0,
-            "fuel_emission_rate": 0.002427722488558895
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -703,6 +528,19 @@
             }
           },
           "retrofit_options": [
+            {
+              "template_id": "CEN_F-NGin",
+              "id": "CEN_F-NGin_RETROFIT",
+              "edges": {
+                "ethane_consumption_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "investment_cost": 0,
+                  "can_expand": true,
+                  "existing_capacity": 0
+                }
+              }
+            },
             {
               "template_id": "CEN_F-H2in-CH4out",
               "id": "CEN_F-H2in-CH4out_RETROFIT",
@@ -771,18 +609,18 @@
           ]
         },
         {
-          "id": "SE_F-NGin",
+          "id": "SE_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
             "ethylene_production": 0.05310189716107201,
-            "natgas_consumption": 0.01327416154318993,
+            "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
             "process_emission_rate": 0.022673365365952096,
             "fuel_capture_rate": 0.0,
-            "fuel_emission_rate": 0.002427722488558895
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -820,6 +658,19 @@
             }
           },
           "retrofit_options": [
+            {
+              "template_id": "SE_F-NGin",
+              "id": "SE_F-NGin_RETROFIT",
+              "edges": {
+                "ethane_consumption_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "investment_cost": 0,
+                  "can_expand": true,
+                  "existing_capacity": 0
+                }
+              }
+            },
             {
               "template_id": "SE_F-H2in-CH4out",
               "id": "SE_F-H2in-CH4out_RETROFIT",
@@ -888,18 +739,18 @@
           ]
         },
         {
-          "id": "MIDAT_F-NGin",
+          "id": "MIDAT_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
             "ethylene_production": 0.05310189716107201,
-            "natgas_consumption": 0.01327416154318993,
+            "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
             "process_emission_rate": 0.022673365365952096,
             "fuel_capture_rate": 0.0,
-            "fuel_emission_rate": 0.002427722488558895
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -937,6 +788,19 @@
             }
           },
           "retrofit_options": [
+            {
+              "template_id": "MIDAT_F-NGin",
+              "id": "MIDAT_F-NGin_RETROFIT",
+              "edges": {
+                "ethane_consumption_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "investment_cost": 0,
+                  "can_expand": true,
+                  "existing_capacity": 0
+                }
+              }
+            },
             {
               "template_id": "MIDAT_F-H2in-CH4out",
               "id": "MIDAT_F-H2in-CH4out_RETROFIT",
@@ -1005,18 +869,18 @@
           ]
         },
         {
-          "id": "NE_F-NGin",
+          "id": "NE_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
             "ethylene_production": 0.05310189716107201,
-            "natgas_consumption": 0.01327416154318993,
+            "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
             "process_emission_rate": 0.022673365365952096,
             "fuel_capture_rate": 0.0,
-            "fuel_emission_rate": 0.002427722488558895
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -1052,74 +916,7 @@
             "co2_captured_edge": {
               "end_vertex": "co2_captured_NE"
             }
-          },
-          "retrofit_options": [
-            {
-              "template_id": "NE_F-H2in-CH4out",
-              "id": "NE_F-H2in-CH4out_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 0,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "NE_F-CC90-NGin",
-              "id": "NE_F-CC90-NGin_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 7750.849927,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "NE_F-CC90-NGin-H2out",
-              "id": "NE_F-CC90-NGin-H2out_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 7776.653997,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "NE_F-H2in",
-              "id": "NE_F-H2in_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 0,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "NE_F-Ein",
-              "id": "NE_F-Ein_RETROFIT",
-              "edges": {
-                "ethane_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 67702.50365,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            }
-          ]
+          }
         }
       ]
     }
