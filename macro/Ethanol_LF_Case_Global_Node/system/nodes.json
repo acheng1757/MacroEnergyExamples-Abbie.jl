@@ -2877,6 +2877,20 @@
             },
             "instance_data": [
                 {
+                    "id": "ethanol_global"
+                }
+            ]
+        },
+        {
+            "type": "Ethanol",
+            "global_data": {
+                "time_interval": "LiquidFuels",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
+            },
+            "instance_data": [
+                {
                     "id": "ethanol_CA",
                     "location": "CA"
                 },
